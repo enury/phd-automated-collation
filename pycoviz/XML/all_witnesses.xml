@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<master xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- master file that include all witnesses to be transformed into json -->
+    
+    <xi:include href="copie3_CLM309_words-lb2.xml"/><!-- B -->
+    <xi:include href="copie3_CodexVat_Chig_words-lb2.xml"/><!-- C -->
+    <xi:include href="copie_CLM316_words_choices-lb2.xml"/><!-- M -->
+    <xi:include href="copie2_Bernensis149_words-lb2.xml"/><!-- N -->
+    <xi:include href="copie3_Pithoeus1594_punct_words-lb2.xml"/><!-- Pithou -->
+    <xi:include href="hakanson-words.xml"/><!-- Hakanson -->
+    
+    <!--<xi:include href="copie2_BUM_H126-words.xml"/><!-\- A -\->
+    -->
+    
+    <!-- CollateX commands (examples):
+        
+        1. normalized forms, joint tokens : 
+        java -jar -Xmx1g collatex-tools-1.7.1.jar -f json -o calpurnius-nov2016-collated-norm-joint-BCMNPH.json ../json-tokenisations/nov2016-calpurnius-json-tokenized-BCMNPH.json        
+        
+        2. normalized forms, separated tokens:
+        java -jar -Xmx1g collatex-tools-1.7.1.jar -f json -t -o nov2016-calpurnius-collated-norm-sep-BCMNPH.json ../json-tokenisations/nov2016-calpurnius-json-tokenized-BCMNPH.json
+        
+        3. orig forms only, joint tokens:
+        java -jar -Xmx1g collatex-tools-1.7.1.jar -f json -o nov2016-calpurnius-collated-orig-joint-BCMNPH.json ../json-tokenisations/nov2016-calpurnius-json-tokenized-orig-BCMNPH.json
+        
+        4. orig forms only, separated tokens:
+        java -jar -Xmx1g collatex-tools-1.7.1.jar -f json -t -o nov2016-calpurnius-collated-orig-sep-BCMNPH.json ../json-tokenisations/nov2016-calpurnius-json-tokenized-orig-BCMNPH.json
+
+    -->
