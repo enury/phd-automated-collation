@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>Declamationum excerpta according to manuscript Montepessulanus H 126. An electronic transcription.</title>
+				<author>Calpurnius Flaccus</author>
+				<respStmt>
+					<resp>transcriber</resp>
+					<name xml:id="en">Elisa Nury</name>
+				</respStmt>
+			</titleStmt>
+			
+			<publicationStmt>
+				<authority>Elisa Nury</authority>
+				<pubPlace>London</pubPlace>
+				<date when="2014">2014</date>
+				<availability status="free">
+					<licence>
+						<!-- CC creative commons -->
+						This work is licensed under the Creative Commons Attribution 4.0 International License. 
+						To view a copy of this license, visit <ref target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ref>. 
+					</licence>
+				</availability>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier xml:id="A">
+						<country key="fr">France</country>
+						<institution>Biblioth&#232;que Universitaire de Montpellier</institution>
+						<repository>Patrimoine de M&#232;decine</repository>
+						<idno>Montepessulanus H 126</idno>
+					</msIdentifier>
+					<msContents>
+						<msItem n="1">
+							<locus>ff. 1-88</locus>
+							<author>Pseudo-Quintilian</author>
+							<title>Minor Declamations</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="2">
+							<locus>ff. 89-115</locus>
+							<author>Seneca Maior</author>
+							<title>Excerpta Controversiae</title>
+							<incipit>hic iam incipit Seneca decem rhetorum felicter</incipit>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="3">
+							<locus>f. 116</locus>
+							<author>Calpurnius Flaccus</author>
+							<title>Declamationum excerpta</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc material="parch">
+								<extent>
+									<measure type="leavesCount" n="116">116 ff.</measure>
+									<measure type="pageDimension">
+										<height n="245" unit="mm"/>
+										<width n="185" unit="mm"></width>
+									</measure>
+								</extent>
+								<foliation></foliation>
+								<collation></collation>
+								<condition>Incomplete at the beginning and end. The first and last folia are blackened.</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="39">38-39 written lines on <locus>f. 116</locus></layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote xml:id="h1" scribe="first" scope="major">
+								Unidentified hand that wrote most of manuscript.
+							</handNote>
+							<handNote xml:id="h2" scribe="other" scope="minor">
+								Corrections by first hand or another hand.
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate>9th century</origDate>
+							<origPlace>Saint-Thierry (Reims)</origPlace>
+						</origin>
+						<provenance>Acquired by Claude Fauchet at an unknown date.</provenance>
+						<provenance>Received by Pierre Pithou from Fauchet, in the late 16th century (before the publication of the editio princeps in 1580).</provenance>
+						<provenance>Inherited by François Pithou, Pierre's brother, in 1596.</provenance>
+						<provenance>Inherited by the city of Troyes in 1621, at François Pithou's death. 
+							Pithou bequeathed his library to the city for the creation of a college.
+							The Collège de l'Oratoire was created and received Pithou's library.</provenance>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Link to the description from the Calames catalogue: <ref target="http://www.calames.abes.fr/pub/#details?id=D01040800"/></bibl>
+							<bibl>
+								<title>Calpurnii Flacci excerptae X. Rhetorum minorum LI. nunc primum editae.</title>
+								<editor><name xml:id="P1594">Pithoeus</name></editor>
+								<date>1594</date>
+							</bibl>
+							<bibl>
+								<title>Calpurnii Flacci Declamationum excerpta.</title>
+								<editor><name xml:id="LH">Håkanson</name></editor>
+								<date>1978</date>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+			
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+<ab n="0" type="incipit">
+	
+ 	<pb n="116r"/>
+
+	<lb n="1" break="no"/><hi rend="uppercase"><w>incipit</w> <w>ex</w> <w>calpurnio</w> <w>flacco</w> <w>excerptae</w> <w>excerpta</w> <w>X</w> <w>rethoru<ex>m</ex></w> <w>mino
+	<lb n="2" break="yes"/>rum</w></hi></ab> 
+	<lb n="3" break="no"/><ab n="1" type="decl"><hi><w>uxor</w> <w>tyrannicida</w></hi> 
+	<lb n="4" break="no"/><w>quinq<ex>ue</ex></w> <w>cum</w> <w>tyranno</w> <w>proximae</w> <w>familiae</w> <w>puniantur</w> <w>quae</w> <w>habebat</w> <w>duos</w> <w>filios</w> <w>et</w> <w>tyrannu<ex>m</ex></w> 
+	<lb n="5" break="no"/><w>virum</w> <w>tyrannicidium</w> <w>fecit</w> <w>praemio</w> <w>inpunitatem</w> <add hand="#h2" place="margin"><w>liberis</w></add> <w>postulavit</w> <w>meruit</w> <w>ex</w> <w>his</w> <w>al<ex>te</ex>r</w> <w>occupavit</w> <w>arce<ex>m</ex></w> 
+	<lb n="6" break="no"/><w>&amp;</w> <w>eum</w> <w>mater</w> <w>occidit</w> <w>petit</w> <w>alter</w> <w>inpunitate<ex>m</ex></w> <w>contradicitur</w> <w>occida<ex>m</ex></w> <w>inquit</w> <w>quanta</w> <w>nobis</w> <w>ante</w> 
+	<lb n="7" break="no"/><w>patienda</w> <w>sum</w> <w>du<ex>m</ex></w> <w>occidere</w> <w>tyrannum</w> <add hand="#h2" place="above"><w>femina</w></add> <w>possit</w> <w>&amp;</w> <w>mat<ex>er</ex></w> <w>velit</w> <w>non</w> <w>possum</w> <w>morte<ex>m</ex></w> <w>filii</w> <w>mei</w> <w>videre</w> <w>hoc</w> 
+	<lb n="8" break="no"/><w>est</w> <w>ergo</w> <unclear><w>quare</w></unclear> <w>illum</w> <w>velimus</w> <w>occidere</w> <w>p&amp;it</w> <w>proemium</w> <w>non</w> <w>quod</w> <w>accipiat</w> <add hand="#h2" place="margin"><w>sed</w> <w>quod</w> <w>accepit</w></add> <hi rend="uppercase"><w>pars</w> <w>altera</w></hi> 
+	<lb n="9" break="no"/></ab><ab n="2" type="decl"><add hand="#h2" place="margin"><hi rend="uppercase"><w>natus</w> <w>aethiopus</w></hi></add> <w>matron<unclear>a</unclear></w> <w><unclear resp="#LH">hab&amp;</unclear></w> <w>a<unclear>&amp;hio</unclear>pe<ex>m</ex></w> <w>peperit</w> <w>arguitur</w> <w>adulterii</w> <w>expers</w> <w>iudici</w> <w>est</w> <w>amor</w> <w>no</w> <w>ratione<ex>m</ex></w> <w>hab&amp;</w> 
+	<lb n="10" break="no"/><gap unit="chars" extent="15-20"/> <w>o<ex>m</ex>n<ex>e</ex>s</w> <w>ide<ex>m</ex></w> <w>ameremus</w> <w>non</w> <w>nu<ex>m</ex>qua<ex>m</ex></w> <w>incredibiliter</w> <w>peccare</w> <w>ratio</w> <w>peccan
+	<lb n="11" break="no"/><supplied>di</supplied></w> <gap unit="chars" extent="15-20"/> <w>similes</w> <w>parentib<ex>us</ex></w> <w>liberi</w> <w>nascuntur</w> <w>quid</w> <w>tibi</w> <w>cu<ex>m</ex></w> <w>isto</w> <w>patrocinio</w> <w>est</w> 
+	<lb n="12" break="no"/><gap unit="chars" extent="15-20"/> <w>securius</w> <w>miramur</w> <w>hanc</w> <w>lege<ex>m</ex></w> <w>esse</w> <w>naturae</w> <w>ut</w> <w>in</w> <w>sobole<ex>m</ex></w> <w>transea<add hand="#h2" place="above">n</add>t</w> 
+	<lb n="13" break="no"/><w>formae</w> <supplied reason="illegible" resp="#P1594"><w>quos<note>Not clear from P1594 apparatus if A reads quos or quas.</note></w> <w>quasi<note>supplied by P1594 apparatus</note></w></supplied> <w><supplied reason="illegible" resp="#P1594">descript</supplied>as<note>descript- supplied by P1594 apparatus.</note></w> <w>species</w> <w>custodium</w> <w>sua</w> <w>cuiq<ex>ue</ex></w> <w>genti</w> <w>etia<ex>m</ex></w> <w>facies</w> <w>man&amp;</w> <w>rutu
+	<lb n="14" break="yes"/>li</w> <w>sunt</w> <!--ge--><gap unit="chars" extent="15-20"/> <w>hispaniae</w> <w>non</w> <w>eodem</w> <w>om<ex>ne</ex>s</w> <w>colore</w> <w>tinguntur</w> <w>ex</w> <w>altera</w> 
+	<lb n="15" break="no"/><w>partae</w> <w>qua</w> <gap unit="chars" extent="5-10"/> <w>mundus</w> <w>vicinu<ex>m</ex></w> <w>mittit</w> <w>oriente<ex>m</ex></w> <w>illic</w> <w>effusiora</w> <w>corpora</w> 
+	<lb n="16" break="no"/><w>illic</w> <w>collectiora</w> <gap unit="chars" extent="1-5"/><!--ntur--> <w>diversa</w> <w>sunt</w> <w>mortalium</w> <w>genera</w> <w>nemo</w> <w>tamen</w> <w>est</w> <w>suo</w> <w>gener<del>e</del><add hand="#h2" place="overwrite">i</add></w> 
+	<lb n="17" break="no"/><w>dissimilis</w> <w>quid</w> <w>ergo</w> <add hand="#h2" place="above"><w>inquid</w></add> <w>amavit</w> <w>a&amp;hiopem</w> <w>est</w> <w>int<ex>er</ex>du<ex>m</ex></w> <w>iudices</w> <w>malaru<ex>m</ex></w> <w>quoq<ex>ue</ex></w> <w>rerum</w> <w>sua</w> <w>gratia</w> 
+	<lb n="18" break="no"/><w>est</w> <w>quaeda<ex>m</ex></w> <w>formarum</w> <w>voluptas</w> <w>miraris</w> <w>si</w> <w>aliquis</w> <w>non</w> <w>sapienter</w> <w>amat</w> <w>cu<ex>m</ex></w> <w>incipere</w> <w>amare</w> 
+	<lb n="19" break="no"/><w>non</w> <w>sit</w> <w>sapientis</w> <w>da</w> <w>mihi</w> <w>sanos</w> <w>mulieris</w> <w>oculos</w> <w>nemo</w> <w>adulter</w> <w>formosus</w> <w>est</w> <w>periturae</w> <w>pudi
+	<lb n="20" break="yes"/>citiae</w> <w>minima</w> <w>in</w> <w>eo</w> <w>est</w> <w>sollicitudo</w> <w>que<ex>m</ex></w> <w>admodu<ex>m</ex></w> <w>pereat</w> <w>propriu<ex>m</ex></w> <w>est</w> <w>p<ex>ro</ex>fanae</w> <w>libidinis</w> <w>nes
+	<lb n="21" break="yes"/>cire</w> <w>quo</w> <w>cadat</w> <w>ubi</w> <w>semel</w> <w>pudor</w> <w>corruit</w> <w>nulla</w> <w>inclinatis</w> <w>in</w> <w>vicium</w> <w>animis</w> <w>ruina</w> <w>deformis</w> <w>e<ex>st</ex></w> 
+	<lb n="22" break="no"/><w>is</w> <w>demu<ex>m</ex></w> <w>libidini</w> <w>placuit</w> <w>in</w> <w>que<ex>m</ex></w> <w>non</w> <w>poss&amp;</w> <w>mariti</w> <w>cadere</w> <w>suspicia</w> <hi rend="uppercase"><w>pars</w> <w>altera</w></hi> 
+	<lb n="23" break="no"/><w>ita</w> <w>non</w> <w>maius</w> <w>est</w> <w>argumentum</w> <w>pudicitiae</w> <w>quod</w> <w>parere</w> <w>voluit</w> <w>qua<ex>m</ex></w> <w>inpudicitiae</w> <w>quod</w> <w>fe
+	<lb n="24" break="yes"/>liciter</w> <w>peperit</w> <w>vides</w> <w>partum</w> <w>laesis</w> <w>fortasse</w> <w>visceribus</w> <w>excussum</w> <w>multum</w> <w>fortunae</w> 
+	<lb n="25" break="no"/><w>etiam</w> <w>intra</w> <w>uterum</w> <w>licet</w> <w>vides</w> <w>sanguinis</w> <w>vitio</w> <w>perustam</w> <w>cutem</w> <add hand="#h2" place="bottom"><w>colorem</w> <w>putas</w> <w>istud</w> <w>fortasse</w> <w>infantis</w> <w>iniuria</w> <w>est</w><gap unit="chars" extent="20-30"/></add> <w>livor</w> <w>infecit</w> <w>dies</w> <w>longus</w> <w>ex
+	<lb n="26" break="yes"/>tenuat</w> <w>nivea</w> <w>pleru<ex>m</ex>q<ex>ue</ex></w> <w>membra</w> <w>sole</w> <w>fuscantur</w> <w>&amp;</w> <w>corpori</w> <w>pallor</w> <w>excedit</w> <w>qua<ex>m</ex>vis</w> <w>na<unclear>tur</unclear>alit<ex>er</ex></w> 
+	<lb n="27" break="no"/><w>fuscos</w> <w>artus</w> <w>umbra</w> <w>cogit</w> <w>albescere</w> <w>tantum</w> <w>tempori</w> <w>lic&amp;</w> <w>quantu<ex>m</ex></w> <w>putas</w> <w>licere</w><gap unit="chars" extent="5-10"/> 
+	<lb n="28" break="no"/></ab><ab n="3" type="decl"><hi rend="uppercase"><add hand="#h2" place="margin"><w>miles</w> <w>marianus</w></add></hi> <w>miles</w> <w>maria<add hand="#h2" place="above">nus</add></w> <w>adulescens</w> <w>p<ex>ro</ex>pinquum</w> <w>marii</w> <w>tribunum</w> <w>vi<ex>m</ex></w> <w>sibi</w> <w>inferentem</w> <w>p</w><gap unit="chars" extent="10-15"/> 
+	<lb n="29" break="no"/><w>est</w> <w>caedis</w> <w>c<ex>ontra</ex>d<ex>icit</ex></w> <w>propinquus</w> <w>inquid</w> <w>imperatoris</w> <w>occisus</w> <w>est</w> <w>macte</w> <w>virtute</w> <gap unit="chars" extent="10-15"/> 
+	<lb n="30" break="yes"/><!--<unclear>um</unclear>--> <w>vindicasti</w> <w>ubicu<ex>m</ex>q<ex>ue</ex></w> <w>periclitatur</w> <w>pudicitia</w> <w>sua<ex>m</ex></w> <w>legem</w> <w>habet</w> <w>quid</w> <gap unit="chars" extent="10-15"/> 
+	<lb n="31" break="no"/><w>nondu<ex>m</ex></w> <w>vir</w> <w>est</w> <w>qui</w> <w>mario</w> <w>ia<ex>m</ex></w> <w>miles</w> <w>est</w> <w>non</w> <w>longe</w> <w>ab</w> <w>eo</w> <w>est</w> <w>miles</w> <w>ut</w> <w>p<ex>ro</ex>mi<unclear>ttat</unclear></w> <w>st</w><gap unit="chars" extent="10-15"/>
+	<lb n="32" break="yes"/><!--tus--> <w>tantummodo</w> <w>negat</w> <w>crede</w> <w>imperator</w> <w>male</w> <w>de</w> <w>te</w> <w>iudicass&amp;</w> <gap unit="chars" extent="15-20"/> 
+	<lb n="33" break="no"/><w>hanc</w> <w>vim</w> <gap unit="chars" extent="5-10"/> <w>parcidio</w> <w>f<unclear>ugit</unclear></w> <gap unit="chars" extent="10-15"/><!--<w>hanc</w> <gap/>a--> <w>pectus</w> <w>suum</w> <gap unit="chars" extent="10-15"/> 
+	<lb n="34" break="no"/><w>me</w> <w>impera</w><gap unit="chars" extent="50-100"/> <!--<unclear>chinae</unclear> exe<gap/> tem<gap/> --><!--...d...p..m ? <gap/> -->
+	<lb n="35" break="no"/><w>minantur</w> <hi rend="uppercase"><w>pars</w> <w>altera</w></hi> <!-- something added in margin. Miles sth? (I can't read or define where it was added) -->
+	<lb n="36" break="no"/><w>miles</w> <w>tuus</w> <gap unit="chars" extent="50-100"/> 
+	<lb n="37" break="yes"/><!--litonis--> <gap unit="chars" extent="20-30"/></ab> <ab n="4" type="decl"><hi rend="uppercase"><w>parricida</w> <w>carcere</w><gap unit="chars" extent="5-10"/></hi> 
+	<lb n="38" break="no"/><w>d<unclear>amnatus</unclear></w> <w><unclear>parricidii</unclear></w> <gap unit="chars" extent="1-5"/> <!--cust--><gap unit="chars" extent="20-30"/> 
+	<lb n="39" break="yes"/><gap unit="chars" extent="1-5"/><!--stodi--> <gap unit="chars" extent="10-15"/> <w>pubric<supplied resp="#LH">o</supplied></w> <!--carce--><gap unit="chars" extent="20-30"/> 
+		
+ <pb n="116v"/>
+<fw type="head" place="top-right">P Pithou</fw>
+		
+	<lb n="1" break="no"/><gap unit="chars" extent="50-100"/><!--<unclear>am</unclear> creder<gap/>--><!-- .. infelicem .. --> <w>mihi</w> <w>aliquis</w> <w>etia<unclear>m</unclear></w><!-- m abbreviated or too clear to be legible -->
+	<lb n="2" break="no"/><gap extent="3" unit="line"/><!--... meos annus & carcer, uereris added above line though location unsure, ne que..cum ... aures tu(a?)e -->
+	<lb n="3" break="no"/><!-- gap ... parer.. oculi f.. gap ..ad -->
+	<lb n="4" break="no"/><!-- gap on potes ... da ... iure(s?) .. Ne/non da/la.. gap-->
+	<lb n="5" break="no"/><w>ac</w> <gap unit="chars" extent="1-2"/> <w>damnatu<ex>m</ex></w> <w>e<ex>ss</ex>e</w> <w>p<choice><orig>e</orig><reg>ae</reg></choice>niteat</w> <w>novercam</w> <w>video</w> <w><unclear>carcerem</unclear></w> <!--..em p.. --><gap unit="chars" extent="20-30"/> 
+	<lb n="6" break="no"/><w>angustis</w> <w>f<unclear>or</unclear>aminibus</w> <w>tenuem</w> <w>lucis</w> <w>umbram</w> <gap unit="chars" extent="20-30"/>
+	<lb n="7" break="no"/><w>prospiciunt</w> <w>et</w> <w>quotiens</w> <gap unit="chars" extent="5-10"/><!-- iacentu/es ferrati --> <w>postes</w> <gap unit="chars" extent="20-30"/> 
+	<lb n="8" break="no"/><gap extent="8" unit="line"/><!-- ..m (ex?)pectando su(um?) des? gap-->
+	<lb n="9" break="no"/><!--ritur (se?)d ianitor inexora?... gap -->
+	<lb n="10" break="no"/><!-- exasperat manum caten... gap-->
+	<lb n="11" break="no"/><!-- tat nim.. de parricidio etiam gap-->
+	<lb n="12" break="no"/><!-- pest gap ..atr.. -->
+	<lb n="13" break="no"/><!-- gap ..etr.. gap-->
+	<lb n="14" break="no"/><!-- gap ... gap -->
+	<lb n="15" break="no"/><!-- gap eb..a ... agere .. is..pat -->
+	<lb n="16" break="no"/><gap unit="chars" extent="10-20"/> <w>sceleris</w> <w>audir&amp;</w> <w>qui</w> <w>contempnere</w> <w>carcere</w> <w>posset</w> <w>fugit</w> <gap unit="chars" extent="10-20"/> 
+	<lb n="17" break="no"/><w>patris</w> <w>execratur</w> <w>ignoras</w> <w>p<ex>ro</ex>fecto</w> <w>sortem</w> <w>tua<ex>m</ex></w> <w>si</w> <w>putas</w> <w>aliud</w> <w>iudices</w> <gap unit="chars" extent="10-20"/> 
+	<lb n="18" break="no"/><w>quod</w> <w>nolis</w> <w>hanc</w> <unclear><w>cruce<ex>m</ex></w> <w>patere</w> <w>si</w> <w>gravis</w></unclear> <w>est</w> <w>hunc</w> <w>diem</w> <w>si</w> <w>odisti</w> <w>vide</w> <w>nihil</w> <unclear><w>illi</w> <w>adversus</w></unclear> <w>pa
+	<lb n="19" break="yes"/><unclear>t</unclear>rem</w> <w>licer&amp;</w> <w>si</w> <w>parricida</w> <w>non</w> <w>ess&amp;</w></ab> <ab n="5" type="decl"><hi rend="uppercase"><w>leno</w></hi> 
+	<lb n="20" break="no"/><w>iuvenes</w> <w>frequent<ex>er</ex></w> <w>ad</w> <w>lupanar</w> <w><unclear>ven</unclear>ebant</w> <w>cu<ex>m</ex></w> <w>his</w> <w>leno</w> <w>frequent<ex>er</ex></w> <w>denuntiass&amp;</w> <w>ne</w> <w>accedere<add hand="#h2" place="above">n</add>t</w> 
+	<lb n="21" break="no"/><w>fovea<ex>m</ex></w> <w>fecit</w> <w>&amp;</w> <w>co<ex>m</ex>plevit</w> <w>ignis</w> <w>adulescentes</w> <w>cu<ex>m</ex></w> <w>venissent</w> <w>exusti</w> <w>sunt</w> <w>accusatur</w> <w>apparen
+	<lb n="22" break="yes"/>tibus</w> <add hand="#h2" place="above"><unclear><w>eoru<ex>m</ex></w></unclear></add> <w>leno</w> <w>laese</w> <w>rei</w> <w>p<ex>ublica</ex>s</w> <w>denuntiavi</w> <w>inquid</w> <w>dii</w> <w>boni</w> <w>quantu<ex>m</ex></w> <w>ausus</w> <w>est</w> <w>quod</w> <w>ne</w> <w>po<del>te</del>st</w> <gap unit="chars" extent="5-10"/><!-- de...nti --> 
+	<lb n="23" break="no"/><gap unit="chars" extent="5-10"/><!--e?--> <w>quide<ex>m</ex></w> <w>creditu</w> <w>est</w> <unclear><w>fuit</w> <w>in</w> <w>illis</w></unclear> <w>summa</w> <w>pi&amp;as</w> <w>placuere</w> <w>patrib<ex>us</ex></w> <w>summa</w> <w>frugalitas</w> <w>displicere</w> 
+	<lb n="24" break="no"/><w>lenoni</w> <unclear><w>tu</w> <w>te</w> <w>iure</w></unclear> <w>audes</w> <w>defendere</w> <w>nihil</w> <w>ei</w> <w>lic&amp;</w> <w>in</w> <w>que<ex>m</ex></w> <w>nihil</w> <w>non</w> <w>lic&amp;</w> <w>denuntiavi</w> <w>inquit</w> 
+	<lb n="25" break="no"/><w>no<unclear>vimus</unclear></w> <w>lenoni</w> <w>minas</w> <w>venales</w> <w>iniuria</w> <w>inquit</w> <w>faciebant</w> <w>mancipiis</w> <w>meis</w> <w>quid</w> <w>eni<ex>m</ex></w> <w>aliud</w> 
+	<lb n="26" break="no"/><w>in</w> <w>his</w> <!--qu--><gap unit="chars" extent="10-20"/><!--endis--> <w>ubi</w> <w>quid</w> <add hand="#h2" place="above"><unclear><w>futuru<ex>m</ex></w></unclear></add> <w>futuru<ex>m</ex></w> <w>est</w> <w>denuntiat</w> <w>culpa</w> <w>parentis</w> <w>est</w></ab> <ab n="6" type="decl"><w>decreto</w> <w>reditu</w> <w><unclear>e</unclear>xul</w> 
+	<lb n="27" break="no"/><w><unclear>adolescens</unclear></w><gap unit="chars" extent="10-20"/> <w>apud</w> <w>exsule<ex>m</ex></w> <w>exsul</w> <w>scripsit</w> <w>senatui</w> <w>occisus</w> 
+	<lb n="28" break="no"/><gap unit="chars" extent="20-30"/><!--e --> <w>senatus</w> <w>revocandu<ex>m</ex></w> <del><unclear><w>consuetu<ex>m</ex></w></unclear></del><add hand="#h2" place="overwrite"><w>censuit</w></add> <del><w>non</w></del> <gap unit="chars" extent="10-20"/><!-- h (oc diuite contr?) --> 
+	<lb n="29" break="no"/><gap extent="10" unit="lines"/></ab><!-- Cannot read the last 10 lines -->
+	<lb n="30" break="no"/><!-- -->
+	<lb n="31" break="no"/><!-- -->
+	<lb n="32" break="no"/><!-- -->
+	<lb n="33" break="no"/><!-- -->
+	<lb n="34" break="no"/><!-- -->
+	<lb n="35" break="no"/><!-- -->
+	<lb n="36" break="no"/><!-- -->
+	<lb n="37" break="no"/><!-- -->
+	<lb n="38" break="no"/><!-- -->
+	
+	
+	<ab><gap reason="witnessEnd" unit="length" extent="unknown"/></ab>
+ 
+ </body>
+ </text>
+</TEI>
