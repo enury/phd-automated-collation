@@ -2,14 +2,14 @@
 <master xmlns:xi="http://www.w3.org/2001/XInclude">
     <!-- master file that include all witnesses to be transformed into json -->
     
-    <xi:include href="copie3_CLM309_words-lb2.xml"/><!-- B -->
-    <xi:include href="copie3_CodexVat_Chig_words-lb2.xml"/><!-- C -->
-    <xi:include href="copie_CLM316_words_choices-lb2.xml"/><!-- M -->
-    <xi:include href="copie2_Bernensis149_words-lb2.xml"/><!-- N -->
-    <xi:include href="copie3_Pithoeus1594_punct_words-lb2.xml"/><!-- Pithou -->
-    <xi:include href="hakanson-words.xml"/><!-- Hakanson -->
+    <xi:include href="B.xml"/>
+    <xi:include href="C.xml"/>
+    <xi:include href="M.xml"/>
+    <xi:include href="N.xml"/>
+    <xi:include href="P1594.xml"/><!-- Pithou -->
+    <xi:include href="LH.xml"/><!-- Hakanson -->
     
-    <!--<xi:include href="copie2_BUM_H126-words.xml"/><!-\- A -\->
+    <!--<xi:include href="A.xml"/>
     -->
     
     <!-- CollateX commands (examples):
