@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>Declamationum excerpta according to manuscript Vaticanus Chigianus H VIII 261. An Electronic transcription</title>
+				<author>Calpurnius Flaccus</author>
+				<respStmt>
+					<resp>transcriber</resp>
+					<name xml:id="en">Elisa Nury</name>
+				</respStmt>
+			</titleStmt>
+			
+			<publicationStmt>
+				<authority>Elisa Nury</authority>
+				<pubPlace>London</pubPlace>
+				<date when="2014">2014</date>
+				<availability status="free">
+					<licence>
+						<!-- CC creative commons -->
+						This work is licensed under the Creative Commons Attribution 4.0 International License. 
+						To view a copy of this license, visit <ref target="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ref>. 
+					</licence>
+				</availability>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<msDesc type="manuscript">
+					<msIdentifier xml:id="C">
+						<country key="it">Italy</country>
+						<institution>The Vatican Library</institution>
+						<repository>Manuscripts</repository>
+						<idno>Chig.H.VIII.261</idno>
+					</msIdentifier>
+					<msContents>
+						<msItem n="1">
+							<locus>ff. 1r-81v</locus>
+							<author>Pseudo-Quintilian</author>
+							<title>Minor Declamations</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="2">
+							<locus>ff. 81v-90r</locus>
+							<author>Calpurnius Flaccus</author>
+							<title>Declamationum excerpta</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc material="paper">
+								<extent>
+									<measure type="leavesCount" n="90">90 ff.</measure>
+								</extent>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="40">
+									In the section of Calpurnius (<locus>ff. 81v-90r</locus>), all pages have 40 lines 
+									except <locus>f. 88r</locus> and the last page (<locus>f. 90r</locus>).
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote xml:id="h1" scribe="first" scope="major">
+								Unidentified hand that wrote most of manuscript.
+							</handNote>
+							<handNote xml:id="h2" scribe="other" scope="minor">
+								Corrections by first hand or another hand.
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin><origDate>15th century</origDate></origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>
+								<title>Calpurnii Flacci declamationes</title>
+								<editor><name xml:id="Lehnert">Georg Lehnert</name></editor>
+								<date>1903</date>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		
+		<encodingDesc>
+			<charDecl>
+				<char xml:id="eogon">
+					<charName>LATIN SMALL LETTER E WITH OGONEK</charName>
+					<desc>The character ę (e caudata) has no standard mapping. The ę can be resolved in 'ae' in most cases, but also in 'oe' or 'e'.</desc>
+					<mapping type="diplomatic">ę</mapping>
+					<mapping type="MUFI">0119</mapping>
+				</char>
+				<!-- unknown abbreviation of decl 3, MUFI sign:
+					 Ꝯ  &CONdes; A76E LatExtD LATIN CAPITAL LETTER CON -->
+				<!-- problem, it is supported by only a few fonts. http://www.fileformat.info/info/unicode/char/a76e/fontsupport.htm -->
+				<char xml:id="condes">
+					<desc>LATIN CAPITAL LETTER CON</desc>
+					<mapping type="diplomatic">Ↄ</mapping>
+					<mapping type="MUFI">A76E</mapping>
+				</char>
+				<char xml:id="qm">
+					<charName>PUNCTUS INTERROGATIVUS</charName>
+					<desc>Punctus interrogativus.</desc>
+					<mapping type="diplomatic">.~</mapping>
+					<mapping type="MUFI">F160</mapping>
+				</char>
+			</charDecl>
+		</encodingDesc>
+	</teiHeader>
+ <text>
+<body>
+<div type="edition">
+	
+	<ab n="0" type="incipit">
+
+	<pb n="81v"/>
+	
+	<lb n="21" break="yes"/><hi rend="red"><hi rend="underline"><w>Incipiunt</w> <w>Ex</w> <w>Calpurnio</w> <w>Flacco</w> <w>excerpt<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w>><pc>:</pc> <w>excerpta</w> <w><pc>.</pc>x<pc>.</pc></w> <w>Rhetor<ex>um</ex></w> <w>minor<ex>um</ex></w></hi></hi> </ab><ab n="1" type="decl"><hi rend="red"><w>uxor</w> <w>tyra<ex>n</ex>nicida</w><pc>.</pc></hi> 
+	<lb n="22" break="yes"/><w>quinq<ex>ue</ex></w> <w>cum</w> <w>tyranno</w> <w>proxim<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>famili<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>puniantur</w><pc>:</pc> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>habebat</w> <w>duos</w> <w>filios</w> <w>et</w> <w>tyran<pc>-</pc>
+	<lb n="23" break="no"/>num</w> <w>virum</w> <w>tyrannicidium</w> <w>fecit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>impunitatem</w> <w>liberis</w> <w>postulavit</w><pc>.</pc> <w>meruit</w><pc>.</pc> 
+	<lb n="24" break="yes"/><w>ex</w> <w>his</w> <w>alter</w> <w>occupavit</w> <w>arcem</w><pc>.</pc> <w>at</w> <w>eum</w> <w>mater</w> <w>occidit</w> <w>petit</w> <w>alteri</w> <w>impunitatem</w><pc>.</pc> 
+	<lb n="25" break="yes"/><w>contradicitur</w><pc>.</pc> <w>Occidam</w> <w>inquit</w><pc><g ref="#qm"/></pc> <w>quanta</w> <w>nobis</w> <w>ante</w> <w>patienda</w> <w>sunt</w><pc>,</pc> <w>dum</w> <w>occideri<del>t</del></w> 
+	<lb n="26" break="yes"/><w>tyran<ex>n</ex>um</w> <w>femina</w> <w>possit</w> <w>et</w> <w>mater</w> <w>velit</w><pc>.</pc> <w>Non</w> <w>possum</w> <w>mortem</w> <w>filii</w> <w>mei</w> <w>videre</w><pc>.</pc> <w>hoc</w> 
+	<lb n="27" break="yes"/><w>est</w> <w>ergo</w> <w>quare</w> <w>illum</w> <w>velimus</w> <w>occidere</w><pc>.</pc> 
+	<lb n="28" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="29" break="yes"/><w>pEtit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>non</w> <w>q<ex>uo</ex>d</w> <w>accipiat</w> <w>sed</w> <w>quod</w> <w>accepit</w><pc>.</pc> 
+	<lb n="30" break="yes"/></ab><ab n="2" type="decl"><hi rend="red"><w>natus</w> <w>aethiop<choice><orig>u</orig><reg></reg></choice>s</w><pc>.</pc></hi> 
+	<lb n="31" break="yes"/><w>mAtrona</w> <w><choice><orig>e</orig><reg>ae</reg></choice>thiopem</w> <w>peperit</w><pc>,</pc> <w>arguitur</w> <w>adulterii</w><pc>.</pc> <w>Expers</w> <w>iudicii</w> <w>est</w> <w>amor</w><pc>.</pc> <w>Non</w> 
+	<lb n="31" break="yes"/><w>rationem</w> <w>habet</w><pc>:</pc> <w>non</w> <w>sanitatem</w><pc>:</pc> <w>alioquin</w> <w>omnes</w> <w>idem</w> <w>amaremus</w><pc>:</pc> <w>nonnumq<ex>uam</ex></w> <w>in<pc>-</pc>
+	<lb n="33" break="no"/>credibiliter</w> <w>peccare</w><pc>:</pc> <w>ratio</w> <w>peccandi</w> <w>est</w><pc>.</pc> <w>Non</w> <w>semper</w> <w>inquit</w> <w>similes</w> <w>parentibus</w> 
+	<lb n="34" break="yes"/><w>liberi</w> <w>nascuntur</w><pc>.</pc> <w>Quid</w> <w>tibi</w> <w>cum</w> <w>isto</w> <w>patrocinio</w> <w>est</w><pc>:</pc> <w>nisi</w> <w>ut</w> <w>appareat</w> <w>te</w> <w>peccasse</w> 
+	<lb n="35" break="yes"/><w>secur<add hand="#h2" place="above">i</add>us</w><pc><g ref="#qm"/></pc> <w>Miramur</w> <w>hanc</w> <w>legem</w> <w>esse</w> <w>natur<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w><pc>,</pc> <w>ut</w> <w>in</w> <w>sobolem</w> <w>transea<ex>n</ex>t</w> <w>form<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w><pc>:</pc> <w>quas</w> 
+	<lb n="36" break="yes"/><w>quasi</w> <w>descriptas</w> <w>spe<choice><orig>t</orig><reg>c</reg></choice>ies</w> <w>custodiunt</w><pc><g ref="#qm"/></pc> <w>sua</w> <w>cuiq<ex>ue</ex></w> <w>genti</w> <w>etiam</w> <w>facies</w> <w>manet</w><pc>:</pc> <w>rutuli</w> 
+	<lb n="37" break="yes"/><w>sunt</w> <w>germani<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>vultus</w> <w>et</w> <w>flava</w> <w>proceritas</w><pc>,</pc> <w>hesperi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>non</w> <w>eodem</w> <w>omnes</w> <w>colore</w> <w>tin<pc>-</pc>
+	<lb n="38" break="no"/>guntur</w><pc>.</pc> <w>Ex</w> <w>altera</w> <w>parte</w> <w>quam</w> <w>convexus</w> <w>et</w> <w>deficiens</w> <w>mundus</w> <w>vicinum</w> <w>mittit</w> 
+	<lb n="39" break="yes"/><w>orientem</w><pc>:</pc> <w>illic</w> <w>effusiora</w> <w>corpora</w> <w>illic</w> <w>collectiora</w> <w>nascuntur</w><pc>.</pc> <w>Diversa</w> <w>sunt</w> <w>mor<pc>-</pc>
+	<lb n="40" break="no"/>talium</w> <w>genera</w><pc>.</pc> <w>nemo</w> <w>tamen</w> <w>est</w> <w>suo</w> <w>generi</w> <w>dissimilis</w><pc>.</pc> <w>Quid</w> <w>ergo</w> <w>inquit</w><pc><g ref="#qm"/></pc> <w>amavit</w> 
+	
+	
+	<pb n="82r"/>
+	
+	<lb n="1" break="yes"/><w><choice><orig>e</orig><reg>ae</reg></choice>thiopem</w><pc>:</pc> <w>est</w><pc>:</pc> <w>Interdum</w> <w>iudicem</w><pc>.</pc> <w>Malarum</w> <w>quoq<ex>ue</ex></w> <w>rerum</w> <w>sua</w> <w>gratia</w> <w>est</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>dam</w> 
+	<lb n="2" break="yes"/><w>formarum</w><pc>:</pc> <w>voluptas</w> <w>mira</w> <w>res</w><pc>:</pc> <w>si</w> <w>aliquis</w> <w>non</w> <w>sapienter</w> <w>amat</w> <w>cum</w> <w>incipere</w> <w>amare</w> 
+	<lb n="3" break="yes"/><w>non</w> <w>sit</w> <w>sapientis</w><pc><g ref="#qm"/></pc> <w>da</w> <w>mihi</w> <w>sanos</w> <w>mulieris</w> <w>oculos</w><pc>.</pc> <w>nemo</w> <w>adulter</w> <w>formosus</w> <w>est</w><pc>:</pc> <w>peri<pc>-</pc>
+	<lb n="4" break="no"/>tur<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pudiciti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w><pc>:</pc> <w>minima</w> <w>est</w> <w>in</w> <w>eo</w> <w>sollicitudo</w> <w>quemadmodum</w> <w>pereat</w><pc>.</pc> <w>proprium</w> <w>e<ex>st</ex></w> 
+	<lb n="5" break="yes"/><w>pro<choice><orig>ph</orig><reg>f</reg></choice>an<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>libidinis</w> <w>nescire</w> <w>quo</w> <w>cadat</w><pc>.</pc> <w>ubi</w> <w>semel</w> <w>pudor</w> <w>corruit</w><pc>.</pc> <w>nulla</w> <w>inclinatis</w> 
+	<lb n="6" break="yes"/><w>in</w> <w>vitium</w> <w>animis</w> <w>ruina</w> <w>deformis</w> <w>est</w><pc>.</pc> <w>Is</w> <w>demum</w> <w>libidini</w> <w>placuit</w> <w>in</w> <w>quem</w> <w>non</w> 
+	<lb n="7" break="yes"/><w>posset</w> <w>mariti</w> <w>cadere</w> <w>suspi<choice><orig>t</orig><reg>c</reg></choice>io</w><pc>.</pc> 
+	<lb n="8" break="yes"/><hi rend="red"><hi rend="uppercase"><w>pars</w></hi> <w>altera</w><pc>.</pc></hi> 
+	<lb n="9" break="yes"/><w>iTa</w> <w>non</w> <w>maius</w> <w>est</w> <w>argumentum</w> <w>pudiciti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>q<ex>uod</ex></w> <w>parere</w> <w>voluit</w><pc>,</pc> <w>q<ex>uam</ex></w> <w>impudiciti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w><pc>:</pc> 
+	<lb n="10" break="yes"/><w>q<ex>uod</ex></w> <w><add hand="#h2" place="above">in</add>feliciter</w> <w>peperit</w><pc><g ref="#qm"/></pc> <w>Vides</w> <w>partum</w> <w>l<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>sis</w> <w>fortasse</w> <w>visceribus</w> <w>excussum</w><pc>,</pc> <w>mul<pc>-</pc>
+	<lb n="11" break="no"/>tum</w> <w>fortun<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>etiam</w> <w>intra</w> <w>uterum</w> <w>licet</w><pc>:</pc> <w>vides</w> <w>sanguinis</w> <w>vitio</w> <w>perustam</w> <w>cute<ex>m</ex></w><pc>:</pc> 
+	<lb n="12" break="yes"/><w>colorem</w> <w>putas</w><pc>.</pc> <w>istud</w> <w>fortasse</w> <w>infantis</w> <w>iniuria</w> <w>est</w><pc>:</pc> <w>hoc</w> <w>ipsum</w> <w>q<ex>uo</ex>d</w> <w>alte</w> <w>infuscata<ex>m</ex></w> 
+	<lb n="13" break="yes"/><w>cutem</w> <w>labor</w> <w>infecit</w><pc>.</pc> <w>dies</w> <w>longus</w> <w>extenuat</w><pc>,</pc> <w>nivea</w> <w>pleru<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>membra</w> <w>sole</w> <w>fuscant<ex>ur</ex></w><pc>,</pc> 
+	<lb n="14" break="yes"/><w>et</w> <w>corpori</w> <w>pallor</w> <w>excedit</w><pc>,</pc> <w>q<ex>uam</ex>vis</w> <w>naturaliter</w> <w>fuscos</w> <w>artus</w> <w>umbra</w> <w>cogit</w> <w>albescere</w> 
+	<lb n="15" break="yes"/><w>tantum</w> <w>tempori</w> <w>licet</w><pc>,</pc> <w>quantum</w> <w>putas</w> <w>licere</w> <w>natur<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w><pc>.</pc> 
+	<lb n="16" break="yes"/></ab><ab n="3" type="decl"><hi rend="red"><hi rend="uppercase"><w>miles</w></hi><pc>.</pc> <w>marianus</w></hi> 
+	<lb n="17" break="yes"/><w>mIles</w> <w>Marii</w> <w>adulescens</w> <w>propinquum</w> <w>marii</w> <w>tribunum</w> <w>vim</w> <w>sibi</w> <w>inferentem</w> <w>peremit</w><pc>:</pc> <w>reus</w> 
+	<lb n="18" break="yes"/><w>est</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>dis</w><pc>.</pc> <w>c<ex>ontra</ex>d<ex>icit</ex></w><pc>.</pc> <w>Propinquus</w> <w>inquit</w> <w>Imperatoris</w> <w>occisus</w> <w>est</w><pc>.</pc> <w><choice><orig><ex><g ref="#condes"/>O</ex></orig><reg resp="#Lehnert">contra</reg></choice><note>Unknown abbreviation.</note></w> <w>macte</w> <w>virtute</w> <w>adu<pc>-</pc>
+	<lb n="19" break="no"/>lescens</w><pc>,</pc> <w>et</w> <w>marium</w> <w>vindicasti</w><pc>.</pc> <w>Ubicu<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>periclitatur</w> <w>pudicitia</w> <w>suam</w> <w>legem</w> <w>habet</w><pc>.</pc> 
+	<lb n="20" break="yes"/><w>Quid</w> <w>agis</w> <w>Tribune</w><pc>.</pc> <w>tibi</w> <w>nondum</w> <w>vir</w> <w>est</w><pc>.</pc> <w>qui</w> <w>mario</w> <w>iam</w> <w>miles</w> <w>est</w><pc><g ref="#qm"/></pc> <w>non</w> <w>longe</w> <w>ab</w> 
+	<lb n="21" break="yes"/><w>eo</w> <w>est</w> <w>miles</w> <w>ut</w> <w>promittat</w> <w>stuprum</w><pc>,</pc> <w>qui</w> <w>rogatus</w> <w>tantu<ex>m</ex>modo</w> <w>negat</w><pc>.</pc> <w>Credo</w> <w>impe<pc>-</pc>
+	<lb n="22" break="no"/>rator</w> <w>male</w> <w>de</w> <w>te</w> <w>indicasse</w> <w>miles</w> <w>tuus</w><pc>,</pc> <w>si</w> <w>tribuno</w> <w>pepercisset</w><pc>:</pc> <w>hanc</w> <w>vim</w> <w>verginius</w> 
+	<lb n="23" break="yes"/><w>parricidio</w> <w>fugit</w><pc>:</pc> <w>propter</w> <w>hanc</w> <w>Lucretia</w> <w>pectus</w> <w>suum</w> <w>ferro</w> <w>fodit</w><pc>.</pc> <w>Pudet</w> <w>me</w> <w>im<pc>-</pc>
+	<lb n="24" break="no"/>perator</w> <w>femin<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>exemplis</w> <w>militem</w> <w>tueor</w><pc>:</pc> <w>stuprum</w> <w>minatus</w> <w>est</w> <w>militi</w> <w>tuo</w><pc>.</pc> <w>minus</w> 
+	<lb n="25" break="yes"/><w>est</w> <w>q<ex>uo</ex>d</w> <w>nobis</w> <w>cimbri</w> <w>minantur</w><pc>.</pc> 
+	<lb n="26" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="27" break="yes"/><w>miles</w> <w>tuus</w> <w>imperator</w> <w>iam</w> <w>aliquid</w> <w>impudici</w> <w>habet</w> <w>quod</w> <w>ad</w> <w>impudicitiam</w> <w>placet</w> <w>tu</w> 
+	<lb n="28" break="yes"/><w>gladium</w> <w>commilitonis</w> <w>tui</w> <w>cruore</w> <w>cinxisti</w> <w>quem</w> <w>satis</w> <w>fuit</w> <w>minari</w> 
+		<lb n="29" break="yes"/></ab><ab n="4" type="decl"><space extent="1" unit="lines"><desc> Reason: space eft empty for the title of decl. 4.</desc></space>
+	<lb n="30" break="no"/><w>damnatus</w> <w>parricidii</w> <w>anno</w> <w>custodiatur</w> <w>qui</w> <w>sub</w> <w>noverca</w> <w>damnatus</w> <w>est</w> <w>vult</w> <w>il
+	<lb n="31" break="no"/>lum</w> <w>pater</w> <w>domi</w> <w>custodire</w> <w>ille</w> <w>petit</w> <w>ut</w> <w>publico</w> <w>carcere</w> <w>servetur</w> <w>iubete</w> <w>q<ex>uam</ex></w> <w>primu<ex>m</ex></w> 
+	<lb n="32" break="yes"/><w>ad</w> <w>illas</w> <w>me</w> <w>impiorum</w> <w>tenebras</w> <w>trahi</w> <w>liceat</w> <w>impetrare</w> <w>q<ex>uo</ex>d</w> <w>non</w> <w>licet</w> <w>recusare</w> <w>ego</w> 
+	<lb n="33" break="yes"/><w>me</w> <w>u<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>crederem</w> <w>tam</w> <w>infelicem</w> <w>ut</w> <w>mihi</w> <w>aliquis</w> <w>etiam</w> <w>carcerem</w> <w>invideat</w> <w>par<ex>um</ex></w> 
+	<lb n="34" break="yes"/><w>est</w> <w>tibi</w> <w>in</w> <w>cruciatus</w> <w>meos</w> <w>annos</w> <w>&amp;</w> <w>carcer</w> <w>vereris</w> <w>ne</w> <w>quem</w> <w>miseri</w> <w>mei</w> <w>gemitu<ex>m</ex></w> 
+	<lb n="35" break="yes"/><w>aures</w> <w>tu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>perdant</w> <w>ne</w> <w>non</w> <w>singulis</w> <w>tormentis</w> <w>meis</w> <w>paterni</w> <w>oculi</w> <w>fruantur</w> <w>ne</w> 
+	<lb n="36" break="yes"/><w>laxata</w> <w>vincula</w> <w>desit</w> <w>qui</w> <w>astringat</w> <w>non</w> <w>potes</w> <w>adversus</w> <w>damnatum</w> <w>iure</w> <w>patris</w> 
+	<lb n="37" break="yes"/><w>uti</w> <w>iam</w> <w>non</w> <w>larem</w> <w>habeo</w> <w>non</w> <w>servum</w> <w>non</w> <w>patrem</w> <w>ac</w> <w>ne</w> <w>damnatum</w> <w>esse</w> <w>p<choice><orig>e</orig><reg>ae</reg></choice>niteat</w> 
+	<lb n="38" break="yes"/><w>non</w> <w>novercam</w> <w>video</w> <w>carcerem</w> <w>publicum</w> <w>saxis</w> <w>ingentibus</w> <w>structum</w> <w>angustis</w> 
+	<lb n="39" break="yes"/><w>foraminibus</w> <w>tenuem</w> <w>lucis</w> <w>umbram</w> <w>recipientem</w> <w>in</w> <w>hunc</w> <w>rei</w> <w>abiecti</w> <w>robur</w> <w>tullia
+	<lb n="40" break="no"/>num</w> <w>prospiciunt</w> <w>et</w> <w>quotiens</w> <w>iacentes</w> <w>ferrati</w> <w>p<add place="above">o</add>stis<note>-o- added, likely by C1.</note></w> <w>stridor</w> <w>excitat</w> <w>exanimantur</w> 
+	
+
+	<pb n="82v"/>
+	
+	<lb n="1" break="yes"/><w>et</w> <w>alienum</w> <w>supplicium</w> <w>expectando</w> <w>suum</w> <w>discunt</w> <w>sonant</w> <w>verbera<ex>n</ex>tibus</w> <w>recusanti
+	<lb n="2" break="no"/>bus</w> <w>spurca</w> <w>manu</w> <w>carnificis</w> <w>ingeritur</w> <w>sedet</w> <w>ianitor</w> <w>inexorabili</w> <w>pectore</w> <w>qui</w> <w>ma
+	<lb n="3" break="no"/>tre</w> <w>flente</w> <w>siccos</w> <w>teneat</w> <w>oculos</w> <w>inluvies</w> <w>corpus</w> <w>exasperat</w> <w>manum</w> <w>caten<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>mu<ex>n</ex>t</w> 
+	<lb n="4" break="yes"/><w>quid</w> <w>est</w> <w>q<ex>uo</ex>d</w> <w>me</w> <w>lex</w> <w>anno</w> <w>reservat</w> <w>nescio</w> <w>quid</w> <w>diu</w> <w>cogitat</w> <w>nimirum</w> <w>de</w> <w>parricidio</w> 
+	<lb n="5" break="yes"/><w>etiam</w> <w>cum</w> <w>creditur</w> <w>non</w> <w>linquetur</w> <w>aestima</w> <w>aliud</w> <w>quid</w> <w>fugiam</w> <w>qui</w> <w>hoc</w> <w>postulo</w> <w>q<ex>ui</ex>d</w> 
+	<lb n="6" break="yes"/><w>hoc</w> <w>est</w> <w>iud<ex>ices</ex></w> <w>a</w> <w>patre</w> <w>parricida</w> <w>non</w> <w>timeor</w> <w>dicam</w> <w>s<choice><orig>e</orig><reg>ae</reg></choice>vite</w> <w>cum</w> <w>roge<ex>m</ex></w> <w>dicam</w> <w>misere
+	<lb n="7" break="no"/>mini</w> <w>cum</w> <w>carcere<ex>m</ex></w> <w>rogem</w> 
+	<lb n="8" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="9" break="yes"/><w>ego</w> <w>ne</w> <w>secretum</w> <w>isti</w> <w>conscienti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>dabo</w> <w>et</w> <w>ibi</w> <w>te</w> <w>pater</w> <w>includi</w> <w>ubi</w> <w>non</w> <w>erubescas</w> 
+	<lb n="10" break="yes"/><w>dignus</w> <w>est</w> <w>parricida</w> <w>dignus</w> <w>es</w> <w>videre</w> <w>patrem</w> <w>si</w> <w>tam</w> <w>grave</w> <w>putas</w> <w>ut</w> <w>vel</w> <w>carce
+	<lb n="11" break="no"/>rem</w> <w>malis</w> <w>debeo</w> <w>iudices</w> <w>debeo</w> <w>tandem</w> <w>agere</w> <w>mitius</w> <w>pater</w> <w>si</w> <w>tam</w> <w>graviter</w> <w>sibi</w> <w>da<ex>m</ex>
+	<lb n="12" break="no"/>natus</w> <w>irascitur</w> <w>mirabar</w> <w>si</w> <w>quis</w> <w>tantum</w> <w>sceleris</w> <w>audiret</w> <w>qui</w> <w>contemnere</w> <w>carcere<ex>m</ex></w> 
+	<lb n="13" break="yes"/><w>posset</w> <w>fugit</w> <w>odit</w> <w>avertitur</w> <w>et</w> <w>limen</w> <w>patris</w> <w>execratur</w> <w>ignoras</w> <w>profecto</w> <w>sorte<ex>m</ex></w> 
+	<lb n="14" break="yes"/><w>tuam</w> <w>si</w> <w>putas</w> <w>aliud</w> <w>iudices</w> <w>debere</w> <w>respicere</w> <w>q<ex>uam</ex></w> <w>q<ex>uo</ex>d</w> <w>nolis</w> <w>hanc</w> <w>crucem</w> <w>patere</w> <w>si</w> <w>gra
+	<lb n="15" break="no"/>vis</w> <w>est</w> <w>hunc</w> <w>diem</w> <w>si</w> <w>odisti</w> <w>vide</w> <w>nihil</w> <w>illi</w> <w>adversus</w> <w>patrem</w> <w>liceret</w> <w>si</w> <w>parricida</w> 
+	<lb n="16" break="yes"/><w>non</w> <w>esset</w> 
+	<lb n="17" break="yes"/></ab><ab n="5" type="decl"><hi rend="red"><w>leno</w></hi> 
+	<lb n="18" break="yes"/><w>iuvenes</w> <w>frequenter</w> <w>ad</w> <w>lupanar</w> <w>veniebant</w> <w>cum</w> <w>his</w> <w>leno</w> <w>frequenter</w> <w>denuntiass<ex>et</ex></w> 
+	<lb n="19" break="yes"/><w>ne</w> <w>accedere<note>Is there an abbreviation mark? accendere(n)t?</note>t</w> <w>foveam</w> <w>fecit</w> <w>et</w> <w>complevit</w> <w>ignibus</w> <w>adulescentes</w> <w>cum</w> <w>venissent</w> 
+	<lb n="20" break="yes"/><w>exusti</w> <w>sunt</w> <w>accusatur</w> <w>a</w> <w>parentibus</w> <w>eorum</w> <w>leno</w> <w>l<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>s<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>rei</w> <w>p<ex>ublicae</ex></w> <w>denuntiavi</w> <w>inquit</w> 
+	<lb n="21" break="yes"/><w>dii</w> <w>boni</w> <w>quantum</w> <w>ausus</w> <w>est</w> <w>q<ex>uod</ex></w> <w>nec</w> <w>post</w> <w>denuntiationem</w> <w>quidem</w> <w>creditum</w> <w>est</w> <w>fuit</w> 
+	<lb n="22" break="yes"/><w>in</w> <w>illis</w> <w>summa</w> <w>pietas</w> <w>placuere</w> <w>patribus</w> <w>summa</w> <w>frugalitas</w> <w>displicere</w> <w>lenoni</w> 
+	<lb n="23" break="yes"/><w>tu</w> <w>te</w> <w>iure</w> <w>audes</w> <w>defendere</w> <w>nihil</w> <w>ei</w> <w>licet</w> <w>in</w> <w>quem</w> <w>nihil</w> <w>non</w> <w>licet</w> <w>denuntiavi</w> 
+	<lb n="24" break="yes"/><w>inquit</w> <w>novimus</w> <w>lenonum</w> <w>venales</w> <w>minas</w> <w>iniuriam</w> <w>inquit</w> <w>faciebant</w> <w>mancipiis</w> 
+	<lb n="25" break="yes"/><w>meis</w> <w>quid</w> <w>enim</w> <w>aliud</w> <w>in</w> <w>his</w> <w>quam</w> <w>iniuriam</w> <w>vendis</w> 
+	<lb n="26" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="27" break="yes"/><w>ubi</w> <w>futurum</w> <w>est</w> <w>denuntiatur</w> <w>culpa</w> <w>parentis</w> <w>est</w> 
+	<lb n="28" break="yes"/></ab><ab n="6" type="decl"><hi rend="red"><w>decreto</w> <w>reditu</w> <w>exul</w> <w>occisus</w></hi> 
+	<lb n="29" break="yes"/><w>adulescens</w> <w>dives</w> <w>nobilis</w> <w>hospitatus</w> <w>apud</w> <w>exulem</w> <w>exul</w> <w>scripsit</w> <w>senatui</w> <w>velle</w> <w>se</w> 
+	<lb n="30" break="yes"/><w>indicare</w> <w>de</w> <w>affecta</w> <w>tyrannide</w> <w>senatus</w> <w>revocandum</w> <w>censuit</w> <w>hoc</w> <w>divite</w> <w>con
+	<lb n="31" break="no"/>tradicente</w> <w>dum</w> <w>revertitur</w> <w>exul</w> <w>occisus</w> <w>est</w> <w>accusatur</w> <w>dives</w> <w>affectat<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>tyra<ex>n</ex>
+	<lb n="32" break="no"/>nidis</w> <w>intercepisse</w> <w>te</w> <w>putas</w> <w>indicium<note>Abbr. added after indicium?</note></w> <w>ipse</w> <w>fecisti</w> <w>secundum</w> <w>sententiam</w> <w>divitis</w> 
+	<lb n="33" break="yes"/><w>pauper</w> <w>non</w> <w>est</w> <w>reversus</w> <w>dicturum</w> <w>se</w> <w>de</w> <w>tyrannide</w> <w>pollicetur</w> <w>quid</w> <w>vis</w> <w>suspice
+	<lb n="34" break="no"/>mur</w> <w>tu</w> <w>nihil</w> <w>nuntias</w> <w>sed</w> <w>inde</w> <w>venisti</w> <w>venerunt</w> <w>epistul<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>consecut<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>sed</w> <w>cur</w> 
+	<lb n="35" break="yes"/><w>de</w> <w>publico</w> <w>statu</w> <w>mandare</w> <w>hospiti</w> <w>noluit</w> <w>putatis</w> <w>illum</w> <w>contradixisse</w> <w>confessus</w> <w>est</w> 
+	<lb n="36" break="yes"/><w>sceleratis</w> <w>ingeniis</w> <w>et</w> <w>plus</w> <w>q<ex>uam</ex></w> <w>civilia</w> <w>cupientibus</w> <w>non</w> <w>dominari</w> <w>instar</w> <w>servitutis</w> <w>e<ex>st</ex></w> 
+	<lb n="37" break="yes"/><w>iam</w> <w>pridem</w> <w>te</w> <w>arci</w> <w>nostr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>tua</w> <w>fortuna</w> <w>minitatur</w> <w>supra</w> <w>civilem</w> <w>hanc</w> <w>per<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>quatio
+	<lb n="38" break="no"/>nem<note>per/aequationem seem to be 2 different words.</note></w> <w>diviti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>te</w> <w>elevaverunt</w> <w>non</w> <w>sine</w> <w>exemplo</w> <w>timemus</w> <w>in</w> <w>manlio</w> <w>quondam</w> <w>po
+	<lb n="39" break="no"/>tuisse</w> <w>damnatum</w> <w>est</w> 
+	<lb n="40" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	
+
+	<pb n="83r"/>
+	
+	<lb n="1" break="yes"/><w>non</w> <w>intell<choice><orig>i</orig><reg>e</reg></choice>go</w> <w>quemadmodum</w> <w>infamet</w> <w>ista</w> <w>sententiam</w> <w>meam</w> <w>ego</w> <w>si</w> <w>auditus</w> <w>esse<ex>m</ex></w> 
+	<lb n="2" break="yes"/><w>ille</w> <w>non</w> <w>esset</w> <w>occisus</w> <w>inquieta</w> <w>res</w> <w>est</w> <w>homo</w> <w>cui</w> <w>iam</w> <w>in</w> <w>deterius</w> <w>nihil</w> <w>superest</w> 
+	<lb n="3" break="yes"/><w>egerat</w> <w>mecum</w> <w>illic</w> <w>multa</w> <w>de</w> <w>iudicibus</w> <w>de</w> <w>ignominia</w> <w>sua</w> <w>prodam</w> <w>necesse</w> <w>est</w> <w>af
+	<lb n="4" break="no"/>fectus</w> <w>hospitis</w> <w>mei</w> <w>hoc</w> <w>tyrannis</w> <w>videbatur</w> 
+	<lb n="5" break="yes"/></ab><ab n="7" type="decl"><hi rend="red"><w>dives</w> <w>imp<ex>erator</ex></w></hi> 
+	<lb n="6" break="yes"/><w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>pauperi</w> <w>duo</w> <w>filii</w> <w>dives</w> <w>imperator</w> <w>creatus</w> <w>rumor</w> <w>or
+	<lb n="7" break="no"/>tus</w> <w>est</w> <w>prodi</w> <w>rem</w> <w>p<ex>ublicam</ex></w> <w>a</w> <w>pauperis</w> <w>filiis</w> <w>utru<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>torquens</w> <w>pernegantem</w> <w>ne<subst hand="#h2"><del>g</del><add hand="#h2" place="above">c</add></subst>avit</w> 
+	<lb n="8" break="yes"/><w>corpora</w> <w>eorum</w> <w>extra</w> <w>vallum</w> <w>proici</w> <w>iussit</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>hostes</w> <w>sepelierunt</w> <w>et</w> <w>recesseru<ex>n</ex>t</w> 
+	<lb n="9" break="yes"/><w>pauper</w> <w>accusat</w> <w>divitem</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>dis</w> <w>nu<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>iudices</w> <w>contra</w> <w>istum</w> <w>tutior</w> <w>veni</w> <w>quicq<ex>ui</ex>d</w> 
+	<lb n="10" break="yes"/><w>auferri</w> <w>potuit</w> <w>amisi</w> <w>soli</w> <w>omnium</w> <w>torti</w> <w>sunt</w> <w>donec</w> <w>mentirentur</w> <w>ita</w> <w>lania
+	<lb n="11" break="no"/>tos</w> <w>miseros</w> <w>ita</w> <w>confusis</w> <w>lin<choice><orig>i</orig><reg>e</reg></choice>amentis</w> <w>proici</w> <w>iussit</w> <w>ut</w> <w>iam</w> <w>nec</w> <w>pater</w> <w>posset</w> <w>agno
+	<lb n="12" break="no"/>scere</w> <w>miramini</w> <w>si</w> <w>ab</w> <w>hostibus</w> <w>sepulti</w> <w>sunt</w> <w>nullos</w> <w>sic</w> <w>ab</w> <w>isto</w> <w>esse</w> <w>tortos</w> <w>nisi</w> 
+	<lb n="13" break="yes"/><w>captivos</w> <w>putarent</w> <w>proditores</w> <w>putas</w> <w>quos</w> <w>tam</w> <w>misere</w> <w>tamq<ex>ue</ex></w> <w>crudeliter</w> <w>puni
+	<lb n="14" break="no"/>tos</w> <w>hostis</w> <w>non</w> <w>vindicavit</w> <w>pauperes</w> <w>erant</w> <w>inquit</w> <w>et</w> <w>ideo</w> <w>potuere</w> <w>corrumpi</w> 
+	<lb n="15" break="yes"/><w>age</w> <w>qui</w> <w>nescit</w> <w>illos</w> <w>ideo</w> <w>perisse</w> <w>q<ex>uod</ex></w> <w>divitias</w> <w>nimis</w> <w>oderant</w> <w>super</w> <w>ignem</w> <w>cor
+	<lb n="16" break="no"/>pus</w> <w>extenditur</w> <w>et</w> <w>irato</w> <w>imperatori</w> <w>tortor</w> <w>non</w> <w>sufficit</w> <w>uritur</w> <w>et</w> <w>flagella</w> 
+	<lb n="17" break="yes"/><w>ignibus</w> <w>adiuvantur</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ritis</w> <w>exitum</w> <w>pernegavit</w> <w>tortor</w> <w>inimicus</w> <w>tamen</w> 
+	<lb n="18" break="yes"/><w>quod</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>rebat</w> <w>invenit</w> <w>nos</w> <w>proditores</w> <w>qui</w> <w>pro</w> <w>te</w> <w>patria<del>m</del></w> <w>etia<ex>m</ex></w> <w>sub</w> <w>isto</w> <w>militavim<ex>us</ex></w> 
+	<lb n="19" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="20" break="yes"/><w>negas</w> <w>potuisse</w> <w>corrumpi</w> <w>pauperes</w> <w>fuerunt</w> <w>negas</w> <w>voluisse</w> <w>prodere</w> <w>inimici</w> <w>non</w> 
+	<lb n="21" break="yes"/><w>possum</w> <w>tibi</w> <w>proditionis</w> <w>argumentum</w> <w>afferre</w> <w>pr<choice><orig>e</orig><reg>ae</reg></choice>sentius</w> <w>quam</w> <w>diu</w> <w>vixere</w> <w>pu
+	<lb n="22" break="no"/>gnatum</w> <w>est</w> <w>cum</w> <w>mihi</w> <w>civitas</w> <w>mandaret</w> <w>imperium</w> <w>quo</w> <w>malo</w> <w>laboraret</w> <w>intellexit</w> 
+	<lb n="23" break="yes"/><w>imperatorem</w> <w>me</w> <w>fecit</w> <w>inimicus</w> 
+	<lb n="24" break="yes"/></ab><ab n="8" type="decl"><hi rend="red"><w>demens</w> <w>ter</w> <w>triumphalis</w></hi> 
+	<lb n="25" break="yes"/><w>ter</w> <w>triumphalis</w> <w>ter</w> <w>consularis</w> <w>cum</w> <w>haberet</w> <w>liberos</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>que</w> <w>ter</w> <w>triumphales</w> <w>ter</w> <w>con
+	<lb n="26" break="no"/>sulares</w> <w>suspendit</w> <w>se</w> <del><w>libertus</w> <w>a</w> <w>libertis</w></del><add hand="#h2" place="margin"><w>liberatus</w> <w>a</w> <w>liberis</w></add> <w>ab</w> <w><choice><orig>i</orig><reg></reg></choice>isdem</w> <w>reus</w> <w>fit</w> <w>dementi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>omnium</w> <w>ca
+	<lb n="27" break="no"/>lamitatum</w> <w>materia</w> <w>est</w> <w>homo</w> <w>diu</w> <w>felix</w> <w>nesciunt</w> <w>stare</w> <w>successus</w> <w>et</w> <w>quotiens</w> 
+	<lb n="28" break="yes"/><w>prodire</w> <w>felicitas</w> <w>non</w> <w>potest</w> <w>redit</w> <w>mori</w> <w>volo</w> <w>quid</w> <w>me</w> <w>iam</w> <w>fortuna</w> <w>custodit</w> 
+	<lb n="29" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="30" break="yes"/><w>ter</w> <w>consulatum</w> <w>gessisti</w> <w>ter</w> <w>triumphasti</w> <w>licet</w> <w>iam</w> <w>velit</w> <w>fortuna</w> <w>mutari</w> <w>in</w> <w>illius</w> 
+	<lb n="31" break="yes"/><w>potestate</w> <w>non</w> <w>est</w> <w>fuisse</w> <w>quis</w> <w>timeret</w> <w>fortunam</w> <w>nisi</w> <w>prodesset</w> 
+	<lb n="32" break="yes"/></ab><ab n="9" type="decl"><hi rend="red"><w>pater</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>catus</w></hi> 
+	<lb n="33" break="yes"/><w>cum</w> <w>luxurioso</w> <w>filio</w> <w>pater</w> <w>abdita</w> <w>matre</w> <w>secessit</w> <w>in</w> <w>secretum</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>catus</w> <w>rediit</w> <w>pe
+	<lb n="34" break="no"/>tit</w> <w>a</w> <w>filio</w> <w>talionem</w> <w>mater</w> <w>se</w> <w>fecisse</w> <w>dicit</w> <w>invenit</w> <w>iud<ex>ices</ex></w> <w>pessimus</w> <w>adulescens</w> <w>qua<ex>n</ex>
+	<lb n="35" break="no"/>do</w> <w>utru<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>caret</w> <w>parentem</w> <w>quid</w> <w>te</w> <w>secreto</w> <w>fecisse</w> <w>credamus</w> <w>matrem</w> <w>in</w> <w>fo
+	<lb n="36" break="no"/>ro</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>cas</w> <w>non</w> <w>vis</w> <w>pro</w> <w>matre</w> <w>verum</w> <w>dicere</w> <w>cum</w> <w>illa</w> <w>pro</w> <w>te</w> <w>mentiatur</w> <w>in</w> <w>tanta<ex>m</ex></w> 
+	<lb n="37" break="yes"/><w>iuvenis</w> <w>processit</w> <w>amentiam</w> <w>ut</w> <w>propter</w> <w>illum</w> <w>pater</w> <w>ut</w> <w>perderet</w> <w>oculos</w> <w>mater</w> 
+	<lb n="38" break="yes"/><w>odisset</w> <w>tu</w> <w>me</w> <w>mulier</w> <w>exc<choice><orig>e</orig><reg>ae</reg></choice>care</w> <w>potuisti</w> <w>quae</w> <w>nec</w> <w>parricida<add hand="#h2" place="above"><ex>m</ex></add></w> <w>potes</w> <w>ut</w> <w>innocens</w> <w>sis</w> 
+	<lb n="39" break="yes"/><w>dum</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>caretur</w> <w>pater</w> <w>expectasti</w> <w>non</w> <w>feci</w> <w>inquit</w> <w>non</w> <w>crederem</w> <w>si</w> <w>confite
+	<lb n="40" break="no"/>reris</w> <w>talis</w> <w>es</w> <w>adulescens</w> <w>ut</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>care</w> <w>nolueris</w> <w>patrem</w> <w>aut</w> <w>te</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>care</w> <w>velit</w> 
+	
+
+	<pb n="83v"/>
+	
+	<lb n="1" break="yes"/><w>pater</w> <w>q<ex>uam</ex></w> <w>sceleratus</w> <w>es</w> <w>plus</w> <w>te</w> <w>pater</w> <w>odit</w> <w>q<ex>uam</ex></w> <w>eum</w> <w>a</w> <w>quo</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>catus</w> <w>est</w> <w>tantu<ex>m</ex></w> <w>au
+	<lb n="2" break="no"/>sus</w> <w>est</w> <w>integro</w> <w>patre</w> <w>quid</w> <w>facturus</w> <w>e<ex>st</ex></w> <w>inter</w> <w>duos</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>cos</w> <w>q<ex>uam</ex></w> <w>miser</w> <w>est</w> <w>pater</w> <w>cui</w> <w>ve
+	<lb n="3" break="no"/>rum</w> <w>dicendum</w> <w>est</w> <w>quam</w> <w>misera</w> <w>mater</w> <w>cui</w> <w>mentiendum</w> <w>non</w> <w>eruit</w> <w>oculos</w> <w>q<ex>ui</ex>s
+	<lb n="4" break="no"/>quis</w> <w>laborat</w> <w>ut</w> <w>hoc</w> <w>fecerit</w> <w>cuius</w> <w>crimen</w> <w>est</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>casse</w> <w>patrem</w> <w>patrocinium</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>
+	<lb n="5" break="no"/>care</w> <w>matrem</w> <w>qui</w> <w>fieri</w> <w>potuit</w> <w>ut</w> <w>mal<del>e</del><add hand="#h2" place="above">a</add></w> <w>fuerit</w> <w>uxor</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>tam</w> <w>bona</w> <w>mater</w> <w>est</w> <w>ego</w> 
+	<lb n="6" break="yes"/><w>feci</w> <w>non</w> <w>sceleris</w> <w>sed</w> <w>matris</w> <w>ist<del>e</del><add hand="#h2" place="above">a</add></w> <w>confessio</w> <w>est</w> 
+	<lb n="7" break="yes"/><hi rend="red"><w>pars</w> <w>altera</w></hi> 
+	<lb n="8" break="yes"/><w>si</w> <w>negat</w> <w>iud<ex>ices</ex></w> <w>non</w> <w>vultis</w> <w>q<ex>uo</ex>d</w> <w>proximum</w> <w>est</w> <w>credite</w> <w>confitenti</w> <w>sed</w> <w>si</w> <w>difficile</w> <w>est</w> 
+	<lb n="9" break="yes"/><w>fateri</w> <w>etiam</w> <w>cum</w> <w>feceris</w> <w>L</w> <w>anni</w> <w>paulum</w> </ab><ab n="10" type="decl"><w>pater</w> <w>receptis</w> <w>oculis</w> 
+	<lb n="10" break="yes"/><w>cui</w> <w>erant</w> <w>tres</w> <w>filiae</w> <w>missis</w> <w>duobus</w> <w>flendo</w> <w>oculos</w> <w>perdidit</w> <w>somniavit</w> <w>se</w> <w>recep
+	<lb n="11" break="no"/>turum</w> <w>oculos</w> <w>si</w> <w>tertius</w> <w>filius</w> <w>perisset</w> <w>somnium</w> <w>uxori</w> <w>indicavit</w> <w>illa</w> <w>filio</w> <w>pro
+	<lb n="12" break="no"/>didit</w> <w>suspendit</w> <w>se</w> <w>adulescens</w> <w>pater</w> <w>recepit</w> <w>oculos</w> <w>repudiat</w> <w>uxorem</w> <w>agit</w> <w>in</w> 
+	<lb n="13" break="yes"/><w>illa</w> <w>iniusti</w> <w>repudii</w> <w>ante</w> <w>omnia</w> <w>hoc</w> <w>ad</w> <w>vos</w> <w>meae</w> <w>defero</w> <w>infelicitatis</w> <w>q<ex>uod</ex></w> <w>videre</w> 
+	<lb n="14" break="yes"/><w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pi</w> <w>si</w> <w>peccatoris</w> <w>oculi</w> <w>tertiae</w> <w>redeunt</w> <w>orbitatis</w> <w>qui</w> <w>calamitatibus</w> <w>cesserant</w> 
+	<lb n="15" break="yes"/><w>parricidio</w> <w>reverterunt</w> <w>mirabar</w> <w>profecto</w> <w>q<ex>uod</ex></w> <w>in</w> <w>utriusq<ex>ue</ex></w> <w>orbitate</w> <w>solus</w> <w>pat<ex>er</ex></w> 
+	<lb n="16" break="yes"/><w>oculos</w> <w>perdidisse</w> <w>iussus</w> <w>sum</w> <w>videre</w> <w>postq<ex>uam</ex></w> <w>spectatorem</w> <w>tertia</w> <w>orbitas</w> <w>non</w> <w>ha
+	<lb n="17" break="no"/>bebat</w> <w>nu<choice><orig>n</orig><reg>m</reg></choice>q<ex>ui</ex>d</w> <w>qui</w> <w>discutiunt</w> <w>recti</w> <w>necessitatem</w> <w>qui</w> <w>aliquid</w> <w>amore</w> <w>fecerunt</w> 
+	<lb n="18" break="yes"/><w>cessare</w> <w>parumper</w> <w>ex<choice><orig></orig><reg>h</reg></choice>austi</w> <w>fletus</w> <w>differ</w> <w>aliquantum</w> <w>saucium</w> <w>lumen</w> <w>decet</w> <w>esse</w> 
+	<lb n="19" break="yes"/><w>oculos</w> <w>duriores</w> <w>qui</w> <w>scelere</w> <w>reverterunt</w> <w>nullum</w> <w>in</w> <w>tali</w> <w>calamitate</w> <w>ab</w> <w>uxore</w> 
+	<lb n="20" break="yes"/><w>solatium</w> <w>miserationem</w> <w>meam</w> <w>tunc</w> <w>habuit</w> <w>post</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pi</w> <w>monere</w> <w>de</w> <w>filio</w> <w>orret</w> <w>refer
+	<lb n="21" break="no"/>re</w> <w>animus</w> <w>q<ex>uo</ex>d</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>nitet</w> <w>indicasse</w> <w>nec</w> <w>remedia</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>renda</w> <w>sunt</w> <w>ubi</w> <w>maior</w> <w>suppli
+	<lb n="22" break="no"/>cii</w> <w>sanatio</w> <w>gratulandum</w> <w>patri</w> <w>est</w> <w>q<ex>uod</ex></w> <w>non</w> <w>filius</w> <w>somniavit</w> <w>debet</w> <w>hoc</w> <w>sola</w> <w>ma
+	<lb n="23" break="no"/>ter</w> <w>audire</w> <w>vel</w> <w>ut</w> <w>filio</w> <w>caveat</w> <w>vel</w> <w>ne</w> <w>mariti</w> <w>doleat</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>citatem</w> <w>arcesso</w> <w>coniu
+	<lb n="24" break="no"/>ge<ex>m</ex></w> <w>iam</w> <w>inquam</w> <w>esse</w> <w>caecus</w> <w>cupio</w> <w>etiam</w> <w>nunc</w> <w>apud</w> <w>me</w> <w>latet</w> <w>q<ex>uod</ex></w> <w>solatia</w> <w>nosti</w> <w>su
+	<lb n="25" break="no"/>bito</w> <w>aspectu</w> <w>somnii</w> <w>in</w> <w>metus</w> <w>veniet</w> <w>fateor</w> <w>de</w> <w>filio</w> <seg type="tokenization"><del><w>quid</w> <w>est</w></del><add hand="#h2"><w>quidem</w></add></seg><seg type="transcription">quid<add hand="#h2" place="above"><ex>em</ex></add><del><w> est</w></del></seg><!-- overlap issue --> <w>timui</w> <w>sed</w> <w>de</w> <w>matre</w> 
+	<lb n="26" break="yes"/><w>non</w> <w>credidi</w> <w>nullum</w> <w>impatientius</w> <w>malum</w> <w>est</w> <w>q<ex>uam</ex></w> <w>invidia</w> <w>cum</w> <w>calamitate</w> <w>q<ex>ui</ex></w> <w>ut</w> 
+	<lb n="27" break="yes"/><w>scelerate</w> <w>viderem</w> <w>non</w> <w>recepi</w> <w>oculos</w> <w>sed</w> <w>perdidi</w> <w>c<choice><orig>e</orig><reg>ae</reg></choice>citatem</w> <w>vidi</w> <w>miser</w> <w>primum</w> 
+	<lb n="28" break="yes"/><w>q<ex>uo</ex>d</w> <w>ultimum</w> <w>videram</w> <w>pendebat</w> <w>extinctum</w> <w>et</w> <w>contem<del>p</del>tus</w> <w>laqueos</w> <w>adulescentes</w> 
+	<lb n="29" break="yes"/><w>colla</w> <w>tenuabat</w> <w>pro</w> <w>nefas</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>in</w> <w>filium</w> <w>cum</w> <w>oculis</w> <w>meis</w> <w>venerant</w> <w>o</w> <w>quam</w> <w>pu
+	<lb n="30" break="no"/>tasti</w> <w>nec</w> <w>maritum</w> <w>posse</w> <w>sanari</w> <w>iam</w> <w>tempus</w> <w>est</w> <w>fletuum</w> <w>i<ex>m</ex>mo</w> <w>iam</w> <w>tempus</w> <w>est</w> 
+	<lb n="31" break="yes"/><w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>citatis</w> 
+	<lb n="32" break="yes"/></ab><ab n="11" type="decl"><hi rend="red"><w>damnati</w> <w>adoptivi</w></hi> 
+	<lb n="33" break="yes"/><w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>pauperi</w> <w>tres</w> <w>filii</w> <w>quodam</w> <w>tempore</w> <w>visi</w> <w>sunt</w> <w>amici</w> <w>petit</w> 
+	<lb n="34" break="yes"/><w>dives</w> <w>a</w> <w>paupere</w> <w>filios</w> <w>in</w> <w>adoptionem</w> <w>et</w> <w>accepit</w> <w>unus</w> <w>in</w> <w>adulterio</w> <w>depr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>hensus</w> 
+	<lb n="35" break="yes"/><w>est</w> <w>et</w> <w>occisus</w> <w>alius</w> <w>affectat<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>tyrannidis</w> <w>reus</w> <w>factus</w> <w>est</w> <w>damnatus</w> <w>tertium</w> 
+	<lb n="36" break="yes"/><w>pauper<del>e</del></w> <w>petit</w> <w>dives</w> <w>contradicit</w> <w>nihil</w> <w>tam</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ter</w> <w>luctus</w> <w>meos</w> <w>gravius</w> <w>quam</w> 
+	<lb n="37" break="yes"/><w>q<ex>uod</ex></w> <w>ubi</w> <w>odia</w> <w>nihil</w> <w>facere</w> <w>videatur</w> <w>amicitia</w> <w>plus</w> <w>nocere</w> <w>quicquid</w> <w>esse</w> <w>potuit</w> <w>in</w> 
+	<lb n="38" break="yes"/><w>paupere</w> <w>totum</w> <w>dives</w> <w>accepit</w> <w>qui</w> <w>si</w> <w>bonum</w> <w>animum</w> <w>in</w> <w>adulescentes</w> <w>meos</w> <w>tenuit</w> 
+	<lb n="39" break="yes"/><w>filios</w> <w>ambo</w> <w>perdidimus</w> <w>novum</w> <w>auditu</w> <w>agenus</w> <w>tyrannidem</w> <w>affectat</w> <w>pauperis</w> 
+	<lb n="40" break="yes"/><w>filius</w> <w>utinam</w> <w>sic</w> <w>fili<del>u</del><add hand="#h2" place="above">o</add>s</w> <w>perdidissem</w> <w>ut</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>ri<note>Issue: should it be queri or quaeri?</note></w> <w>de</w> <w>fortuna</w> <w>liceret</w> <w>dolere</w> <w>integre</w> 
+	
+
+	<pb n="84r"/>
+	
+	<lb n="1" break="yes"/><w>non</w> <w>potest</w> <w>qui</w> <w>urgetur</w> <w>irasci</w> <w>scio</w> <w>quales</w> <w>habuerim</w> <w>et</w> <w>inimico</w> <w>et</w> <w>diviti</w> <w>placere</w> 
+	<lb n="2" break="yes"/><w>potuerunt</w> <w>diviti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>inconstantium</w> <w>animorum</w> <w>in</w> <w>summa</w> <w>perni<choice><orig>t</orig><reg>c</reg></choice>ies</w> <w>vel</w> <w>velle</w> <w>ad</w> <w>me</w> 
+	<lb n="3" break="yes"/><w>redire</w> <w>vel</w> <w>nolle</w> <w>si</w> <w>vult</w> <w>non</w> <w>delectat</w> <w>qui</w> <w>retinetur</w> <w>invitus</w> <w>si</w> <w>non</w> <w>vult</w> <w>iam</w> <w>timeo</w> 
+	<lb n="4" break="yes"/><w>q<ex>uod</ex></w> <w>divitias</w> <w>amare</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pit</w> <w>permiss<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>licenti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>magna</w> <w>securitas</w> <w>est</w> <w>potestas</w> <w>cu<ex>m</ex></w> <w>mo
+	<lb n="5" break="no"/>deratione</w> <w>recordare</w> <w>quantis</w> <w>meis</w> <w>redimer<add hand="#h2" place="inline">i</add></w> <w>in</w> <w>malis</w> <w>ne</w> <w>adhuc</w> <w>redimerem<ex>ur</ex></w> <w>inimici</w> 
+	<lb n="6" break="yes"/></ab><ab n="12" type="decl"><w>veneficii</w> <w>rea</w> <w>torqueatur</w> <w>donec</w> <w>conscios</w> <w>indicet</w> <w>amissa</w> <w>uxore</w> <w>ex</w> <w>quo</w> <w>habebat</w> 
+	<lb n="7" break="yes"/><w>filium</w> <w>duxit</w> <w>altera</w> <w>et</w> <w>de</w> <w>ea</w> <w>suscepit</w> <w>filiam</w> <w>adoleverunt</w> <w>ambo</w> <w>infantes</w> <w>repen
+	<lb n="8" break="no"/>te</w> <w>ambiguis</w> <w>signis</w> <w>perit</w> <w>adulescens</w> <w>pater</w> <w>uxorem</w> <w>accusavit</w> <w>et</w> <w>damnavit</w> <w>cum</w> 
+	<lb n="9" break="yes"/><w>torqueretur</w> <w>filiam</w> <w>sibi</w> <w>consciam</w> <w>dixit</w> <w>petitur</w> <w>puella</w> <w>ex</w> <w>lege</w> <w>ad</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>nam</w> <w>adest</w> <w>ei</w> 
+	<lb n="10" break="yes"/><w>pater</w> <w>noverca</w> <w>filios</w> <w>nostros</w> <w>aut</w> <w>in</w> <w>simulatione</w> <w>persequitur</w> <w>aut</w> <w>veneno</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>sce
+	<lb n="11" break="no"/>lus</w> <w>suum</w> <w>et</w> <w>in</w> <w>domo</w> <w>venefic<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>et</w> <w>in</w> <w>suppliciis</w> <w>docuit</w> <w>parricid<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>adoleverunt</w> <w>am
+	<lb n="12" break="no"/>bo</w> <w>sed</w> <w>minor</w> <w>filia</w> <w>et</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ter</w> <w>sexum</w> <w>multo</w> <w>frater</w> <w>simplicior</w> <w>in</w> <w>uno</w> <w>utrius</w> <w>mente<ex>m</ex></w> 
+	<lb n="13" break="yes"/><w>videris</w> <w>cum</w> <w>periit</w> <w>adulescens</w> <w>et</w> <w>patri</w> <w>vindicatus</w> <w>est</w> <w>et</w> <w>sorori</w> <w>o</w> <w>noverca</w> <w>est</w> 
+	<lb n="14" break="yes"/><w>alta</w> <w>crudelitas</w> <w>amasset</w> <w>et</w> <w>consciam</w> <w>putaremus</w> <w>pro</w> <w>nefas</w> <w>conscia</w> <w>dicitur</w> <w>cui</w> <w>fra
+	<lb n="15" break="no"/>ter</w> <w>perit</w> <w>cur</w> <w>postq<ex>uam</ex></w> <w>adolevit</w> <w>puella</w> <w>est</w> <w>interemptus</w> <w>adulescens</w> <w>tam</w> <w>diu</w> <w>ergo</w> 
+	<lb n="16" break="yes"/><w>fuit</w> <w>noverc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>quieta</w> <w>crudelitas</w> <w>q<ex>uam</ex>diu</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>tas</w> <w>illius</w> <w>ad</w> <w>persuasionem</w> <w>conscienti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>per
+	<lb n="17" break="no"/>venerit</w> <w>modum</w> <w>non</w> <w>habent</w> <w>iracundia</w> <w>mentiendi</w> 
+	<lb n="18" break="yes"/></ab><ab n="13" type="decl"><hi rend="red"><w>medicus</w> <w>tyrannicida</w></hi> 
+	<lb n="19" break="yes"/><w>tyrannicid<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>tyrannus</w> <w>suspicatus</w> <w>sibi</w> <w>verecundatus</w> <w>ab</w> <w>eo</w> <w>medico</w> <w>quem</w> 
+	<lb n="20" break="yes"/><w>in</w> <w>arce</w> <w>habebat</w> <w>torsit</w> <w>eum</w> <w>ille</w> <w>pernegavit</w> <w>misit</w> <w>ad</w> <w>medicum</w> <w>civitatis</w> <w>dixit</w> <w>da
+	<lb n="21" break="no"/>tum</w> <w>illi</w> <w>ab</w> <w>illo</w> <w>venenum</w> <w>sed</w> <w>se</w> <w>remedium</w> <w>daturum</w> <w>dedit</w> <w>poculum</w> <w>quo</w> <w>exaustu</w> 
+	<lb n="22" break="yes"/><w>statim</w> <w>perit</w> <w>tyrannus</w> <w>contendunt</w> <w>de</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>absit</w> <w>sanctissimi</w> <w>iudices</w> <w>ut</w> <w>ha<ex>n</ex>c</w> 
+	<lb n="23" break="yes"/><w>vos</w> <w>fidem</w> <w>tyrannicidii</w> <w>detrahatis</w> <w>quam</w> <w>et</w> <w>medicus</w> <w>confirmaverit</w> <w>et</w> <w>tyran
+	<lb n="24" break="no"/>nus</w> <w>confingunt</w> <w>nocendi</w> <w>voluntatem</w> <w>postq<ex>uam</ex></w> <w>sanandi</w> <w>rem</w> <w>perdiderunt</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>nas</w> 
+	<lb n="25" break="yes"/><w>meas</w> <w>hinc</w> <w>cogitare</w> <w>in</w> <w>quibus</w> <w>nec</w> <w>ira</w> <w>nec</w> <w>natura</w> <w>cessavit</w> <w>tolerabilis</w> <w>vis</w> <w>est</w> 
+	<lb n="26" break="yes"/><w>ubi</w> <w>ad</w> <w>consuetudinem</w> <w>mali</w> <w>causa</w> <w>necessitatis</w> <w>emergit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>consequitur</w> 
+	<lb n="27" break="yes"/><w>qui</w> <w>ausus</w> <w>est</w> <w>et</w> <w>confirmare</w> <w>meum</w> <w>venenum</w> <w>et</w> <w>suum</w> <w>remedium</w> <w>polliceri</w> <w>ul
+	<lb n="28" break="no"/>tio</w> <w>quid</w> <w>illa</w> <w>non</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>stio</w> <w>tyrannus</w> <w>venenum</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>sivit</w> <w>sed</w> <w>vindicavit</w> <w>o</w> <w>qua<ex>m</ex></w> 
+	<lb n="29" break="yes"/><w>facile</w> <w>gerunt</w> <w>persuasiones</w> <w>i<choice><orig>nl</orig><reg>ll</reg></choice>ecebram</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice><note>Scribe possibly meant 'que' instead of 'quae'.</note></w><!-- issue: regularization --> <w>in</w> <w>contrarium</w> <w>transferuntur</w> <w>virus</w> 
+	<lb n="30" break="yes"/><w>scribebat</w> <w>interius</w> <w>et</w> <w>arcus</w> <w>omnes</w> <w>longa</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>narum</w> <w>dilatione</w> <w>languebant</w> <w>ve
+	<lb n="31" break="no"/>neficium</w> <w>iam</w> <w>tyrannus</w> <w>agnoverat</w> <w>quia</w> <w>instantem</w> <w>interitum</w> <w>sentiebat</w> <w>festi
+	<lb n="32" break="no"/>nans</w> <w>medicum</w> <w>flagitabat</w> <w>unde</w> <w>venenum</w> <w>tam</w> <w>celeriter</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>parasti</w> <w>dicis</w> <w>for
+	<lb n="33" break="no"/>te</w> <w>maior</w> <w>mihi</w> <w>dandi</w> <w>bene</w> <w>fiebat</w> <w>occasio</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>ex</w> <w>ipsius</w> <w>voluntate</w> <w>veniebat</w> <w>nati
+	<lb n="34" break="no"/>vum</w> <w>hoc</w> <w>genus</w> <w>moris</w> <w>est</w> <w>ut</w> <w>ex</w> <w>sensu</w> <w>priore</w> <w>ad</w> <w>cuncta</w> <w>cautior</w> <w>sollicitudo</w> <w>pro
+	<lb n="35" break="no"/>cedat</w> <w>nonne</w> <w>iam</w> <w>apud</w> <w>tyrannum</w> <w>cuncta</w> <w>suspecta</w> <w>pr<choice><orig>e</orig><reg>ae</reg></choice>sens</w> <w>formido</w> <w>faciebat</w> 
+	<lb n="36" break="yes"/><w>medicum</w> <w>tota</w> <w>arce</w> <w>clamabat</w> <w>quasi</w> <w>ego</w> <w>de</w> <w>tyrannicidio</w> <w>non</w> <w>negassem</w> <w>in</w> <w>arce<ex>m</ex></w> 
+	<lb n="37" break="yes"/><w>enecavimus</w> <w>deseruit</w> <w>nec</w> <w>venenum</w> 
+	<lb n="38" break="yes"/></ab><ab n="14" type="decl"><hi rend="red"><w>calpurni<ex>us</ex></w> <space extent="7" unit="chars" rend="dots"><desc> The seven dots could be for 'flaccus'.</desc></space></hi> 
+	<lb n="39" break="yes"/><w>adductus</w> <w>fenerator</w> <w>serviat</w> <w>abdicatus</w> <w>de</w> <w>bonis</w> <w>paternis</w> <w>nihil</w> <w>habeat</w> <w>libertoru<ex>m</ex></w> 
+	<lb n="40" break="yes"/><w>bona</w> <w>ad</w> <w>patronos</w> <w>pertineant</w> <w>quidam</w> <w>ex</w> <w>duobus</w> <w>liberis</w> <w>alterum</w> <w>abdicavit</w> 
+	
+	
+
+	<pb n="84v"/>
+	
+	<lb n="1" break="yes"/><w>addictum</w> <w>postea</w> <w>creditori</w> <w>patrem</w> <w>redemit</w> <w>et</w> <w>manumisit</w> <w>quo</w> <w>mortuo</w> <w>ambigu<ex>n</ex>t</w> 
+	<lb n="2" break="yes"/><w>de</w> <w>bonis</w> <w>abdicatus</w> <w>iure</w> <w>patroni</w> <w>et</w> <w>filius</w> <w>qui</w> <w>in</w> <w>familia</w> <w>permansit</w> <w>equidem</w> <w>nec</w> 
+	<lb n="3" break="yes"/><w>avarum</w> <w>me</w> <w>fuisse</w> <w>nec</w> <w>impium</w> <w>docui</w> <w>nam</w> <w>et</w> <w>redemi</w> <w>patrem</w> <w>et</w> <w>manumisi</w> <w>ab
+	<lb n="4" break="no"/>dicatus</w> <w>es</w> <w>inquit</w> <w>en</w> <w>quae</w> <w>putes</w> <w>dolens</w> <w>se</w> <w>casum</w> <w>meum</w> <w>filius</w> <w>dicit</w> <w>beneficio</w> <w>pa
+	<lb n="5" break="no"/>rentis</w> <w>se</w> <w>esse</w> <w>nutritum</w> <w>eius</w> <w>indulgentia</w> <w>libertatem</w> <w>civitatemq<ex>ue</ex></w> <w>sortitum</w> <w>ad</w> 
+	<lb n="6" break="yes"/><w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>ipsa</w> <w>patronus</w> <w>liberto</w> <w>suo</w> <w>contulit</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>filius</w> <w>a</w> <w>parente</w> <w>perc<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>pit</w> <w>proinde</w> <w>be
+	<lb n="7" break="no"/>neficium</w> <w>hereditatis</w> <w>filio</w> <w>datur</w> <w>patrono</w> <w>redditur</w> <w>addictus</w> <w>nu<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>sperat</w> <w>liber
+	<lb n="8" break="no"/>tatem</w> <w>negligenter</w> <w>enim</w> <w>et</w> <w>contumaciter</w> <w>servit</w> <w>qui</w> <w>servire</w> <w>non</w> <w>novit</w> <w>quid</w> 
+	<lb n="9" break="yes"/><w>mihi</w> <w>abdicatorum</w> <w>obicis</w> <w>legem</w> <w>ego</w> <w>si</w> <w>quasi</w> <w>filium</w> <w>experirer</w> <w>merito</w> <w>ut</w> <w>abdica
+	<lb n="10" break="no"/>tus</w> <w>expellerer</w> <w>utor</w> <w>patroni</w> <w>actione</w> <w>non</w> <w>filii</w> <w>quid</w> <w>enim</w> <w>si</w> <w>non</w> <w>esset</w> <w>manumissus</w> 
+	<lb n="11" break="yes"/><w>peculium</w> <w>servi</w> <w>mei</w> <w>peteris</w> <w>specta</w> <w>defuncti</w> <w>condi<choice><orig>t</orig><reg>c</reg></choice>ionem</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>fuit</w> <w>mortis</w> <w>tempo
+	<lb n="12" break="no"/>re</w> <w>non</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>aliquam</w> <w>depr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>cessit</w> <w>sistitur</w> <w>venalis</w> <w>pater</w> <w>non</w> <w>festinat</w> <w>hic</w> <w>bonus</w> 
+	<lb n="13" break="yes"/><w>filius</w> <w>non</w> <w>deniq<ex>ue</ex></w> <w>metuit</w> <w>ne</w> <w>illum</w> <w>redimat</w> <w>abdicatus</w> <w>filius</w> <w>incolumi</w> <w>digni
+	<lb n="14" break="no"/>tate</w> <w>non</w> <w>potuit</w> <w>explicare</w> <w>quantum</w> <w>abdicatus</w> <w>explicuit</w> <w>quotiens</w> <w>se</w> <w>pater</w> 
+	<lb n="15" break="yes"/><w>p<choice><orig>e</orig><reg>ae</reg></choice>nitere</w> <w>confessus</w> <w>est</w> <w>quotiens</w> <w>de</w> <w>huius</w> <w>simplicitate</w> <w>conquestus</w> <w>utinam</w> <w>licuis
+	<lb n="16" break="no"/>set</w> <w>addicto</w> <w>exercere</w> <w>ius</w> <w>patrium</w> <w>esset</w> <w>hic</w> <w>abdicatus</w> <w>hic</w> <w>filius</w> <w>bona</w> <w>ipsa</w> <w>meo</w> <w>su<ex>n</ex>t</w> 
+	<lb n="17" break="yes"/><w>labore</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>sita</w> <w>unde</w> <w>senex</w> <w>testare</w> <w>noluit</w> <w>ne</w> <w>mihi</w> <w>quasi</w> <w>suum</w> <w>relinqueret</w> <w>q<ex>uo</ex>d</w> <w>meu<ex>m</ex></w> 
+	<lb n="18" break="yes"/><w>sciret</w> <w>tu</w> <w>illud</w> <w>prius</w> <w>consumpsisti</w> <w>patrimonium</w> <w>illud</w> <w>amplum</w> <w>illud</w> <w>q<ex>uo</ex>d</w> <w>nobis</w> <w>pa
+	<lb n="19" break="no"/>rabatur</w> <w>heredibus</w> <w>ego</w> <w>postulo</w> <w>tenet</w> <w>libertinum</w> <w>q<ex>uo</ex>d</w> <w>vix</w> <w>sufficit</w> <w>ipsius</w> <w>funeri</w> <w>hic</w> 
+	<lb n="20" break="yes"/><w>enim</w> <w>quando</w> <w>s<choice><orig>e</orig><reg>ae</reg></choice>pe</w> <w>licet</w> <w>iacentem</w> <w>qui</w> <w>noluit</w> <w>redimere</w> <w>venalem</w> 
+	<lb n="21" break="yes"/></ab><ab n="15" type="decl"><hi rend="red"><w>ter</w> <w>fortis</w> <w>desertor</w></hi> 
+	<lb n="22" break="yes"/><w>desertor</w> <w>capite</w> <w>puniatur</w> <w>ter</w> <w>vir</w> <w>fortis</w> <w>militia</w> <w>vacet</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>victor</w> <w>imperator</w> 
+	<lb n="23" break="yes"/><w>accipiat</w> <w>ter</w> <w>virum</w> <w>fortem</w> <w>imperator</w> <w>impunitatem</w> <w>desertor</w> <w>coegit</w> <w>ad</w> <w>bellum</w> 
+	<lb n="24" break="yes"/><w>coactus</w> <w>deseruit</w> <w>imperator</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>impunitatem</w> <w>desertoris</w> <w>petit</w> <w>desertor</w> <w>con
+	<lb n="25" break="no"/>tradicit</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>quo</w> <w>animo</w> <w>imperator</w> <w>ferat</w> <w>sique</w> <w>virum</w> <w>fortem</w> <w>senserat</w> <w>obsequen
+	<lb n="26" break="no"/>tem</w> <w>desertorem</w> <w>videat</w> <w>contumacem</w> <w>nec</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>nam</w> <w>possunt</w> <w>recusare</w> <w>post</w> <w>culpam</w> <w>nec</w> 
+	<lb n="27" break="yes"/><w>veniam</w> <w>sustinere</w> <w>post</w> <w>gloriam</w> <w>miserum</w> <w>me</w> <w>cuius</w> <w>nec</w> <w>infamia</w> <w>potest</w> <w>latere</w> <w>nec</w> 
+	<lb n="28" break="yes"/><w>gloria</w> <w>non</w> <w>ad</w> <w>te</w> <w>rem</w> <w>p<ex>ublicam</ex></w> <w>quam</w> <w>me</w> <w>ipse</w> <w>deserui</w> <w>et</w> <w>annis</w> <w>et</w> <w>telis</w> <w>honestissimum</w> 
+	<lb n="29" break="yes"/><w>corpus</w> <w>oneravi</w> <w>et</w> <w>q<ex>uo</ex>d</w> <w>non</w> <w>sine</w> <w>piaculo</w> <w>factum</w> <w>est</w> <w>consecrata</w> <w>iamdudum</w> <w>arma</w> 
+	<lb n="30" break="yes"/><w>deposui</w> <w>sto</w> <w>et</w> <w>pugno</w> <w>pro</w> <w>legibus</w> <w>aliter</w> <w>enim</w> <w>fortiter</w> <w>facere</w> <w>iam</w> <w>in</w> <w>hac</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>tate</w> 
+	<lb n="31" break="yes"/><w>non</w> <w>possum</w> <w>grata</w> <w>sunt</w> <w>et</w> <w>crimina</w> <w>desertoris</w> <w>apud</w> <w>quem</w> <w>nihil</w> <w>valuerunt</w> <w>privile
+	<lb n="32" break="no"/>gia</w> <w>viri</w> <w>fortis</w> <w>novum</w> <w>genus</w> <w>damnationis</w> <w>ignoscere</w> <w>volo</w> <w>cur</w> <w>enim</w> <w>dubite<ex>m</ex></w> 
+	<lb n="33" break="yes"/><w>p<ex>er</ex></w> <w>infamiam</w> <w>senex</w> <w>emori</w> <w>qui</w> <w>etiam</w> <w>iuvenis</w> <w>optavi</w> <w>s<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>pe</w> <w>gloria</w> 
+	<lb n="34" break="yes"/></ab><ab n="16" type="decl"><hi rend="red"><w>raptar<ex>um</ex></w></hi> 
+	<lb n="35" break="yes"/><w>lex</w> <w>raptarum</w> <w>rapta</w> <w>producta</w> <w>ad</w> <w>magistratus</w> <w>tacuit</w> <w>et</w> <w>flevit</w> <w>magistratus</w> <w>de</w> 
+	<lb n="36" break="yes"/><w>raptore</w> <w>supplicium</w> <w>sumpsit</w> <w>puella</w> <w>se</w> <w>interemit</w> <w>reus</w> <w>est</w> <w>magistratus</w> <w>q<ex>uod</ex></w> <w>causa</w> 
+	<lb n="37" break="yes"/><w>mortis</w> <w>fuerit</w> <w>reum</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>dis</w> <w>unius</w> <w>arcesso</w> <w>quid</w> <w>vos</w> <w>pariter</w> <w>occidit</w> <w>aditus</w> <w>huic</w> 
+	<lb n="38" break="yes"/><w>reo</w> <w>misericordi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>clausus</w> <w>est</w> <w>quid</w> <w>enim</w> <w>sperare</w> <w>poterit</w> <w>a</w> <w>la<choice><orig>chry</orig><reg>cri</reg></choice>mis</w> 
+	<lb n="39" break="yes"/><w><add hand="#h2" place="margin">i</add>venis</w> <w>etiam</w> <w>facie</w> <w>liberalis</w> <w>qualis</w> <w>nemo</w> <w>non</w> <w>sibi</w> <w>aut</w> <w>filium</w> <w>optat</w> <w>aut</w> <w>gene
+	<lb n="40" break="no"/>rum</w> <w>is</w> <w>cum</w> <w>puell<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>peteret</w> <w>nuptias</w> <w>diu</w> <w>peteret</w> <w>etiam</w> <w>sperare</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pisset</w> <w>festinavit</w> 
+	
+
+	<pb n="85r"/>
+	
+	<lb n="1" break="yes"/><w>ut</w> <w>amator</w> <w>et</w> <w>quid</w> <w>dicam</w> <w>rapuit</w> <w>an</w> <w>duxit</w> <w>virgo</w> <w>q<ex>uo</ex>d</w> <w>solum</w> <w>potuit</w> <w>nihil</w> <w>questa</w> 
+	<lb n="2" break="yes"/><w>est</w> <w>quis</w> <w>non</w> <w>inhorruit</w> <w>quis</w> <w>tecum</w> <w>puella</w> <w>non</w> <w>flevit</w> <w>dicat</w> <w>nunc</w> <w>libuit</w> <w>et</w> <w>li
+	<lb n="3" break="no"/>cuit</w> <w>civis</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>an</w> <w>regis</w> <w>oratio</w> <w>est</w> <w>nec</w> <w>erat</w> <w>arbiter</w> <w>iudicii</w> <w>sui</w> <w>sed</w> <w>minister</w> 
+	<lb n="4" break="yes"/><w>alieni</w> <w>tacuit</w> <w>inquit</w> <w>o</w> <w>mira</w> <w>et</w> <w>muta</w> <w>sententia</w> <w>omnes</w> <w>sciunt</w> <w>la<choice><orig>chry</orig><reg>cri</reg></choice>mas</w> <w>ex</w> <w>uno</w> 
+	<lb n="5" break="yes"/><w>misericordi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>fonte</w> <w>manere</w> <w>in</w> <w>amaro</w> <w>vel</w> <w>maxime</w> <w>nam</w> <w>isdem</w> <w>oculis</w> <w>quibus</w> <w>amat<ex>ur</ex></w> 
+	<lb n="6" break="yes"/><w>et</w> <w>fletur</w> <w>miser</w> <w>ille</w> <w>quem</w> <w>nullo</w> <w>accusatore</w> <w>punisti</w> <w>miserior</w> <w>illa</w> <w>quam</w> <w>te</w> <w>vin
+	<lb n="7" break="no"/>dicare</w> <w>simulasti</w> <w>quis</w> <w>te</w> <w>oro</w> <w>poterit</w> <w>aut</w> <w>liberare</w> <w>flentem</w> <w>aut</w> <w>flere</w> <w>damnatum</w> 
+	<lb n="8" break="yes"/></ab><ab n="17" type="decl"><hi rend="red"><w>p<choice><orig>e</orig><reg>ae</reg></choice>dagogus</w> <w>cruciarius</w></hi> 
+	<lb n="9" break="yes"/><w>civitatem</w> <w>peregrinus</w> <w>usurpans</w> <w>veniat</w> <w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>visi</w> <w>sunt</w> <w>in</w> <w>gra
+	<lb n="10" break="no"/>tiam</w> <w>redisse</w> <w>pauper</w> <w>accusatus</w> <w>peregrinitatis</w> <w>venit</w> <w>emit</w> <w>eum</w> <w>dives</w> <w>et</w> <w>p<choice><orig>e</orig><reg>ae</reg></choice>da
+	<lb n="11" break="no"/>gogum</w> <w>filio</w> <w>dedit</w> <w>adulescens</w> <w>in</w> <w>adulterio</w> <w>depr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>hensus</w> <w>occisus</w> <w>est</w> <w>agitur</w> <w>p<choice><orig>e</orig><reg>ae</reg></choice>
+	<lb n="12" break="no"/>dagogus</w> <w>in</w> <w>crucem</w> <w>appellat</w> <w>tribunus</w> <w>de</w> <w>iniusto</w> <w>supplicio</w> <w>equidem</w> <w>iud<ex>ices</ex></w> <w>pro
+	<lb n="13" break="no"/>pitium</w> <w>mihi</w> <w>divitem</w> <w>semper</w> <w>optavi</w> <w>totum</w> <w>me</w> <w>divitis</w> <w>fidei</w> <w>et</w> <w>anteq<ex>uam</ex></w> <w>redime
+	<lb n="14" break="no"/>rer</w> <w>addixi</w> <w>audio</w> <w>me</w> <w>subito</w> <w>peregrinum</w> <w>q<ex>uo</ex>d</w> <w>nec</w> <w>pater</w> <w>ipse</w> <w>nec</w> <w>mater</w> <w>aliq<ex>ua</ex>n<ex>do</ex></w> 
+	<lb n="15" break="yes"/><w>prodiderat</w> <w>nec</w> <w>deniq<ex>ue</ex></w> <w>u<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>inimicus</w> <w>dives</w> <w>obiecerat</w> <w>filio</w> <w>me</w> <w>luxurioso</w> <w>iam</w> 
+	<lb n="16" break="yes"/><w>et</w> <w>petulanti</w> <w>dedit</w> <w>q<ex>uam</ex>vis</w> <w>omnia</w> <w>pater</w> <w>ipse</w> <w>curaret</w> <w>et</w> <w>regeret</w> <w>imploro</w> <w>auxiliu<ex>m</ex></w> 
+	<lb n="17" break="yes"/><w>q<ex>uo</ex>d</w> <w>vestri</w> <w>maiores</w> <w>servis</w> <w>iam</w> <w>natis</w> <w>reliquerunt</w> <w>unum</w> <w>non</w> <w>est</w> <w>in</w> <w>servitute<ex>m</ex></w> 
+	<lb n="18" break="yes"/><w>nasci</w> <w>et</w> <w>libertatem</w> <w>ultam</w> <w>statim</w> <w>credidisti</w> <w>fidum</w> <w>et</w> <w>idoneum</w> <w>iudicasti</w> <w>sed</w> 
+	<lb n="19" break="yes"/><w>non</w> <w>esse</w> <w>f<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>licem</w> <w>iam</w> <w>tum</w> <w>scire</w> <w>potuisti</w> <w>occisus</w> <w>est</w> <w>inquit</w> <w>filius</w> <w>meus</w> <w>si</w> <w>in
+	<lb n="20" break="no"/>iuria</w> <w>interfectorem</w> <w>argue</w> <w>si</w> <w>iure</w> <w>leges</w> <w>ego</w> <w>illum</w> <w>adulterum</w> <w>feci</w> <w>credo</w> <w>lu
+	<lb n="21" break="no"/>xuria</w> <w>mea</w> <w>servus</w> <w>novitius</w> <w>et</w> <w>pauper</w> <w>anteq<ex>uam</ex></w> <w>servus</w> <w>multa</w> <w>largiveris</w> <w>indul
+	<lb n="22" break="no"/>gebas</w> <w>omnia</w> <w>nihil</w> <w>u<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>negabas</w> 
+	<lb n="23" break="yes"/></ab><ab n="18" type="decl"><hi rend="red"><w>armati</w> <w>abdicati</w></hi> 
+	<lb n="24" break="yes"/><w>abdicati</w> <w>ad</w> <w>curiam</w> <w>convenenerunt</w> <w>armati</w> <w>petentes</w> <w>revocari</w> <w>unus</w> <w>ex</w> <w>patrib<ex>us</ex></w> 
+	<lb n="25" break="yes"/><w>contradixit</w> <w>filius</w> <w>eius</w> <w>se</w> <w>interemit</w> <w>idem</w> <w>suadet</w> <w>ut</w> <w>recipiantur</w> <w>peto</w> <w>ut</w> <w>in
+	<lb n="26" break="no"/>dulgeatis</w> <w>ir<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>domestic<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>cum</w> <w>me</w> <w>videatis</w> <w>public<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice></w> <w>p<choice><orig>e</orig><reg>ae</reg></choice>nitere</w> <w>sententi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>nam</w> <w>sic<ex>ut</ex></w> 
+	<lb n="27" break="yes"/><w>invita</w> <w>nu<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>errare</w> <w>felicis</w> <w>est</w> <w>ita</w> <w>errorem</w> <w>q<ex>uam</ex></w> <w>primum</w> <w>emendare</w> <w>sapientis</w> 
+	<lb n="28" break="yes"/><w>parentum</w> <w>illa</w> <w>deliberatio</w> <w>fuit</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>iam</w> <w>cunctatio</w> <w>parricidiorum</w> <w>est</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>tate</w> <w>lap
+	<lb n="29" break="no"/>si</w> <w>sumus</w> <w><choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>gestate</w> <w>correcti</w> <w>in</w> <w>hoc</w> <w>vos</w> <w>exoramus</w> <w>loco</w> <w>in</w> <w>quo</w> <w>etiam</w> <w>hostes</w> <w>supe
+	<lb n="30" break="no"/>rati</w> <w>non</w> <w>frustra</w> <w>supplicaverunt</w> <w>ego</w> <w>ille</w> <w>tristis</w> <w>et</w> <w>serius</w> <w>cum</w> <w>abdicarem</w> <w>tam<ex>en</ex></w> 
+	<lb n="31" break="yes"/><w>flevi</w> <w>et</w> <w>semper</w> <w>ex</w> <w>eo</w> <w>licet</w> <w>tacitus</w> <w>ingemui</w> <w>et</w> <w>o<choice><orig>p</orig><reg>pp</reg></choice>ortunum</w> <w>rus</w> <w>restitutionis</w> 
+	<lb n="32" break="yes"/><w>optavi</w> <w>restituet</w> <w>nobis</w> <w>filios</w> <w>auctoritas</w> <w>publica</w> <w>ta<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>alia</w> <w>natura</w> <w>vereor</w> <w>ia<ex>m</ex></w> 
+	<lb n="33" break="yes"/><w>p<ex>atres</ex></w> <w>c<ex>onscripti</ex></w> <w>ne</w> <w>sapientior</w> <w>videatur</w> <w>et</w> <w>certior</w> <w>ille</w> <w>abdicatorum</w> <w>senatus</w> <w>fateor</w> <w>arma
+	<lb n="34" break="no"/>torum</w> <w>facie</w> <w>non</w> <w>i<ex>m</ex>merito</w> <w>terremur</w> <w>enim</w> <w>suam</w> <w>mortem</w> <w>quem</w> <w>admodum</w> <w>pos
+	<lb n="35" break="no"/>sum</w> <w>te</w> <w>fili</w> <w>carissime</w> <w>vel</w> <w>in</w> <w>morte</w> <w>revocabo</w> <w>inferam</w> <w>maiorum</w> <w>sepul<choice><orig>ch</orig><reg>c</reg></choice>ris</w> <w>et</w> <w>elogio</w> 
+	<lb n="36" break="yes"/><w>q<ex>uo</ex>d</w> <w>optasti</w> <w>nomen</w> <w>inscribam</w> 
+	<lb n="37" break="yes"/></ab><ab n="19" type="decl"><hi rend="red"><w>abdicat</w> <w>immolandus</w></hi> 
+	<lb n="38" break="yes"/><w>in</w> <w>pestilentia</w> <w>responsum</w> <w>est</w> <w>finem</w> <w>futurum</w> <w>immolato</w> <w>eo</w> <w>qui</w> <w>patrem</w> <w>non</w> <w>habe
+	<lb n="39" break="no"/>ret</w> <w>offert</w> <w>se</w> <w>abdicatus</w> <w>qui</w> <w>abdicavit</w> <w>contradici</w> <w>amplexus</w> <w>sum</w> <w>mortem</w> <w>usq<ex>ue</ex></w> 
+	<lb n="40" break="yes"/><w>adhuc</w> <w>necessariam</w> <w>nunc</w> <w>etiam</w> <w>gloriosum</w> <w>mori</w> <w>prohibes</w> <w>et</w> <w>intervenis</w> <w>quomin<ex>us</ex></w> 
+	
+	
+	<pb n="85v"/>
+	
+	<lb n="1" break="yes"/><w>spiritum</w> <w>quem</w> <w>fortun<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>me<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>debeo</w> <w>patriae</w> <w>profundam</w> <w>quotiens</w> <w>te</w> <w>video</w> <w>totie<ex>n</ex>s</w> 
+	<lb n="2" break="yes"/><w>me</w> <w>scio</w> <w>patrem</w> <w>non</w> <w>habere</w> 
+	<lb n="3" break="yes"/></ab><ab n="20" type="decl"><hi rend="red"><w>prostitutus</w> <w>ex</w> <w>geminis</w></hi> 
+	<lb n="4" break="yes"/><w>ex</w> <w>duobus</w> <w>geminis</w> <w>alter</w> <w>prostat</w> <w>alter</w> <w>reddit</w> <w>in</w> <w>senatu</w> <w>causas</w> <w>mortis</w> <w>volunta
+	<lb n="5" break="no"/>ri<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>utinam</w> <w>quidem</w> <w>p<ex>atres</ex></w> <w>c<ex>onscripti</ex></w> <w>mori</w> <w>vellet</w> <w>frater</w> <w>homini</w> <w>verecundo</w> <w>cui</w> <w>necesse</w> <w>est</w> 
+	<lb n="6" break="yes"/><w>ut</w> <w>ea</w> <w>de</w> <w>germano</w> <w>meo</w> <w>dicam</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>tanti</w> <w>habeo</w> <w>perire</w> <w>ne</w> <w>videam</w> <w>nostis</w> <w>nos</w> <w>p<ex>atres</ex></w> <w>c<ex>onscripti</ex></w> 
+	<lb n="7" break="yes"/><w>enim</w> <w>pluribus</w> <w>noti</w> <w>sumus</w> <w>quam</w> <w>et</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>tas</w> <w>et</w> <w>verecundia</w> <w>postulat</w> <w>raptus</w> <w>est</w> 
+	<lb n="8" break="yes"/><w>mihi</w> <w>frater</w> <w>pessimis</w> <w>comitibus</w> <w>et</w> <w>perditis</w> <w>duce</w> <w>na<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>luxuria</w> <w>et</w> <w>subremiga<ex>n</ex>te</w> 
+	<lb n="9" break="yes"/><w>seu</w> <w>potius</w> <w>velificante</w> <w>nequitia</w> <w>in</w> <w>illos</w> <w>impudiciti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>scopulos</w> <w>et</w> <w>ipsa</w> <w>fam<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>suae</w> 
+	<lb n="10" break="yes"/><w>naufragia</w> <w>delatus</w> <w>pro<choice><orig>h</orig><reg></reg></choice></w> <w>deum</w> <w>atq<ex>ue</ex></w> <w>hominum</w> <w>fidem</w> <w>qua</w> <w>in</w> <w>civitate</w> <w>prostitui</w> 
+	<lb n="11" break="yes"/><w>licet</w> <w>mori</w> <w>non</w> <w>licet</w> <w>an</w> <w>utru<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>congruere</w> <w>aestimatis</w> <w>huic</w> <w>ordini</w> <w>et</w> <w>vitam</w> 
+	<lb n="12" break="yes"/><w>turpem</w> <w>permittere</w> <w>et</w> <w>ab</w> <w>honesta</w> <w>morte</w> <w>prohibere</w> <w>vivere</w> <w>non</w> <w>sustinerem</w> <w>si</w> 
+	<lb n="13" break="yes"/><w>hoc</w> <w>in</w> <w>mea</w> <w>vel</w> <w>sorore</w> <w>vidissem</w> <w>improbi</w> <w>flagitatores</w> <w>qui</w> <w>detrimenta</w> <w>pueriti<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> 
+	<lb n="14" break="yes"/><w>su<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>mutuo</w> <w>dedecore</w> <w>compensant</w> 
+	<lb n="15" break="yes"/></ab><ab n="21" type="decl"><hi rend="red"><w>pictura</w> <w>viri</w> <w>fortis</w></hi> 
+	<lb n="16" break="yes"/><w>virorum</w> <w>fortium</w> <w>facta</w> <w>pingantur</w> <w>viri</w> <w>fortes</w> <w>de</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>armis</w> <w>contendant</w> 
+	<lb n="17" break="yes"/><w>fratres</w> <w>fortiter</w> <w>fecerunt</w> <w>pater</w> <w>a</w> <w>minori</w> <w>petit</w> <w>ut</w> <w>maiori</w> <w>cederet</w> <w>non</w> <w>impe
+	<lb n="18" break="no"/>ravit</w> <w>pr<choice><orig>e</orig><reg>oe</reg></choice>lio</w> <w>interfecit</w> <w>maior</w> <w>minor</w> <w>petit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>ne</w> <w>facta</w> <w>pingantur</w> <w>pater</w> 
+	<lb n="19" break="yes"/><w>siquid</w> <w>precibus</w> <w>contra</w> <w>filium</w> <w>meum</w> <w>possem</w> <w>domi</w> <w>monere</w> <w>quam</w> <w>publice</w> <w>maluisse<ex>m</ex></w> 
+	<lb n="20" break="yes"/><w>nihil</w> <w>audeo</w> <w>filio</w> <w>dicere</w> <w>q<ex>uam</ex></w> <w>quod</w> <w>ab</w> <w>ipso</w> <w>nuper</w> <w>audivi</w> <w>leges</w> <w>uti</w> <w>valeant</w> <w>fuit</w> 
+	<lb n="21" break="yes"/><w>ille</w> <w>amator</w> <w>et</w> <w>cultor</w> <w>suorum</w> <w>et</w> <w>qui</w> <w>mori</w> <w>mallet</w> <w>q<ex>uam</ex></w> <w>quicq<ex>uam</ex></w> <w>mali</w> <w>facere</w> <w>cede</w> 
+	<lb n="22" break="yes"/><w>fratri</w> <w>cede</w> <w>vel</w> <w>patri</w> <w>victor</w> <w>eris</w> <w>mihi</w> <w>crede</w> <w>si</w> <w>cesseris</w> <w>didici</w> <w>salvis</w> <w>legibus</w> 
+	<lb n="23" break="yes"/><w>parricidium</w> <w>posse</w> <w>committi</w> <w>cetera</w> <w>iam</w> <w>non</w> <w>sunt</w> <w>narranda</w> <w>pingenda</w> <w>sunt</w> <w>va
+	<lb n="24" break="no"/>na</w> <w>et</w> <w>inepta</w> <w>formido</w> <w>est</w> <w>videre</w> <w>non</w> <w>posse</w> <w>q<ex>uo</ex>d</w> <w>feceris</w> <w>et</w> <w>colorem</w> <w>timere</w> <w>per</w> 
+	<lb n="25" break="yes"/><w>q<ex>uo</ex>d</w> <w>sanguinem</w> <w>simuletur</w> <w>hoc</w> <w>factum</w> <w>non</w> <w>tantum</w> <w>colore</w> <w>sed</w> <w>aere</w> <w>si</w> <w>possit</w> <w>et</w> <w>la
+	<lb n="26" break="no"/>pide</w> <w>et</w> <w>qu<choice><orig>e</orig><reg>ae</reg></choice>cu<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>nostrorum</w> <w>corporum</w> <w>materia</w> <w>vel</w> <w>ars</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mula</w> <w>est</w> <w>infecta</w> 
+	<lb n="27" break="yes"/><w>quemadmodum</w> <w>possunt</w> <w>esse</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>facta</w> <w>sunt</w> <w>picta</w> <w>quidem</w> <w>interim</w> <w>non</w> <w>sunt</w> 
+	<lb n="28" break="yes"/><w>sed</w> <w>in</w> <w>omnibus</w> <w>pectoribus</w> <w>incisa</w> <w>sunt</w> <w>in</w> <w>oculis</w> <w>in</w> <w>animis</w> <w>in</w> <w>ipsis</w> <w>deniq<ex>ue</ex></w> <w>tuis</w> <w>ma
+	<lb n="29" break="no"/>nibus</w> <w>tu</w> <w>victoria</w> <w>clarus</w> <w>es</w> <w>ille</w> <w>innocentia</w> 
+	<lb n="30" break="yes"/></ab><ab n="22" type="decl"><hi rend="red"><w>privignus</w> <w>tyrannicida</w></hi> 
+	<lb n="31" break="yes"/><w>tyrannicid<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>cedere</w> <w>liceat</w> <w>qui</w> <w>novercam</w> <w>habebat</w> <w>occidit</w> <w>tyra<ex>n</ex>
+	<lb n="32" break="no"/>num</w> <w>cessit</w> <w>noverc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>illa</w> <w>privigni</w> <w>nuptias</w> <w>petit</w> <w>contendunt</w> <w>quis</w> <w>contra
+	<lb n="33" break="no"/>dicat</w> <w>maritus</w> <w>an</w> <w>privignus</w> <w>cum</w> <w>suo</w> <w>parente</w> <w>contendit</w> <w>ut</w> <w>mihi</w> <w>videatur</w> <w>me
+	<lb n="34" break="no"/>lior</w> <w>adhuc</w> <w>privignus</w> <w>esse</w> <w>q<ex>uam</ex></w> <w>filius</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pit</w> <w>et</w> <w>hic</w> <w>me</w> <w>sic</w> <w>habere</w> <w>despectui</w> <w>ut</w> <w>qui</w> 
+	<lb n="35" break="yes"/><w>noverc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>beneficium</w> <w>se</w> <w>dedisse</w> <w>l<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>tatur</w> <w>a</w> <w>me</w> <w>nec</w> <w>accipere</w> <w>dignetur</w> <w>ego</w> <w>primus</w> 
+	<lb n="36" break="yes"/><w>in</w> <w>domo</w> <w>mea</w> <w>fateor</w> <w>erravi</w> <w>qui</w> <w>uxorem</w> <w>duxi</w> <w>senex</w> <w>cum</w> <w>iam</w> <w>esset</w> <w>in</w> <w>domo</w> <w>fi
+	<lb n="37" break="no"/>lius</w> <w>et</w> <w>quidem</w> <w>iuvenis</w> <w>dum</w> <w>nimium</w> <w>confido</w> <w>pietati</w> <w>oculos</w> <w>mulieris</w> <w>incestos</w> 
+	<lb n="38" break="yes"/><w>et</w> <w>infanda</w> <w>desideria</w> <w>nutrivi</w> <w>noverc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>cessit</w> <w>cum</w> <w>haberet</w> <w>in</w> <w>domo</w> <w>pa
+	<lb n="39" break="no"/>trem</w> <w>cui</w> <w>nemo</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ferret</w> <w>in</w> <w>tali</w> <w>honore</w> <w>vel</w> <w>matrem</w> <w>non</w> <w>privignum</w> <w>ante</w> <w>temp
+		<lb n="40" break="no"/>tavit</w> <w>quis</w> <w>rogo</w> <w>fructus</w> <w>est</w> <w>impetrare</w> <w>nuptias</w> <w>hominis</w> <w>inviti</w> <w>uter</w> <w><unclear reason="vos or nos?">v</unclear>os</w> <w>nobis</w> 
+	
+
+	<pb n="86r"/>
+	
+	<lb n="1" break="yes"/><w>actor</w> <w>utilior</w> <w>videretur</w> <w>et</w> <w>verior</w> <w>maritus</w> <w>an</w> <w><choice><orig>celeps</orig><reg>caelebs</reg></choice></w> <w>filius</w> <w>familias</w> <w>an</w> <w>pater</w> 
+	<lb n="2" break="yes"/><w>senior</w> <w>an</w> <w>iuvenis</w> <w>qui</w> <w>repudiatur</w> <w>an</w> <w>qui</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ponitur</w> <w>qui</w> <w>beneficium</w> <w>dedit</w> 
+	<lb n="3" break="yes"/><w>an</w> <w>qui</w> <w>accepit</w> <w>iniuriam</w> <w>mea</w> <w>uxor</w> <w>abducitur</w> <w>tu</w> <w>quis</w> <w>es</w> <w>meum</w> <w>cubile</w> <w>dese
+	<lb n="4" break="no"/>ritur</w> <w>ad</w> <w>te</w> <w>dolor</w> <w>iste</w> <w>quid</w> <w>pertinet</w> <w>ego</w> <w>inquit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>cessi</w> <w>tu</w> <w>ergo</w> <w>non</w> <w>po
+	<lb n="5" break="no"/>tes</w> <w>revocare</w> <w>q<ex>uo</ex>d</w> <w>dederis</w> <w>eam</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>repr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>hendere</w> <w>quam</w> <w>paulo</w> <w>ante</w> <w>laudaveris</w> 
+	<lb n="6" break="yes"/><w>cavendum</w> <w>tibi</w> <w>est</w> <w>ne</w> <w>si</w> <w>victus</w> <w>ut</w> <w>sunt</w> <w>iudiciorum</w> <w>incerta</w> <w>discesseris</w> <w>dicaris</w> 
+	<lb n="7" break="yes"/><w>iudicio</w> <w>quoq<ex>ue</ex></w> <w>sic</w> <w>cessisse</w> <w>quasi</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>sic</w> <w>est</w> <w>livoris</w> <w>ingenium</w> <w>omnia</w> <w>suspica<ex>n</ex>
+	<lb n="8" break="no"/>tur</w> <w>qui</w> <w>nihil</w> <w>audiunt</w> <w>das</w> <w>amanti</w> <w>solatium</w> <w>affers</w> <w>in</w> <w>amore</w> <w>vel</w> <w>iurgium</w> 
+	<lb n="9" break="yes"/></ab><ab n="23" type="decl"><hi rend="red"><w>peregrini</w> <w>cruciarius</w></hi> 
+	<lb n="10" break="yes"/><w>civitatem</w> <w>peregrinus</w> <w>usurpans</w> <w>ven<del>i</del><add hand="#h2" place="overwrite">e</add>at</w> <w>liceat</w> <w>in</w> <w>matribus</w> <w>adulteria</w> <w>vindicare</w> <w>et</w> 
+	<lb n="11" break="yes"/><w>de</w> <w>iniusto</w> <w>supplicio</w> <w>tribunos</w> <w>appellare</w> <w>qui</w> <w>videbatur</w> <w>de</w> <w>civibus</w> <w>natus</w> <w>cum</w> <w>ab
+	<lb n="12" break="no"/>sente</w> <w>patre</w> <w>eam</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>mater</w> <w>videbatur</w> <w>in</w> <w>adulterio</w> <w>depr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>hensa<ex>m</ex></w> <w>insequeretur</w> <w>ar
+	<lb n="13" break="no"/>matus</w> <w>at</w> <w>illa</w> <w>non</w> <w>es</w> <w>meus</w> <w>perseveravit</w> <w>et</w> <w>occidit</w> <w>postea</w> <w>iudicio</w> <w>peregrinus</w> 
+	<lb n="14" break="yes"/><w>pronuntiatus</w> <w>emptus</w> <w>est</w> <w>ab</w> <w>interfect<del>o</del><add hand="#h2" place="overwrite">e</add></w> <w>patre</w> <w>ab</w> <w>eodem</w> <w>agitur</w> <w>in</w> <w>crucem</w> <w>rever
+	<lb n="15" break="no"/>sus</w> <w>peregre</w> <w>is</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pater</w> <w>videbatur</w> <w>appellat</w> <w>tribunos</w> <w>de</w> <w>iniusto</w> <w>supplicio</w> <w>vix</w> 
+	<lb n="16" break="yes"/><w>dum</w> <w>reversus</w> <w>in</w> <w>patriam</w> <w>si</w> <w>tamen</w> <w>hanc</w> <w>adversarii</w> <w>vel</w> <w>meam</w> <w>patriam</w> <w>esse</w> <w>conce
+	<lb n="17" break="no"/>dunt</w> <w>parabam</w> <w>tribunum</w> <w>cognito</w> <w>filii</w> <w>mei</w> <w>casu</w> <w>appellare</w> <w>vos</w> <w>deinde</w> <w>iusto</w> <w>sup
+	<lb n="18" break="no"/>plicio</w> <w>servitutis</w> <w>sed</w> <w>quatenus</w> <w>socer</w> <w>s<choice><orig>e</orig><reg>ae</reg></choice>vit</w> <w>ut</w> <w>nec</w> <w>generum</w> <w>vellet</w> <w>agnoscere</w> <w>nec</w> 
+	<lb n="19" break="yes"/><w>nepotem</w> <w>det</w> <w>&amp;</w> <w>mihi</w> <w>veniam</w> <w>dolores</w> <w>si</w> <w>non</w> <w>desunt</w> <w>filio</w> <w>bene</w> <w>de</w> <w>me</w> <w>bene</w> <w>de</w> <w>le
+	<lb n="20" break="no"/>gibus</w> <w>merito</w> <w>cum</w> <w>ipse</w> <w>vindictam</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>rat</w> <w>exigere</w> <w>filiae</w> <w>vel</w> <w>nocenti</w> <w>huius</w> <w>ego</w> 
+	<lb n="21" break="yes"/><w>legibus</w> <w>filiam</w> <w>duxi</w> <w>eamq<ex>ue</ex></w> <w>pr<choice><orig>e</orig><reg>ae</reg></choice>gnantem</w> <w>simul</w> <w>vidimus</w> <w>et</w> <w>uteri</w> <w>decem</w> <w>menses</w> 
+	<lb n="22" break="yes"/><w>ambo</w> <w>numeravimus</w> <w>et</w> <w>natum</w> <w>ex</w> <w>ea</w> <w>pignus</w> <w>accepimus</w> <w>sed</w> <w>cum</w> <w>me</w> <w>necessitas</w> 
+	<lb n="23" break="yes"/><w>peregrinationis</w> <w>a<choice><orig>dd</orig><reg>bd</reg></choice>uceret</w> <w>commendavi</w> <w>avo</w> <w>filium</w> <w>meum</w> <w>adulescentulo</w> <w>p<ex>rae</ex>
+	<lb n="24" break="no"/>cepi</w> <w>in</w> <w>domo</w> <w>partibus</w> <w>fungeretur</w> <w>et</w> <w>plus</w> <w>illi</w> <w>necessitas</w> <w>imponerem</w> <w>sententia<ex>m</ex></w> 
+	<lb n="25" break="yes"/><w>vestra</w> <w>legis</w> <w>ingessi</w> <w>denuntiavi</w> <w>postremo</w> <w>futurum</w> <w>ipsius</w> <w>crimen</w> <w>si</w> <w>non</w> <w>patri</w> 
+	<lb n="26" break="yes"/><w>paruisset</w> <w>et</w> <w>legi</w> <w>adulteram</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>per</w> <w>insanam</w> <w>libidinem</w> <w>stimuli</w> <w>tanti</w> <w>furo
+	<lb n="27" break="no"/>ris</w> <w>exarserat</w> <w>ut</w> <w>nec</w> <w>scios</w> <w>agnosceret</w> <w>interemit</w> <w>peregrinus</w> <w>esse</w> <w>filius</w> <w>me<ex>us</ex></w> 
+	<lb n="28" break="yes"/><w>post</w> <w>adulterium</w> <w>matris</w> <w>sua</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>pit</w> <w>occidit</w> <w>inquit</w> <w>filiam</w> <w>meam</w> <w>grave</w> <w>est</w> 
+	<lb n="29" break="yes"/><w>tribuni</w> <w>in</w> <w>servitutem</w> <w>defendere</w> <w>q<ex>uo</ex>d</w> <w>in</w> <w>libertatem</w> <w>co<ex>m</ex>miseris</w> <w>merito</w> <w>mu
+	<lb n="30" break="no"/>lier</w> <w>suos</w> <w>iam</w> <w>negabat</w> <w>esse</w> <w>quos</w> <w>l<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>serat</w> <w>ipsa</w> <w>post</w> <w>tantum</w> <w>furorem</w> <w>iam</w> <w>sua</w> <w>no<ex>n</ex></w> 
+	<lb n="31" break="yes"/><w>erat</w> <w>illa</w> <w>dixit</w> <w>meus</w> <w>non</w> <w>est</w> <w>at</w> <w>ego</w> <w>dico</w> <w>meus</w> <w>est</w> <w>mater</w> <w>armatum</w> <w>timuit</w> 
+	<lb n="32" break="yes"/><w>sed</w> <w>pater</w> <w>servientem</w> <w>q<ex>uo</ex>d</w> <w>est</w> <w>maius</w> <w>agnoscit</w> 
+	<lb n="33" break="yes"/></ab><ab n="24" type="decl"><hi rend="red"><w>indemnatus</w> <w>carnificem</w> <w>recusa<del><unclear reason="Letter t in rasura.">t</unclear></del><add hand="#h2" place="above">n</add><add hand="#h2" place="inline">s</add></w></hi> 
+	<lb n="34" break="yes"/><w>lege</w> <w>indemnatorum</w> <w>interficiendum</w> <w>pater</w> <w>filium</w> <w>carnifici</w> <w>tradidit</w> <w>ille</w> 
+	<lb n="35" break="yes"/><w>vult</w> <w>manu</w> <w>patris</w> <w>interfici</w> <w>pater</w> <w>ipse</w> <w>qui</w> <w>fuerat</w> <w>offensus</w> <w>ultro</w> <w>se</w> <w>non</w> <w>posse</w> 
+	<lb n="36" break="yes"/><w>facere</w> <w>q<ex>uo</ex>d</w> <w>c<choice><orig>e</orig><reg>oe</reg></choice>perat</w> <w>confitetur</w> <w>quam</w> <w>morigerum</w> <w>sibi</w> <w>filium</w> <w>senex</w> <w>iste</w> <w>forma
+	<lb n="37" break="no"/>rit</w> <w>nolo</w> <w>aliud</w> <w>indicium</w> <w>quam</w> <w>q<ex>uod</ex></w> <w>ne</w> <w>patrem</w> <w>l<choice><orig>e</orig><reg>ae</reg></choice>dere</w> <w>nec</w> <w>mortem</w> <w>recusavit</w> <w>mo
+	<lb n="38" break="no"/>ri</w> <w>iussus</w> <w>adulescens</w> <w>in</w> <w>primis</w> <w>adhuc</w> <w>annis</w> <w>quo</w> <w>tempore</w> <w>et</w> <w>vita</w> <w>carissima</w> <w>est</w> 
+	<lb n="39" break="yes"/><w>et</w> <w>mors</w> <w>acerba</w> <w>non</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ro</w> <w>vitam</w> <w>si</w> <w>potest</w> <w>fieri</w> <w>ad</w> <w>hostiam</w> <w>quam</w> <w>diis</w> <w>penatibus</w> 
+	<lb n="40" break="yes"/><w>novit</w> <w>satis</w> <w>sibi</w> <w>fiat</w> <w>meo</w> <w>sanguine</w> <w>immo</w> <w>et</w> <w>ipsa</w> <w>suo</w> <w>du<ex>m</ex>modo</w> <w>ne</w> <w>per</w> <w>manum</w> <w>vile<ex>m</ex></w> 
+	
+
+	<pb n="86v"/>
+	
+	<lb n="1" break="yes"/><w>ius</w> <w>pietatis</w> <w>infuscet</w> <w>quia</w> <w>nec</w> <w>iuris</w> <w>ratio</w> <w>permittit</w> <w>ut</w> <w>adhibeatur</w> <w>adversum</w> <w>eu<ex>m</ex></w> 
+	<lb n="2" break="yes"/><w>carnifex</w> <w>in</w> <w>quem</w> <w>non</w> <w>fuit</w> <w>iudex</w> <w>faciat</w> <w>vit<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>finem</w> <w>qui</w> <w>originem</w> <w>fecit</w> <w>non</w> 
+	<lb n="3" break="yes"/><w>de</w> <w>more</w> <w>cum</w> <w>patre</w> <w>sed</w> <w>de</w> <w>mortis</w> <w>patris</w> <w>genere</w> <w>dissentio</w> <w>eripere</w> <w>vis</w> <w>vitam</w> 
+	<lb n="4" break="yes"/><w>quam</w> <w>dedisti</w> <w>non</w> <w>inficiabor</w> <w>quid</w> <w>per</w> <w>alterum</w> <w>petis</w> <w>ius</w> <w>q<ex>uo</ex>d</w> <w>tibi</w> <w>vindicas</w> <w>experire</w> 
+	<lb n="5" break="yes"/><w>nemo</w> <w>te</w> <w>prohibet</w> <w>occide</w> <w>si</w> <w>potes</w> <w>confitere</w> <w>non</w> <w>potes</w> <w>nemo</w> <w>u<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>magistratum</w> <w>fe
+	<lb n="6" break="no"/>cit</w> <w>vicarium</w> <w>nec</w> <w>in</w> <w>alio</w> <w>militavit</w> <w>nec</w> <w>sacra</w> <w>gentilia</w> <w>insertiva</w> <w>stirpe</w> <w>corrupit</w> 
+	<lb n="7" break="yes"/><w>vita</w> <w>mihi</w> <w>tollitur</w> <w>sed</w> <w>manus</w> <w>paterna</w> <w>debet</w> <w>non</w> <w>potes</w> <w>pater</w> <w>legis</w> <w>eius</w> <w>dem&amp;</w> <w>in
+	<lb n="8" break="no"/>rogare</w> <w>supplicium</w> <w>et</w> <w>denegare</w> <w>solatium</w> <w>placabo</w> <w>dexteram</w> <w>meam</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>do</w> <w>tantis
+	<lb n="9" break="no"/>per</w> <w>exosculer</w> <w>o</w> <w>manus</w> <w>olim</w> <w>mea</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>me</w> <w>parvulum</w> <w>s<choice><orig>e</orig><reg>ae</reg></choice>pe</w> <w>gestasti</w> <w>quam</w> <w>s<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>pe</w> 
+	<lb n="10" break="yes"/><w>la<choice><orig>chry</orig><reg>cri</reg></choice>mis</w> <w>puer</w> <w>lavi</w> <w>erras</w> <w>pater</w> <w>qui</w> <w>facilius</w> <w>existimas</w> <w>huiusmodi</w> <w>c<choice><orig>e</orig><reg>ae</reg></choice>dem</w> 
+	<lb n="11" break="yes"/><w>videre</w> <w>quam</w> <w>facere</w> 
+	<lb n="12" break="yes"/></ab><ab n="25" type="decl"><hi rend="red"><w>fortis</w> <w>duo</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mia</w></hi> 
+	<lb n="13" break="yes"/><w>viro</w> <w>forti</w> <w>duo</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mia</w> <w>raptorum</w> <w>lex</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na</w> <w>raptoris</w> <w>in</w> <w>diem</w> <w>xxx</w> <w>differatur</w> <w>ex</w> 
+	<lb n="14" break="yes"/><w>duobus</w> <w>fratribus</w> <w>unus</w> <w>rapuit</w> <w>rapta</w> <w>mortem</w> <w>optavit</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na</w> <w>delata</w> <w>est</w> <w>alter</w> 
+	<lb n="15" break="yes"/><w>fortiter</w> <w>fecit</w> <w>primo</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>petit</w> <w>fratris</w> <w>incolumitatem</w> <w>impetravit</w> <w>secu<ex>n</ex>do</w> 
+	<lb n="16" break="yes"/><w>rapt<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>mortem</w> <w>postulat</w> <w>frater</w> <w>contradicit</w> <w>dum</w> <w>dies</w> <w>computo</w> <w>et</w> <w>a</w> <w>rapta</w> <w>bo
+	<lb n="17" break="no"/>num</w> <w>nuntium</w> <w>spero</w> <w>subito</w> <w>nuntiatur</w> <w>fratrem</w> <w>meum</w> <w>venisse</w> <w>victorem</w> <w>peti
+	<lb n="18" break="no"/>tam</w> <w>mihi</w> <w>et</w> <w>veniam</w> <w>putavi</w> <w>pariter</w> <w>et</w> <w>nuptias</w> <w>nec</w> <w>dii</w> <w>sinant</w> <w>ut</w> <w>controver
+	<lb n="19" break="no"/>so</w> <w>iure</w> <w>pro</w> <w>raptore</w> <w>rapta</w> <w>teneatur</w> <w>interdum</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>stat</w> <w>ad</w> <w>gloriam</w> <w>non</w> <w>certare</w> 
+	<lb n="20" break="yes"/><w>quam</w> <w>vincere</w> <w>ego</w> <w>nisi</w> <w>rebus</w> <w>ipsis</w> <w>ostendo</w> <w>quod</w> <w>amavi</w> <w>confitebor</w> <w>iniuria<ex>m</ex></w> 
+	<lb n="21" break="yes"/><w>me</w> <w>fecisse</w> <w>q<ex>uod</ex></w> <w>rapui</w> <w>lex</w> <w>dixit</w> <w>raptor</w> <w>aut</w> <w>pereat</w> <w>aut</w> <w>durat</w> <w>ergo</w> <w>raptori</w> 
+	<lb n="22" break="yes"/><w>si</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na</w> <w>dimittitur</w> <w>rapt<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>debetur</w> 
+	<lb n="23" break="yes"/></ab><ab n="26" type="decl"><hi rend="red"><w>tria</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mia</w> <w>sacerdotis</w></hi> 
+	<lb n="24" break="yes"/><w>viro</w> <w>forti</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>vicarium</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>n<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>liceat</w> <w>offerre</w> <w>sacerdos</w> <w>martis</w> <w>damnatum</w> <w>liberet</w> 
+	<lb n="25" break="yes"/><w>sacerdos</w> <w>martis</w> <w>fortiter</w> <w>fecit</w> <w>tres</w> <w>liberi</w> <w>eius</w> <w>deseruerunt</w> <w>unum</w> <w>ser
+	<lb n="26" break="no"/>vavit</w> <w>privilegio</w> <w>sacerdoti</w> <w>alterum</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>viri</w> <w>fortis</w> <w>offert</w> <w>se</w> <w>pro</w> <w>tertio</w> 
+	<lb n="27" break="yes"/><w>vicarium</w> <w>facilius</w> <w>fuerat</w> <w>amittere</w> <w>filios</w> <w>q<ex>uam</ex></w> <w>eligere</w> <w>hos</w> <w>enim</w> <w>pueros</w> <w>in</w> <w>ipsis</w> 
+	<lb n="28" break="yes"/><w>sacris</w> <w>deum</w> <w>et</w> <w>altaribus</w> <w>educavi</w> <w>ea</w> <w>propter</w> <w>nimis</w> <w>fretus</w> <w>auxiliis</w> <w>deorum</w> 
+	<lb n="29" break="yes"/><w>in</w> <w>aciem</w> <w>duxi</w> <w>pueros</w> <w>adhuc</w> <w>teneros</w> <w>quorum</w> <w>pater</w> <w>adeo</w> <w>iuvenis</w> <w>inventus</w> 
+	<lb n="30" break="yes"/><w>est</w> <w>ut</w> <w>et</w> <w>militare</w> <w>posset</w> <w>et</w> <w>vincere</w> <w>resisto</w> <w>orbitatis</w> <w>non</w> <w>iure</w> <w>v<ex>e</ex>l</w> <w>sanguine</w> 
+	<lb n="31" break="yes"/><w>dulcis</w> <w>est</w> <w>omnibus</w> <w>vita</w> <w>et</w> <w>iucunda</w> <w>vel</w> <w>miseris</w> <w>huius</w> <w>lucis</w> <w>usura</w> <w>nec</w> <w>invenio</w> <w>quis</w> 
+	<lb n="32" break="yes"/><w>possit</w> <w>vicarius</w> <w>esse</w> <w>nisi</w> <w>filius</w> <w>mihi</w> <w>videtur</w> <w>et</w> <w>ille</w> <w>qui</w> <w>primus</w> <w>hanc</w> <w>condidit</w> <w>le
+	<lb n="33" break="no"/>gem</w> <w>nihil</w> <w>aliud</w> <w>cogitasse</w> <w>q<ex>uam</ex></w> <w>patrem</w> <w>meum</w> <w>nunc</w> <w>sanguinem</w> <w>fundo</w> <w>que<ex>m</ex></w> <w>fun
+	<lb n="34" break="no"/>dere</w> <w>in</w> <w>bello</w> <w>nolui</w> <w>num</w> <w>inimicum</w> <w>est</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>ut</w> <w>patiar</w> <w>pro</w> <w>liberis</w> <w>meis</w> <w>q<ex>uo</ex>d</w> <w>su<ex>m</ex></w> 
+	<lb n="35" break="yes"/><w>passus</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ne</w> <w>pro</w> <w>vestris</w> <w>magis</w> <w>religio</w> <w>polluitur</w> <w>funestato</w> <w>quam</w> <w>mortuo</w> <w>sacer
+	<lb n="36" break="no"/>dote</w> <w>quod</w> <w>si</w> <w>religio</w> <w>vos</w> <w>tenet</w> <w>etiam</w> <w>liberis</w> <w>sacerdotis</w> <w>moneo</w> <w>parcatis</w> <w>ipsi</w> <w>quoq<ex>ue</ex></w> 
+	<lb n="37" break="yes"/><w>omnia</w> <w>semper</w> <w>in</w> <w>templo</w> <w>pro</w> <w>sacerdote</w> <w>gesserunt</w> <w>agricol<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>antiquas</w> <w>arbores</w> 
+	<lb n="38" break="yes"/><w>e<choice><orig>x</orig><reg>xs</reg></choice>tirpant</w> <w>ut</w> <w>novas</w> <w>inserant</w> <w>horum</w> <w>virtus</w> <w>expectabitur</w> <w>nostra</w> <w>delabitur</w> 
+	<lb n="39" break="yes"/><w>melior</w> <w>quidem</w> <w>fama</w> <w>seniorum</w> <w>specta</w> <w>in</w> <w>minoribus</w> <w>maior</w> <w>est</w> <w>recordatio</w> <w>ve
+	<lb n="40" break="no"/>ni<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>magnus</w> <w>est</w> <w>stimulus</w> <w>industri<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>non</w> <w>interest</w> <w>orbitas</w> <w>uno</w> <w>me</w> <w>vulnere</w> <w>fe
+
+
+	<pb n="87r" break="no"/>
+
+	<lb n="1" break="no"/>riant</w> <w>an</w> <w>pluribus</w> <w>dedisti</w> <w>mihi</w> <w>liberos</w> <w>fortuna</w> <w>rapuisti</w> <w>concedit</w> <w>alios</w> <w>res</w> <w>p<ex>ublica</ex></w> 
+	<lb n="2" break="yes"/><w>nec</w> <w>hos</w> <w>relinques</w> <w>quis</w> <w>me</w> <w>feriet</w> <w>carnifex</w> <w>innocentem</w> <w>an</w> <w>co<ex>m</ex>milito</w> <w>laureatu<ex>m</ex></w> 
+	<lb n="3" break="yes"/><w>ubi</w> <w>deniq<ex>ue</ex></w> <w>hic</w> <w>inter</w> <w>aras</w> <w>et</w> <w>altaria</w> <w>ubi</w> <w>publica</w> <w>vota</w> <w>suscepi</w> <w>an</w> <w>in</w> <w>campo</w> <w>ubi</w> 
+	<lb n="4" break="yes"/><w>nuper</w> <w>aquilas</w> <w>et</w> <w>signa</w> <w>protexi</w> <w>vos</w> <w>duo</w> <w>liberi</w> <w>omnibus</w> <w>invitabo</w> <w>nisi</w> <w>hunc</w> <w>et</w> 
+	<lb n="5" break="yes"/><w>ipsi</w> <w>vit<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>me<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>fero</w> <w>factus</w> <w>est</w> <w>mihi</w> <w>suo</w> <w>periculo</w> <w>carior</w> <w>sed</w> <w>&amp;</w><w>meo</w> <w>vos</w> <w>mihi</w> 
+	<lb n="6" break="yes"/><w>honorem</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>statis</w> <w>hic</w> <w>sanguine</w> <w>si</w> <w>me</w> <w>non</w> <w>licet</w> <w>pro</w> <w>filio</w> <w>peribo</w> <w>cum</w> <w>filio</w> 
+	<lb n="7" break="yes"/></ab><ab n="27" type="decl"><hi rend="red"><w>fortis</w> <w>inimicum</w> <w>divitem</w> <w>servans</w></hi> 
+	<lb n="8" break="yes"/><w>viro</w> <w>forti</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>desertor</w> <w>capite</w> <w>puniatur</w> <w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>belli</w> <w>te<ex>m</ex>pore</w> 
+	<lb n="9" break="yes"/><w>dives</w> <w>se</w> <w>promisit</w> <w>fortiter</w> <w>facturum</w> <w>si</w> <w>sibi</w> <w>mors</w> <w>pauperis</w> <w>decerneretur</w> <w>decreta</w> 
+	<lb n="10" break="yes"/><w>est</w> <w>ambo</w> <w>processerunt</w> <w>in</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>lium</w> <w>pauper</w> <w>fortiter</w> <w>fecit</w> <w>dives</w> <w>deseruit</w> <w>petit</w> 
+	<lb n="11" break="yes"/><w>pauper</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>divitis</w> <w>incolumitatem</w> <w>dives</w> <w>contradicit</w> <w>sero</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pit</w> <w>hic</w> <w>miles</w> 
+	<lb n="12" break="yes"/><w>iud<ex>ices</ex></w> <w>mortem</w> <w>contemnere</w> <w>ego</w> <w>tacui</w> <w>cum</w> <w>peterer</w> <space extent="3" unit="chars" rend="dots"/> <w>hic</w> <w>vivere</w> <w>iubetur</w> <w>&amp;</w> 
+	<lb n="13" break="yes"/><w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ritur<note>Håkanson reads quaeritur. Maybe queritur?</note></w> <w>expectavi</w> <w>diu</w> <w>divitem</w> <w>ut</w> <w>ille</w> <w>potius</w> <w>quod</w> <w>promisit</w> <w>impleret</w> <w>ab</w> <w>ipso</w> 
+	<lb n="14" break="yes"/><w>quoq<ex>ue</ex></w> <w>divite</w> <w>inire</w> <w>debeo</w> <w>maximam</w> <w>gratiam</w> <w>q<ex>uo</ex>d</w> <w>ille</w> <w>debebat</w> <w>ego</w> <w>solvi</w> <w>idem</w> <w>in</w> 
+	<lb n="15" break="yes"/><w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>facio</w> <w>quod</w> <w>in</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>lio</w> <w>servo</w> <w>civem</w> <w>co<ex>m</ex>militonem</w> <w>meum</w> <w>protego</w> <w>idem</w> <w>eris</w> 
+	<lb n="16" break="yes"/><w>in</w> <w>aevum</w> <w>qui</w> <w>supr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>ma</w> <w>die</w> <w>fueris</w> 
+	<lb n="17" break="yes"/></ab><ab n="28" type="decl"><hi rend="red"><w>dives</w> <w>fortis</w> <w>inimicus</w> <w>duorum</w></hi> 
+	<lb n="18" break="yes"/><w>dives</w> <w>duobus</w> <w>pauperibus</w> <w>inimicus</w> <w>promisit</w> <w>se</w> <w>fortiter</w> <w>facturum</w> <w>si</w> <w>sibi</w> <w>mors</w> <w>uni<ex>us</ex></w> 
+	<lb n="19" break="yes"/><w>decerneretur</w> <w>decreta</w> <w>est</w> <w>alter</w> <w>c<ex>ontra</ex>d<ex>icit</ex></w> <w>dives</w> <w>fortiter</w> <w>fecit</w> <w>petit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>morte<ex>m</ex></w> 
+	<lb n="20" break="yes"/><w>illius</w> <w>qui</w> <w>contradixerat</w> <w>alter</w> <w>c<ex>ontra</ex>d<ex>icit</ex></w> <w>ego</w> <w>quidem</w> <w>verba</w> <w>facturus</w> <w>in</w> <w>alterius</w> <w>pe
+	<lb n="21" break="no"/>riculo</w> <w>nuper</w> <w>in</w> <w>meo</w> <w>tacui</w> <w>cum</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>peteret</w> <w>iniustum</w> <w>qui</w> <w>per</w> <w>leges</w> <w>n<ex>ec</ex></w> 
+	<lb n="22" break="yes"/><w>dum</w> <w>posset</w> <w>petere</w> <w>vel</w> <w>iustum</w> <w>per</w> <w>tot</w> <w>innocentium</w> <w>capita</w> <w>crassatur</w> <w>hunc</w> <w>relin
+	<lb n="23" break="no"/>quit</w> <w>hunc</w> <w>arripit</w> <w>hunc</w> <w>timore</w> <w>punit</w> <w>hunc</w> <w>morte</w> 
+	<lb n="24" break="yes"/></ab><ab n="29" type="decl"><hi rend="red"><w>fortis</w> <w>dives</w> <w>inimici</w> <w>alteram</w> <w>filiam</w> <w>petens</w></hi> 
+	<lb n="25" break="yes"/><w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>pauperi</w> <w>du<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>fili<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>belli</w> <w>tempore</w> <w>promisit</w> <w>se</w> <w>dives</w> <w>forti
+	<lb n="26" break="no"/>ter</w> <w>facturum</w> <w>si</w> <w>in</w> <w>matrimonium</w> <w>sibi</w> <w>pauperis</w> <w>una</w> <w>filia</w> <w>daretur</w> <w>populus</w> <w>ta
+	<lb n="27" break="no"/>cente</w> <w>paupere</w> <w>decrevit</w> <w>dives</w> <w>fortiter</w> <w>fecit</w> <w>puella</w> <w>se</w> <w>interemit</w> <w>petit</w> <w>dives</w> 
+	<lb n="28" break="yes"/><w>aliam</w> <w>pauper</w> <w>c<ex>ontra</ex>d<ex>icit</ex></w> <w>priusq<ex>uam</ex></w> <w>fortiter</w> <w>faceret</w> <w>postulavit</w> <w>confisus</w> <w>id</w> <w>sollicito</w> <w>ex
+	<lb n="29" break="no"/>torquere</w> <w>se</w> <w>populo</w> <w>q<ex>uo</ex>d</w> <w>impetrare</w> <w>a</w> <w>victore</w> <w>non</w> <w>posset</w> <w>ducat</w> <w>dives</w> <w>aliquam</w> 
+	<lb n="30" break="yes"/><w>sed</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>qualem</w> <w>ducat</w> <w>volentem</w> <w>velis</w> <w>enim</w> <w>nolis</w> <w>suspecta</w> <w>res</w> <w>est</w> <w>amator</w> <w>inimi
+	<lb n="31" break="no"/>cus</w> <w>squalor</w> <w>et</w> <w>m<choice><orig>e</orig><reg>ae</reg></choice>ror</w> <w>gemitus</w> <w>et</w> <w>luctus</w> <w>inimici</w> <w>filia</w> <w>talis</w> <w>adamatur</w> <w>paup<ex>er</ex></w> 
+	<lb n="32" break="yes"/><w>et</w> <w>dives</w> <w>inimicum</w> <w>est</w> <w>matrimonium</w> <w>ne</w> <w>pecora</w> <w>quidem</w> <w>iugum</w> <w>nisi</w> <w>paria</w> 
+	<lb n="33" break="yes"/><w>succedunt</w> <w>ego</w> <w>aut<ex>em</ex></w> <w>quid</w> <w>faciam</w> <w>laqueum</w> <w>fili<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>solvam</w> <w>an</w> <w>fla<ex>m</ex>meum</w> <w>super
+	<lb n="34" break="no"/>ponam</w> <w>facem</w> <w>nubenti</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>feram</w> <w>an</w> <w>rogum</w> <w>iacentis</w> <w>acce<ex>n</ex>dam</w> <w>aliter</w> <w>enim</w> <w>mer
+	<lb n="35" break="no"/>cis</w> <w>in</w> <w>timore</w> <w>promittitur</w> <w>aliter</w> <w>onus</w> <w>in</w> <w>pace</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>statur</w> <w>festinavit</w> <w>ad</w> <w>laqueu<ex>m</ex></w> 
+	<lb n="36" break="yes"/><w>properavit</w> <w>ad</w> <w>mortem</w> <w>non</w> <w>creditis</w> <w>patri</w> <w>credite</w> <w>vel</w> <w>sorori</w> <w>si</w> <w>vicerit</w> <w>ad</w> 
+	<lb n="37" break="yes"/><w>patrem</w> <w>revertetur</w> <w>si</w> <w>victa</w> <w>fuerit</w> <w>ad</w> <w>sororem</w> 
+	<lb n="38" break="yes"/></ab><ab n="30" type="decl"><hi rend="red"><w>nepos</w> <w>ex</w> <w>meretricio</w> <w>susceptus</w></hi> 
+	<lb n="39" break="yes"/><w>qui</w> <w>habebat</w> <w>filios</w> <w>frugi</w> <w>et</w> <w>luxuriosum</w> <w>ab</w> <w>amore</w> <w>meretricis</w> <w>abdicavit</w> <w>abdica
+	<lb n="40" break="no"/>tus</w> <w>se</w> <w>ad</w> <w>meretricem</w> <w>contulit</w> <w>illic</w> <w>cum</w> <w><choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>grotare</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pisset</w> <w>misit</w> <w>ad</w> <w>patrem</w> <w>et</w> 
+	
+
+	<pb n="87v"/>
+	
+	<lb n="1" break="yes"/><w>commendavit</w> <w>illi</w> <w>filium</w> <w>de</w> <w>meretrice</w> <w>susceptum</w> <w>rogans</w> <w>ut</w> <w>eum</w> <w>in</w> <w>familiam</w> <w>reci
+	<lb n="2" break="no"/>piat</w> <w>et</w> <w>obiit</w> <w>vult</w> <w>illum</w> <w>senex</w> <w>in</w> <w>familiam</w> <w>recipere</w> <w>reus</w> <w>est</w> <w>alteri</w> <w>filio</w> <w>dementi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> 
+	<lb n="3" break="yes"/><w>necesse</w> <w>est</w> <w>me</w> <w>hodie</w> <w>in</w> <w>hac</w> <w>causa</w> <w>amplius</w> <w>dolere</w> <w>q<ex>uam</ex></w> <w>dicere</w> <w>pius</w> <w>est</w> <w>sine</w> <w>dubio</w> <w>fili<ex>us</ex></w> 
+	<lb n="4" break="yes"/><w>qui</w> <w>in</w> <w>patrem</w> <w>mentis</w> <w>errorem</w> <w>morbo</w> <w>potius</w> <w>assignat</w> <w>et</w> <w>fato</w> <w>quam</w> <w>moribus</w> <w>mi
+	<lb n="5" break="no"/>seranda</w> <w>potius</w> <w>in</w> <w>meo</w> <w>patre</w> <w>q<ex>uam</ex></w> <w>accusanda</w> <w>dementia</w> <w>est</w> <w>multum</w> <w>potest</w> <w>abdicatio</w> 
+	<lb n="6" break="yes"/><w>cum</w> <w>timetur</w> <w>post</w> <w>ex</w> <w>pudore</w> <w>iam</w> <w>liberius</w> <w>erratur</w> <w>vos</w> <w>interrogo</w> <w>iudices</w> <w>utru<ex>m</ex></w> 
+	<lb n="7" break="yes"/><w>sit</w> <w>sanus</w> <w>qui</w> <w>et</w> <w>suos</w> <w>abdicat</w> <w>et</w> <w>adoptat</w> <w>alienos</w> <w>adoptio</w> <w>sancta</w> <w>res</w> <w>est</w> <w>quid</w> <w>in</w> 
+	<lb n="8" break="yes"/><w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>benefi<choice><orig>t</orig><reg>c</reg></choice>ia</w> <w>natura</w> <w>et</w> <w>iuris</w> <w>imitatur</w> <w>in</w> <w>quo</w> <w>puero</w> <w>nescio</w> <w>quid</w> <w>sit</w> <w>indignus</w> 
+	<lb n="9" break="yes"/><w>utrum</w> <w>patris</w> <w>origo</w> <w>q<ex>uo</ex>d</w> <del><w>ille</w></del> <w>est</w> <w>dubia</w> <w>an</w> <w>matris</w> <w>origo</w> <w>q<ex>uo</ex>d</w> <w>certa</w> <w>est</w> <w>dixit</w> <w>ille</w> 
+	<lb n="10" break="yes"/><w>suum</w> <w>filium</w> <w>dixit</w> <w>ut</w> <w>amator</w> <w>dixit</w> <w>immo</w> <w>ipse</w> <w>iam</w> <w>parum</w> <w>sanus</w> 
+	<lb n="11" break="yes"/></ab><ab n="31" type="decl"><hi rend="red"><w>adulter<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>soror</w> <w>et</w> <w>mater</w></hi> 
+	<lb n="12" break="yes"/><w>et</w> <w>matres</w> <w>et</w> <w>sorores</w> <w>in</w> <w>adulterio</w> <w>depr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>hensas</w> <w>liceat</w> <w>occidere</w> <w>quidam</w> <w>cum</w> <w>sorore<ex>m</ex></w> 
+	<lb n="13" break="yes"/><w>depr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>hendisset</w> <w>occidit</w> <w>furorem</w> <w>passus</w> <w>resipiit</w> <w>invenit</w> <w>et</w> <w>matrem</w> <w>non</w> <w>occidit</w> 
+	<lb n="14" break="yes"/><w>abdicatur</w> <w>a</w> <w>patre</w> <w>soror</w> <w>erravit</w> <w>insaniendum</w> <w>est</w> <w>mater</w> <w>adulteravit</w> <w>domo</w> <w>pa
+	<lb n="15" break="no"/>tria</w> <w>carendum</w> <w>est</w> <w>hic</w> <w>exitus</w> <w>venit</w> <w>ut</w> <w>ex</w> <w>quo</w> <w>malo</w> <w>furor</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>perat</w> <w>ex</w> <w>eo</w> <w>sanitas</w> 
+	<lb n="16" break="yes"/><w>nasceretur</w> <w>voluit</w> <w>me</w> <w>explorare</w> <w>fortuna<ex>m</ex></w> <w>an</w> <w>agnoscerem</w> <w>meos</w> <w>si</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na</w> <w>adul
+	<lb n="17" break="no"/>ter<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>q<ex>uo</ex>d</w> <w>pudori</w> <w>super</w> <w>o</w> <w>importuna</w> <w>sanitas</w> <w>ideo</w> <w>ne</w> <w>redisti</w> <w>ut</w> <w>mihi</w> <w>adulterium</w> 
+	<lb n="18" break="yes"/><w>matris</w> <w>ostenderis</w> <w>abdicatus</w> <w>hic</w> <w>iterum</w> <w>quasi</w> <w>furiosus</w> <w>errabo</w> <w>sed</w> <w>certe</w> <w>sine</w> 
+	<lb n="19" break="yes"/><w>mente</w> <w>secura</w> 
+	<lb n="20" break="yes"/></ab><ab n="32" type="decl"><hi rend="red"><w>desertor</w> <w>pater</w> <w>oratoris</w> <w>et</w> <w>militis</w></hi> 
+	<lb n="21" break="yes"/><w>qui</w> <w>filios</w> <w>habebat</w> <w>unum</w> <w>oratorem</w> <w>alterum</w> <w>militem</w> <w>reus</w> <w>proditionis</w> <w>factus</w> <w>est</w> 
+	<lb n="22" break="yes"/><w>pendente</w> <w>iudicio</w> <w>miles</w> <w>fortiter</w> <w>fecit</w> <w>petit</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> <w>abolitionem</w> <w>iudicii</w> <w>contra
+	<lb n="23" break="no"/>dixit</w> <w>frater</w> <w>orator</w> <w>quemadmodum</w> <w>vixerit</w> <w>pater</w> <w>apparet</w> <w>in</w> <w>liberis</w> <w>public<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> 
+	<lb n="24" break="yes"/><w>utilitatis</w> <w>est</w> <w>omnium</w> <w>reorum</w> <w>iudicari</w> <w>causas</w> <w>ne</w> <w>aut</w> <w>nocens</w> <w>evadat</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>nam</w> <w>aut</w> 
+	<lb n="25" break="yes"/><w>innocens</w> <w>patiatur</w> <w>infamiam</w> <w>gloria</w> <w>quantum</w> <w>nobis</w> <w>honoris</w> <w>attulerit</w> <w>tantum</w> <w>vir
+	<lb n="26" break="no"/>tutis</w> <w>exposcit</w> <w>innocentiam</w> <w>patris</w> <w>dum</w> <w>liberare</w> <w>quaeris</w> <w>infamas</w> <w>homini</w> <w>verecu<ex>n</ex>
+	<lb n="27" break="no"/>do</w> <w>in</w> <w>eiusmodi</w> <w>crimine</w> <w>longe</w> <w>gravior</w> <w>est</w> <w>fama</w> <w>quam</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na</w> <w>vetus</w> <w>iud<ex>ices</ex></w> <w>d<ex>i</ex>c<ex>tu</ex>m</w> 
+	<lb n="28" break="yes"/><w>est</w> <w>ut</w> <w>aurum</w> <w>igni</w> <w>id</w> <w>ide<ex>m</ex></w> <w>innocentiam</w> <w>iudicio</w> <w>spectari</w> <w>solere</w> <w>melius</w> <w>est</w> <w>pa
+	<lb n="29" break="no"/>tri</w> <w>virtutum</w> <w>tuarum</w> <w>argumento</w> <w>te</w> <w>prodesse</w> <w>quam</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mio</w> 
+	<lb n="30" break="yes"/></ab><ab n="33" type="decl"><hi rend="red"><w>amator</w> <w>meretricis</w> <w>domin<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w></hi> 
+	<lb n="31" break="yes"/><w>meretrix</w> <w>servum</w> <w>suum</w> <w>amantem</w> <w>se</w> <w>in</w> <w>crucem</w> <w>ait</w> <w>appellat</w> <w>tribunos</w> <w>ille</w> <w>de</w> <w>iniu
+	<lb n="32" break="no"/>sto</w> <w>supplicio</w> <w>miror</w> <w>quidem</w> <w>a</w> <w>muliere</w> <w>tam</w> <w>comi</w> <w>crucis</w> <w>nomen</w> <w>auditum</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> 
+	<lb n="33" break="yes"/><w>nullum</w> <w>nu<choice><orig>n</orig><reg>m</reg></choice>q<ex>uam</ex></w> <w>nisi</w> <w>amore</w> <w>cruciaverit</w> <w>amor</w> <w>animi</w> <w>peculiare</w> <w>secretum</w> <w>est</w> 
+	<lb n="34" break="yes"/><w>accusatur</w> <w>a</w> <w>nobis</w> <w>amor</w> <w>et</w> <w>homo</w> <w>qui</w> <w>deum</w> <w>nostrum</w> <w>patitur</w> <w>esset</w> <w>meum</w> <w>cri
+	<lb n="35" break="no"/>men</w> <w>aut</w> <w>error</w> <w>si</w> <w>te</w> <w>solus</w> <w>adamassem</w> 
+	<lb n="36" break="yes"/></ab><ab n="34" type="decl"><hi rend="red"><w>raptam</w> <w>pater</w> <w>vinculis</w> <w>tenens</w></hi> 
+	<lb n="37" break="yes"/><w>rapta</w> <w>raptoris</w> <w>aut</w> <w>indonatas</w> <w>nuptias</w> <w>petat</w> <w>raptam</w> <w>pater</w> <w>vinculis</w> <w>continet</w> 
+	<lb n="38" break="yes"/><w>raptor<del>i</del></w> <w>duci</w> <w>ad</w> <w>magistratus</w> <w>desiderat</w> <w>nihil</w> <w>equidem</w> <w>leges</w> <w>clementius</w> <w>para
+	<lb n="39" break="no"/>verunt</w> <w>quam</w> <w>q<ex>uo</ex>d</w> <w>de</w> <w>lege</w> <w>raptorum</w> <w>non</w> <w>licet</w> <w>aliud</w> <w>iudicare</w> <w>medius</w> <w>his</w> <w>nemo</w> 
+	<lb n="40" break="yes"/><w>est</w> <w>sum</w> <w>reus</w> <w>sed</w> <w>exhibe</w> <w>iudicum</w> <w>meum</w> <w>pro<choice><orig>h</orig><reg></reg></choice></w> <w>deum</w> <w>atq<ex>ue</ex></w> <w>hominum</w> <w>fidem</w> <w>in</w> <w>qua</w> 
+	
+
+	<pb n="88r"/>
+	
+	<lb n="1" break="yes"/><w>civitate</w> <w>raptor</w> <w>solutus</w> <w>est</w> <w>in</w> <w>eo</w> <w>rapta</w> <w>vincitur</w> 
+	<lb n="2" break="yes"/></ab><ab n="35" type="decl"><hi rend="red"><w>mater</w> <w>&amp;</w> <w>noverca</w> <w>invicem</w> <w>re<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w></hi> 
+	<lb n="3" break="yes"/><w>repudiata</w> <w>est</w> <w>a</w> <w>marito</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>filium</w> <w>habebat</w> <w>petit</w> <w>assidue</w> <w>ut</w> <w>reconciliaretur</w> <w>no<ex>n</ex></w> 
+	<lb n="4" break="yes"/><w>impetravit</w> <w>postremo</w> <w>ait</w> <w>vindicabo</w> <w>me</w> <w>superduxit</w> <w>ille</w> <w>puero</w> <w>novercam</w> <w>obiit</w> 
+	<lb n="5" break="yes"/><w>puer</w> <w>signis</w> <w>ambiguis</w> <w>cruditatis</w> <w>et</w> <w>veneni</w> <w>reas</w> <w>se</w> <w>invicem</w> <w>faciunt</w> <w>repudia
+	<lb n="6" break="no"/>ta</w> <w>mater</w> <w>et</w> <w>noverca</w> <w>superducta</w> <w>totum</w> <w>noverca</w> <w>commisit</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>uno</w> <w>tempore</w> 
+	<lb n="7" break="yes"/><w>et</w> <w>maritum</w> <w>misere</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ripuit</w> <w>et</w> <w>filium</w> <w>comparate</w> <w>iud<ex>ices</ex></w> <w>non</w> <w>ante</w> <w>rerum</w> 
+	<lb n="8" break="yes"/><w>argumenta</w> <w>q<ex>uam</ex></w> <w>nomina</w> <w>quid</w> <w>matri</w> <w>deliquerat</w> <w>filius</w> <w>neq<ex>ue</ex></w> <w>enim</w> <w>temere</w> <w>sic</w> <w>fi
+	<lb n="9" break="no"/>lius</w> <w>delevi</w> <w>causa</w> <w>quasi</w> <w>privignus</w> <w>occiditur</w> <w>repudiata</w> <w>es</w> <w>inquit</w> <w>mariti</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> 
+	<lb n="10" break="yes"/><w>culpa</w> <w>non</w> <w>filii</w> <w>est</w> <w>nec</w> <w>matris</w> <w>officium</w> <w>repudio</w> <w>deponitur</w> <w>sed</w> <w>uxorium</w> <w>nom<ex>en</ex></w> 
+	<lb n="11" break="yes"/><w>amittitur</w> <w>dolor</w> <w>orbitatis</w> <w>conscientia</w> <w>facinoris</w> <w>arguetur</w> <w>et</w> <w>si</w> <w>grave</w> <w>est</w> <w>amit
+	<lb n="12" break="no"/>tere</w> <w>filios</w> <w>longe</w> <w>gravius</w> <w>occidere</w> <w>non</w> <w>ne</w> <w>hoc</w> <w>dicit</w> <w>sola</w> <w>dominabor</w> <w>cum</w> 
+	<lb n="13" break="yes"/><w>et</w> <w>hic</w> <w>veneno</w> <w>meo</w> <w>perierit</w> <w>et</w> <w>illa</w> <w>mendacio</w> <w>iudicasti</w> <w>pater</w>	<w>qui</w> <w>et</w> <w>repudia
+	<lb n="14" break="no"/>tam</w> <w>non</w> <w>accusando</w> <w>absolvisti</w> <w>et</w> <w>uxorem</w> <w>novam</w> <w>non</w> <w>defendendo</w> <w>damnasti</w> 
+	<lb n="15" break="yes"/></ab><ab n="36" type="decl"><hi rend="red"><w>spe<choice><orig>t</orig><reg>c</reg></choice>iosus</w> <w>desertor</w></hi> 
+	<lb n="16" break="yes"/><w>desertor</w> <w>duci</w> <w>serviat</w> <w>viro</w> <w>forti</w> <w>pr<choice><orig>e</orig><reg>ae</reg></choice>mium</w> <w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>dives</w> <w>crea
+	<lb n="17" break="no"/>tus</w> <w>est</w> <w>imperator</w> <w>pauper</w> <w>sub</w> <w>illo</w> <w>cum</w> <w>filio</w> <w>spe<choice><orig>t</orig><reg>c</reg></choice>ioso</w> <w>adulescente</w> <w>militavit</w> <w>paup<ex>er</ex></w> 
+	<lb n="18" break="yes"/><w>fortiter</w> <w>fecit</w> <w>adulescens</w> <w>deseruit</w> <w>dives</w> <w>iure</w> <space extent="2" unit="chars" rend="dots"/> <w>erit</w> <w>pater</w> <w>pr<choice><orig>e</orig><reg>ae</reg></choice>mio</w> <w>petit</w> <w>ut</w> <w>occi
+	<lb n="19" break="no"/>datur</w> <w>filium</w> <w>meum</w> <w>si</w> <w>liberare</w> <w>non</w> <w>licet</w> <w>saltem</w> <w>liceat</w> <w>occidere</w> <w>creditis</w> <w>iud<ex>ices</ex></w> <w>q<ex>uo</ex>d</w> 
+	<lb n="20" break="yes"/><w>filio</w> <w>meo</w> <w>bene</w> <w>inimicus</w> <w>vel</w> <w>te</w> <w>pater</w> <w>nolit</w> <w>profiteor</w> <w>mortem</w> <w>me</w> <w>filii</w> <w>mei</w> <w>non</w> 
+	<lb n="21" break="yes"/><w>quidem</w> <w>velle</w> <w>sed</w> <w>malle</w> <w>vos</w> <w>cogitate</w> <w>quanto</w> <w>sint</w> <w>mala</w> <w>illa</w> <w>graviora</w> <w>quoru<ex>m</ex></w> <w>sunt</w> 
+	<lb n="22" break="yes"/><w>etiam</w> <w>remedia</w> <w>crudelia</w> <w>o</w> <w>fili</w> <w>morere</w> <w>constanter</w> <w>fac</w> <w>hoc</w> <w>saltem</w> <w>quasi</w> <w>meus</w> <w>filius</w> 
+	<lb n="23" break="yes"/></ab><ab n="37" type="decl"><hi rend="red"><w>filius</w> <w>meretricis</w> <w>su<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>redemptor</w></hi> 
+	<lb n="24" break="yes"/><w>diversas</w> <w>meretricis</w> <w>amabant</w> <w>pater</w> <w>et</w> <w>filius</w> <w>pater</w> <w>filio</w> <w>pecuniam</w> <w>dedit</w> <w>ut</w> <w>ama
+	<lb n="25" break="no"/>tam</w> <w>patris</w> <w>redimeret</w> <w>ille</w> <w>suam</w> <w>redemit</w> <w>abdicatur</w> <w>rideri</w> <w>me</w> <w>iud<ex>ices</ex></w> <w>opinabar</w> 
+	<lb n="26" break="yes"/><w>a</w> <w>patre</w> <w>cum</w> <w>se</w> <w>quoq<ex>ue</ex></w> <w>amare</w> <w>dicebat</w> <w>pater</w> <w>q<ex>uo</ex>d</w> <w>potior</w> <w>agnoscit</w> <w>quid</w> <w>in</w> <w>me</w> <w>pa
+	<lb n="27" break="no"/>ter</w> <w>reprehendat</w> <w>ignoro</w> <w>et</w> <w>amandam</w> <w>meretricem</w> <w>consentit</w> <w>et</w> <w>emendam</w> <w>scie
+	<lb n="28" break="no"/>bas</w> <w>utiq<ex>ue</ex></w> <w>quid</w> <w>mallem</w> <w>paria</w> <w>sunt</w> <w>nobis</w> <w>in</w> <w>amore</w> <w>tormenta</w> <w>primum</w> <w>q<ex>uo</ex>d</w> <w>amor</w> 
+	<lb n="29" break="yes"/><w>velis</w> <w>nolis</w> <w>in</w> <w>senectute</w> <w>frigidior</w> <w>est</w> 
+	<lb n="30" break="yes"/></ab><ab n="38" type="decl"><hi rend="red"><w>dementi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>reus</w> <w>a</w> <w>tribus</w> <w>filiis</w></hi> 
+	<lb n="31" break="yes"/><w>ex</w> <w>tribus</w> <w>filiis</w> <w>duo</w> <w>patrem</w> <w>dementi<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>accusaverunt</w> <w>et</w> <w>superati</w> <w>secundum</w> <w>le
+	<lb n="32" break="no"/>gem</w> <w>puniti</w> <w>sunt</w> <w>tertius</w> <w>instituit</w> <w>accusare</w> <w>reddit</w> <w>pater</w> <w>causa</w> <w>mortis</w> <w>volunta
+	<lb n="33" break="no"/>ri<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>filius</w> <w>c<ex>ontra</ex>d<ex>icit</ex></w> <w>quid</w> <w>tam</w> <w>potest</w> <w>esse</w> <w>versum</w> <w>eius</w> <w>hic</w> <w>habeo</w> <w>mors</w> <w>impeditur</w> 
+	<lb n="34" break="yes"/><w>cuius</w> <w>in</w> <w>altero</w> <w>iudicio</w> <w>via</w> <w>repr<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>henditur</w> <w>in</w> <w>illis</w> <w>p<ex>atres</ex></w> <w>c<ex>onscripti</ex></w> <w>iudiciis</w> <w>gravior</w> <w>mihi</w> 
+	<lb n="35" break="yes"/><w>fuit</w> <w>vindicta</w> <w>quam</w> <w>poena</w> <w>mors</w> <w>a</w> <w>vobis</w> <w>dabitur</w> <w>sive</w> <w>dementi</w> <w>remedium</w> <w>sive</w> 
+	<lb n="36" break="yes"/><w>sapientis</w> <w>datium</w> <w>natura</w> <w>mihi</w> <w>tres</w> <w>liberos</w> <w>dedit</w> <w>fortuna</w> <w>quam</w> <w>duos</w> <w>su
+	<lb n="37" break="no"/>stulit</w> <w>videtur</w> <w>ne</w> <w>vobis</w> <w>iusta</w> <w>causa</w> <w>esse</w> <w>moriendi</w> <w>immo</w> <w>iam</w> <w>sera</w> </ab><ab n="39" type="decl"><w>absentis</w> 
+	<lb n="38" break="yes"/><w>viri</w> <w>fortis</w> <w>filium</w> <w>tyrannus</w> <w>petit</w> <w>sibi</w> <w>dedi</w> <w>denuntians</w> <w>bellum</w> <w>accepit</w> <w>re
+	<lb n="39" break="no"/>gresso</w> <w>eo</w> <w>suadetur</w> <w>bellum</w> <w>tyranno</w> <w>indici</w> <w>vir</w> <w>fortis</w> <w>contradicit</w> <w>profiteor</w> 
+	
+
+	<pb n="88v"/>
+	
+	<lb n="1" break="yes"/><w>me</w> <w>filium</w> <w>nec</w> <w>desiderare</w> <w>nec</w> <w>habere</w> <w>nescio</w> <w>an</w> <w>hoc</w> <w>bellum</w> <w>fuerit</w> <w>in</w> <w>tempore</w> <w>suo</w> 
+	<lb n="2" break="yes"/><w>iustum</w> <w>nunc</w> <w>certe</w> <w>coepit</w> <w>esse</w> <w>iam</w> <w>serum</w> <w>at</w> <w>enim</w> <w>filius</w> <w>viri</w> <w>fortis</w> <w>est</w> <w>quid</w> <w>hoc</w> 
+	<lb n="3" break="yes"/><w>non</w> <w>erat</w> <w>cum</w> <w>dabatur</w> <w>o</w> <w>fili</w> <w>si</w> <w>tamen</w> <w>hoc</w> <w>nomen</w> <w>q<ex>uo</ex>d</w> <w>natura</w> <w>dedit</w> <w>fortuna</w> <w>no<ex>n</ex></w> 
+	<lb n="4" break="yes"/><w>abstulit</w> <w>agnoscite</w> <w>filium</w> <w>viri</w> <w>fortis</w> <w>vince</w> <w>feliciter</w> <w>id</w> <w>est</w> <w>peri</w> <w>fortiter</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>est</w> 
+	<lb n="5" break="yes"/><w>enim</w> <w>tua</w> <w>iam</w> <w>sola</w> <w>victoria</w> 
+		<lb n="6" break="yes"/></ab><ab n="40" type="decl"><space extent="1" unit="lines"><desc> Reason: space eft empty for the title of decl. 40.</desc></space>
+	<lb n="7" break="no"/><w>veneficii</w> <w>sit</w> <w>actio</w> <w>adulescens</w> <w>petit</w> <w>nuptias</w> <w>virginis</w> <w>a</w> <w>patre</w> <w>pater</w> <w>virginis</w> <w>ad</w> 
+	<lb n="8" break="yes"/><w>uxorem</w> <w>retulit</w> <w>illa</w> <w>respondit</w> <w>ante</w> <w>morietur</w> <w>quam</w> <w>illi</w> <w>nubat</w> <w>pater</w> <w>eidem</w> <w>a
+	<lb n="9" break="no"/>dulescenti</w> <w>despondit</w> <w>et</w> <w>diem</w> <w>nuptiis</w> <w>dixit</w> <w>intra</w> <w>diem</w> <w>puella</w> <w>obiit</w> <w>dubiis</w> <w>signis</w> 
+	<lb n="10" break="yes"/><w>cruditatis</w> <w>et</w> <w>veneni</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>stionem</w> <w>cum</w> <w>de</w> <w>familia</w> <w>pater</w> <w>haberet</w> <w>ex</w> <w>ancillis</w> <w>una</w> 
+	<lb n="11" break="yes"/><w>confessa</w> <w>est</w> <w>adulterium</w> <w>cum</w> <w>illo</w> <w>iuvenem</w> <w>matris</w> <w>intercessisse</w> <w>pater</w> <w>accusat</w> <w>ve
+	<lb n="12" break="no"/>neficii</w> <w>matrem</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>ritur</w> <w>filiam</w> <w>cruditate</w> <w>a<add hand="#h2" place="above">n</add></w> <w>veneno</w> <w>interfeceris</w> <w>nam</w> <w>et</w> <w>cru
+	<lb n="13" break="no"/>ditas</w> <w>virginis</w> <w>crimen</w> <w>est</w> <w>matris</w> <w>morietur</w> <w>anteq<ex>uam</ex></w> <w>nubat</w> <w>et</w> <w>mortua</w> <w>est</w> <w>o</w> <w>impia<ex>m</ex></w> 
+	<lb n="14" break="yes"/><w>divinationem</w> <w>vel</w> <w>potius</w> <w>denuntiationem</w> <w>o</w> <w>infelix</w> <w>puella</w> <w>ego</w> <w>tibi</w> <w>parabam</w> <w>nuptias</w> 
+	<lb n="15" break="yes"/><w>mater</w> <w>exequias</w> <w>placuit</w> <w>in</w> <w>te</w> <w>sponso</w> <w>tuo</w> <w>similitudo</w> <w>materna</w> <w>ego</w> <w>te</w> <w>fate
+	<lb n="16" break="no"/>or</w> <w>occidi</w> <w>dum</w> <w>cum</w> <w>matre</w> <w>contendo</w> 
+	<lb n="17" break="yes"/></ab><ab n="41" type="decl"><hi rend="red"><w>raptarum<note>rap/tarum seems separated by a space.</note></w> <w>lex</w></hi> 
+	<lb n="18" break="yes"/><w>rapuit</w> <w>quidam</w> <w>virginem</w> <w>et</w> <w>e<choice><orig>foe</orig><reg>phe</reg></choice>bo</w> <w>quem</w> <w>amabat</w> <w>tradidit</w> <w>stuprandam</w> <w>rapta</w> 
+		<lb n="19" break="yes"/><w>ad</w> <w>magistratus</w> <w>producta</w> <w>mortem</w> <w>e<choice><orig><unclear reason="f corrected from another letter c/t?">f</unclear>oe</orig><reg>phe</reg></choice>bi</w> <w>petit</w> <w>offert</w> <w>se</w> <w>ille</w> <w>qui</w> <w>rapuit</w> 
+	<lb n="20" break="yes"/><w>ego</w> <w>iud<ex>ices</ex></w> <w>rapui</w> <w>ego</w> <w>domum</w> <w>duxi</w> <w>ego</w> <w>pariter</w> <w>inclusi</w> <w>ego</w> <w>vim</w> <w>duobus</w> <w>feci</w> <w>pe
+	<lb n="21" break="no"/>rire</w> <w>mihi</w> <w>satius</w> <w>est</w> <w>quam</w> <w>hunc</w> <w>videre</w> <w>pereuntem</w> <w>callide</w> <w>puella</w> <w>co<ex>m</ex>menta</w> <w>es</w> 
+	<lb n="22" break="yes"/><w>unum</w> <w>petis</w> <w>ut</w> <w>duos</w> <w>pariter</w> <w>occides</w> </ab><ab n="42" type="decl"><w>magistratus</w> <w>de</w> <w>confesso</w> <w>sumat</w> <w>suppliciu<ex>m</ex></w> 
+	<lb n="23" break="yes"/><w>de</w> <w>iniusto</w> <w>supplicio</w> <w>tribunus</w> <w>appellare</w> <w>liceat</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>quattuor</w> <w>liberos</w> <w>habebat</w> <w>amis
+	<lb n="24" break="no"/>sis</w> <w>tribus</w> <w>et</w> <w>marito</w> <w>detracta</w> <w>est</w> <w>a</w> <w>filio</w> <w>cum</w> <w>laqueum</w> <w>induisset</w> <w>sacrilegium</w> <w>in</w> 
+	<lb n="25" break="yes"/><w>civitate</w> <w>co<ex>m</ex>missum</w> <w>est</w> <w>at</w> <w>ut</w> <w>ipsa</w> <w>magistratus</w> <w>et</w> <w>dixit</w> <w>a</w> <w>se</w> <w>factum</w> <w>vult</w> <w>de</w> <w>illa</w> 
+	<lb n="26" break="yes"/><w>supplicium</w> <w>sumere</w> <w>appellat</w> <w>pro</w> <w>ea</w> <w>filius</w> <w>tribunos</w> <w>de</w> <w>iniusto</w> <w>supplicio</w> <w>cum</w> <w>su
+	<lb n="27" break="no"/>bito</w> <w>fortuna</w> <w>sicut</w> <w>solet</w> <w>ipsa</w> <w>suis</w> <w>muneribus</w> <w>invidit</w> <w>alius</w> <w>inquit</w> <w>pro</w> <w>alio</w> <w>age<ex>re</ex></w> 
+	<lb n="28" break="yes"/><w>non</w> <w>potest</w> <w>alius</w> <w>est</w> <w>ergo</w> <w>qui</w> <w>filius</w> <w>est</w> <w>confessio</w> <w>voluntaria</w> <w>suspecta</w> <w>est</w> <w>co<ex>n</ex>
+	<lb n="29" break="no"/>fessionem</w> <w>sceleris</w> <w>appellas</w> <w>vocem</w> <w>doloris</w> <w>misericordi<choice><orig>e</orig><reg>ae</reg></choice></w> <w>vestr<choice><orig>e</orig><reg>ae</reg></choice></w> <w>maximum</w> <w>mun<ex>us</ex></w> 
+	<lb n="30" break="yes"/><w>est</w> <w>servare</w> <w>nolentem</w> 
+	<lb n="31" break="yes"/></ab><ab n="43" type="decl"><w>talionis</w> <w>sit</w> <w>actio</w> <w>rapturum</w> <w>lex</w> <w>quidam</w> <w>rapuit</w> <w>et</w> <w>in</w> <w>raptu</w> <w>a</w> <w>puella</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>catus</w> <w>e<ex>st</ex></w> 
+	<lb n="32" break="yes"/><w>producta</w> <w>ad</w> <w>magistratus</w> <w>mortem</w> <w>optavit</w> <w>raptor</w> <w>exigit</w> <w>talionem</w> <w>imperare</w> 
+	<lb n="33" break="yes"/><w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>nam</w> <w>meam</w> <w>non</w> <w>agere</w> <w>debebas</w> <w>necesse</w> <w>eam</w> <w>iudex</w> <w>et</w> <w>carnifex</w> <w>habet</w> <w>quisq<ex>ue</ex></w> 
+	<lb n="34" break="yes"/><w>nostrum</w> <w>suam</w> <w>legem</w> <w>rapta</w> <w>capitis</w> <w>exc<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>catus</w> <w>oculorum</w> <w>tu</w> <w>enim</w> <w>puella</w> <w>quid</w> 
+	<lb n="35" break="yes"/><w>passa</w> <w>es</w> <w>virginitatem</w> <w>caruisti</w> <w>solemne</w> <w>in</w> <w>his</w> <w>damnu<ex>m</ex></w> <w>ut</w> <w>non</w> <w>dixerim</w> <w>votum</w> <w>e
+	<lb n="36" break="no"/>repta</w> <w>aute<ex>m</ex></w> <w>mihi</w> <w>lux</w> <w>est</w> <w>anteq<ex>uam</ex></w> <w>morerer</w> <w>o</w> <w>oculi</w> <w>quos</w> <w>ego</w> <w>primus</w> <w>adamavi</w> 
+	<lb n="37" break="yes"/><w>digna</w> <w>fortuna</w> <w>vos</w> <w>ulta</w> <w>est</w> <w>ut</w> <w>qui</w> <w>me</w> <w>perdidistis</w> <w>mecum</w> <w>periretis</w> 
+	<lb n="38" break="yes"/></ab><ab n="44" type="decl"><w>infamis</w> <w>erat</w> <w>in</w> <w>sororem</w> <w>virginem</w> <w>occisus</w> <w>est</w> <w>lege<del>m</del></w> <w>indemnator<add hand="#h2" place="above"><ex>um</ex></add></w> <w>lues</w> <w>orta</w> <w>est</w> 
+	<lb n="39" break="yes"/><w>respondit</w> <w>oraculum</w> <w>virginem</w> <w>immolari</w> <w>debere</w> <w>offert</w> <w>se</w> <w>illa</w> <w>quae</w> <w>infamabat<ex>ur</ex></w> 
+	<lb n="40" break="yes"/><w>in</w> <w>fratrem</w> <w>pater</w> <w>c<ex>ontra</ex>d<ex>icit</ex></w> <w>dilexerunt</w> <w>enim</w> <w>se</w> <w>mutuo</w> <w>fratres</w> <w>ultra</w> <w>meu<ex>m</ex></w> <w>votu<ex>m</ex></w> 
+	
+
+	<pb n="89r"/>
+	
+	<lb n="1" break="yes"/><w>o</w> <w>fortuna</w> <w>crudelis</w> <w>abstulisti</w> <w>mihi</w> <w>filium</w> <w>relinque</w> <w>vel</w> <w>filiam</w> <w>partiamur</w> <w>vel</w> 
+	<lb n="2" break="yes"/><w>saltem</w> <w>liberos</w> <w>meos</w> <w>nemo</w> <w>de</w> <w>polluto</w> <w>grege</w> <w>hostiam</w> <w>sumit</w> <w>quis</w> <w>hanc</w> <w>hostiam</w> 
+	<lb n="3" break="yes"/><w>perimet</w> <w>pater</w> <w>sacerdos</w> <w>an</w> <w>carnifex</w> <w>q<ex>uam</ex>vis</w> <w>h<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>c</w> <w>fortasse</w> <w>desideret</w> <w>ipso</w> <w>illo</w> <w>gla
+	<lb n="4" break="no"/>dio</w> <w>perire</w> <w>quo</w> <w>frater</w> <w>occisus</w> <w>est</w> 
+	<lb n="5" break="yes"/></ab><ab n="45" type="decl"><w>indemnatos</w> <w>liberos</w> <w>liceat</w> <w>occidere</w> <w>tyrannus</w> <w>finitim<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>civitatis</w> <w>sub</w> <w>minis</w> <w>belli</w> 
+	<lb n="6" break="yes"/><w>adulescentem</w> <w>spe<choice><orig>t</orig><reg>c</reg></choice>iosum</w> <w>postulavit</w> <w>civitas</w> <w>decrevit</w> <w>pater</w> <w>illum</w> <w>lege</w> <w>indemna
+	<lb n="7" break="no"/>torum</w> <w>peremit</w> <w>reus</w> <w>est</w> <w>l<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>s<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>rei</w> <w>p<ex>ublicae</ex></w> <w>amplius</w> <w>leges</w> <w>impossibilia</w> <w>desiderant</w> <w>inter
+	<lb n="8" break="no"/>emi</w> <w>iam</w> <w>mori</w> <w>volente<ex>m</ex></w> <w>et</w> <w>co<ex>m</ex>modavi<del>t</del></w> <w>misero</w> <w>manum</w> <w>feci</w> <w>q<ex>uo</ex>d</w> <w>licebat</w> <w>occidi</w>
+	<lb n="9" break="no"/><w>filium</w> <w>sed</w> <w>ingens</w> <w>pater</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>mium</w> <w>retuli</w> <w>occisus</w> <w>est</w> <w>ante</w> <w>quam</w> <w>moreretur</w> 
+	<lb n="10" break="yes"/><w>perit</w> <w>homo</w> <w>sed</w> <w>pudor</w> <w>vivit</w> 
+	<lb n="11" break="yes"/></ab><ab n="46" type="decl"><hi rend="red"><w>indemnatus</w> <w>raptoris</w> <w>filius</w></hi> 
+	<lb n="12" break="yes"/><w>lex</w> <w>raptorum</w> <w>indemnatos</w> <w>liberos</w> <w>liceat</w> <w>occidere</w> <w>quidam</w> <w>rapuit</w> <w>et</w> <w>fugit</w> <w>de</w> <w>rap
+	<lb n="13" break="no"/>tu</w> <w>puella</w> <w>concepit</w> <w>et</w> <w>peperit</w> <w>reverso</w> <w>raptore</w> <w>puella</w> <w>mortem</w> <w>raptoris</w> <w>opta
+	<lb n="14" break="no"/>vit</w> <w>filium</w> <w>ille</w> <w>indemnatum</w> <w>vult</w> <w>occidere</w> <w>rapta</w> <w>contradicit</w> <w>nisi</w> <w>forte</w> <w>mo
+	<lb n="15" break="no"/>leste</w> <w>tulit</w> <w>q<ex>uo</ex>d</w> <w>et</w> <w>non</w> <w>et</w> <w>hunc</w> <w>ipsa</w> <w>damnavit</w> <w>iam</w> <w>cum</w> <w>illo</w> <w>meo</w> <w>errore</w> <w>vel</w> <w>fac<note>There seems to be an abbr above the c.</note>
+	<lb n="16" break="no"/>to</w> <w>voluntaria</w> <w>profectione</w> <w>transegeram</w> <w>hic</w> <w>me</w> <w>iud<ex>ices</ex></w> <w>hic</w> <w>puer</w> <w>prodidit</w> <w>si</w> <w>p<ex>er</ex>
+	<lb n="17" break="no"/>severat</w> <w>in</w> <w>mea</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na</w> <w>hunc</w> <w>mater</w> <w>occidet</w> <w>dicere</w> <w>me</w> <w>raptorem</w> <w>nemo</w> <w>debebat</w> 
+	<lb n="18" break="yes"/><w>post</w> <w>intervallum</w> <w>post</w> <w>exilium</w> <w>postremo</w> <w>filium</w> <w>non</w> <w>est</w> <w>inquit</w> <w>filius</w> <w>tuus</w> 
+	<lb n="19" break="yes"/><w>nuptiis</w> <w>enim</w> <w>solemnibus</w> <w>non</w> <w>est</w> <w>natus</w> <w>cives</w> <w>ergo</w> <w>nisi</w> <w>fa<del>s</del>ces</w> <w>accenderit</w> 
+	<lb n="20" break="yes"/><w>et</w> <w>fescennina</w> <w>cecinerit</w> <w>pater</w> <w>esse</w> <w>non</w> <w>poterit</w> <w>per</w> <w>quam</w> <w>es</w> <w>inhumana</w> <w>no<ex>n</ex></w> <w>vis</w> 
+	<lb n="21" break="yes"/><w>esse</w> <w>patrem</w> <w>qui</w> <w>te</w> <w>fecerit</w> <w>matrem</w> 
+	<lb n="22" break="yes"/></ab><ab n="47" type="decl"><w>vir</w> <w>fortis</w> <w>et</w> <w>orator</w> <w>consulatum</w> <w>petebant</w> <w>quam</w> <w>vestra</w> <w>iudicia</w> <w>plus</w> <w>ad</w> <w>cuiusq<ex>ue</ex></w> <w>iud<ex>ices</ex></w> 
+	<lb n="23" break="yes"/><w>proficiunt</w> <w>merita</w> <w>privata</w> <w>q<ex>uam</ex></w> <w>publica</w> <w>postremo</w> <w>q<ex>uo</ex>d</w> <w>maxime</w> <w>voluntate</w> <w>plebis</w> 
+	<lb n="24" break="yes"/><w>offendit</w> <w>rogare</w> <w>non</w> <w>nosti</w> <w>orare</w> <w>et</w> <w>exorare</w> <w>nostrum</w> <w>est</w> <w>qui</w> <w>hinc</w> <w>etiam</w> <w>nom<ex>en</ex></w> 
+	<lb n="25" break="yes"/><w>accepimus</w> </ab><ab n="48" type="decl"><hi rend="red"><w>adulter</w> <w>uxoris</w></hi> 
+	<lb n="26" break="yes"/><w>ex</w> <w>duobus</w> <w>filiis</w> <w>alteri</w> <w>uxorem</w> <w>dedit</w> <w>inter</w> <w>incidit</w> <w>in</w> <w>adversam</w> <w>valitudine<ex>m</ex></w> 
+	<lb n="27" break="yes"/><w>medici</w> <w>dixerunt</w> <w>animi</w> <w>esse</w> <w>langorem</w> <w>qu<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>renti</w> <w>patri</w> <w>fratris</w> <w>uxorem</w> <w>se</w> 
+	<lb n="28" break="yes"/><w>amare</w> <w>confessus</w> <w>est</w> <w>petit</w> <w>pater</w> <w>a</w> <w>filio</w> <w>ut</w> <w>matrimonio</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>deret</w> <w>imperavit</w> 
+	<lb n="29" break="yes"/><w>inventus</w> <w>in</w> <w>adulterio</w> <w>postea</w> <w>fratrem</w> <w>et</w> <w>uxorem</w> <w>secundus</w> <w>maritus</w> <w>occidit</w> 
+	<lb n="30" break="yes"/><w>abdicatur</w> <w>a</w> <w>patre</w> <w>sero</w> <w>me</w> <w>sanctissimi</w> <w>iud<ex>ices</ex></w> <w>abdicare</w> <w>patre</w> <w>ius</w> <w>enim</w> 
+	<lb n="31" break="yes"/><w>ad</w> <w>hoc</w> <w>redit</w> <w>et</w> <w>excusare</w> <w>compellar</w> <w>non</w> <w>q<ex>uod</ex></w> <w>extrema</w> <w>non</w> <w>tulerim</w> <w>sed</w> <w>q<ex>uod</ex></w> 
+	<lb n="32" break="yes"/><w>illa</w> <w>priora</w> <w>toleraverim</w> <w>qui</w> <w>capitis</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>nas</w> <w>a</w> <w>suo</w> <w>fratre</w> <w>pro</w> <w>uxore</w> <w>dilecta</w> 
+	<lb n="33" break="yes"/><w>petit</w> <w>quid</w> <w>ipse</w> <w>meruerit</w> <w>ostendit</w> <w>crimen</w> <w>superius</w> <w>huic</w> <w>imputare</w> <w>no<ex>n</ex></w> <w>pos
+	<lb n="34" break="no"/>sum</w> <w>nam</w> <w>frater</w> <w>ignovit</w> <w>quantum</w> <w>tibi</w> <w>nuptiarum</w> <w>cessione</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>stiterit</w> <w>a
+	<lb n="35" break="no"/>dulterio</w> <w>probaverunt</w> <w>tibi</w> <w>libera</w> <w>et</w> <w>perpetes</w> <w>noctes</w> <w>sive</w> <w>furtiva</w> <w>co<ex>m</ex>mer<choice><orig>t</orig><reg>c</reg></choice>ia</w> 
+	<lb n="36" break="yes"/><w>et</w> <w>amorum</w> <w>pericula</w> <w>reliquerunt</w> <w>ignosce</w> <w>amantibus</w> <w>si</w> <w>vere</w> <w>amasti</w> 
+	<lb n="37" break="yes"/></ab><ab n="49" type="decl"><w>adulterium</w> <w>cum</w> <w>adultera</w> <w>liceat</w> <w>occidere</w> <w>reus</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>dis</w> <w>advocatum</w> <w>quem</w> <w>volet</w> 
+	<lb n="38" break="yes"/><w>ligat</w> <w>erat</w> <w>infamis</w> <w>in</w> <w>nurum</w> <w>invenit</w> <w>adulescens</w> <w>incertum</w> <w>quem</w> <w>adulteru<ex>m</ex></w> 
+	<lb n="39" break="yes"/><w>capite</w> <w>velato</w> <w>uxorem</w> <w>solam</w> <w>peremit</w> <w>fit</w> <w>reus</w> <w>c<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>dis</w> <w>advocatum</w> <w>patrem</w> <w>postu
+	<lb n="40" break="no"/>lat</w> <w>contradicit</w> <w>accusator</w> <w>obicit</w> <w>q<ex>uo</ex>d</w> <w>adultero</w> <w>pepercerim</w> <w>pater</w> <w>dolet</w> <w>q<ex>uod</ex></w> 
+	
+
+	<pb n="89v"/>
+	
+	<lb n="1" break="yes"/><w>nurum</w> <w>eius</w> <w>occiderim</w> <w>adulter</w> <w>occidi</w> <w>maluit</w> <w>q<ex>uam</ex></w> <w>videri</w> <w>habet</w> <w>adulter</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>na<ex>m</ex></w> 
+	<lb n="2" break="yes"/><w>suam</w> <w>cruciatur</w> <w>conscientia</w> <w>pudore</w> <w>torquetur</w> <w>et</w> <w>si</w> <w>interim</w> <w>tectus</w> <w>evasit</w> <w>inve
+	<lb n="3" break="no"/>niet</w> <w>illum</w> <w>postremo</w> <w>vel</w> <w>fama</w> 
+	<lb n="4" break="yes"/></ab><ab n="50" type="decl"><hi rend="red"><w>pauper</w> <w>imp<ex>erator</ex></w> <w>imperium</w> <w>recusat</w></hi> 
+	<lb n="5" break="yes"/><w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>belli</w> <w>tempore</w> <w>dives</w> <w>creatus</w> <w>est</w> <w>imperator</w> <w>qui</w> <w>cum</w> <w>bis</w> 
+	<lb n="6" break="yes"/><w>fugatus</w> <w>esset</w> <w>pauper</w> <w>lege</w> <w>tulit</w> <w>ut</w> <w>qui</w> <w>ter</w> <w>fugatus</w> <w>esset</w> <w>in</w> <w>crucem</w> <w>tolleret<ex>ur</ex></w> 
+	<lb n="7" break="yes"/><w>tertio</w> <w>dives</w> <w>fugatus</w> <w>est</w> <w>et</w> <w>in</w> <w>cruce</w> <w>latus</w> <w>filius</w> <w>divitis</w> <w>fert</w> <w>rogationem</w> <w>ut</w> 
+	<lb n="8" break="yes"/><w>imperium</w> <w>transferatur</w> <w>ad</w> <w>pauperem</w> <w>pauper</w> <w>contradicit</w> <w>habes</w> <w>pater</w> <w>grande</w> 
+	<lb n="9" break="yes"/><w>solatium</w> <w>reliquisti</w> <w>superstitem</w> <w>legem</w> <w>procede</w> <w>legum</w> <w>lator</w> <w>ad</w> <w>bellum</w> <w>muta</w> 
+	<lb n="10" break="yes"/><w>stilum</w> <w>gladio</w> <w>lorica</w> <w>togam</w> <w>iam</w> <w>fortun<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>satis</w> <w>fecimus</w> <w>et</w> <w>hostes</w> <w>vel</w> <w>dum</w> <w>vinci
+	<lb n="11" break="no"/>mur</w> <w>fatigavimus</w> <w>in</w> <w>victoriam</w> <w>p<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>n<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice></w> <w>succedis</w> <w>alienam</w> 
+	<lb n="12" break="yes"/></ab><ab n="51" type="decl"><hi rend="red"><w>raptor</w> <w>duar<ex>um</ex></w> <w>filium</w> <w>nutriens</w></hi> 
+	<lb n="13" break="yes"/><w>lex</w> <w>raptarum</w> <w>quidam</w> <w>duas</w> <w>rapuit</w> <w>product<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>ad</w> <w>mag<ex>istratus</ex></w> <w>altera</w> <w>nuptias</w> <w>alt<ex>er</ex>a</w> 
+	<lb n="14" break="yes"/><w>mortem</w> <w>petit</w> <w>mag<ex>istratus</ex></w> <w>humanius</w> <w>sententiam</w> <w>secuti</w> <w>sunt</w> <w>post</w> <w>factas</w> <w>nuptias</w> <w>illa</w> 
+	<lb n="15" break="yes"/><w>q<ex>uod</ex></w> <w>virgo</w> <w>perpessa</w> <w>est</w> <w>quem</w> <w>conceperat</w> <w>peperit</w> <w>exposuit</w> <w>raptor</w> <w>suscepit</w> <w>qui</w> 
+	<lb n="16" break="yes"/><w>tunc</w> <w>erat</w> <w>maritus</w> <w>alienus</w> <w>et</w> <del><w>alter<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w></del><add hand="#h2" place="overwrite"><w>aler<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice></w></add> <w>c<choice><orig><g ref="#eogon"/></orig><reg>oe</reg></choice>pit</w> <w>reus</w> <w>est</w> <w>uxori</w> <w>mal<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>tractationis</w> 
+	<lb n="17" break="yes"/><w>venit</w> <w>ad</w> <w>vos</w> <w>pia</w> <w>mulier</w> <w>accusatura</w> <w>pietatem</w> <w>infantem</w> <w>adhuc</w> <w>iussit</w> <w>feris</w> <w>ca
+	<lb n="18" break="no"/>nibus</w> <w>et</w> <w>diris</w> <w>alitibus</w> <w>exponi</w> <w>puto</w> <w>patris</w> <w>similis</w> <w>apparuit</w> <w>unde</w> <w>matrem</w> <w>ta<ex>m</ex></w> 
+	<lb n="19" break="yes"/><w>graviter</w> <w>offendit</w> <w>nam</w> <w>qui</w> <w>potest</w> <w>expositum</w> <w>pr<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice>terire</w> <w>ignosce<ex>re</ex></w> <w>non</w> <w>potui</w> 
+	<lb n="20" break="yes"/><w>tum</w> <w>edocueras</w> <w>puella</w> <w>misereri</w> <w>de</w> <w>matre</w> <w>nihil</w> <w>meminit</w> <w>o</w> <w>gratum</w> <w>infantis</w> 
+	<lb n="21" break="yes"/><w>errorem</w> <w>te</w> <w>existimat</w> <w>matrem</w> <w>disce</w> <w>inf<choice><orig><g ref="#eogon"/></orig><reg>e</reg></choice>lix</w> <w>puer</w> <w>natalium</w> <w>tuorum</w> <w>disce</w> 
+	<lb n="22" break="yes"/><w>fortunam</w> <w>pariter</w> <w>nos</w> <w>ambos</w> <w>mulier</w> <w>afflixit</w> <w>et</w> <w>pariter</w> <w>factum</w> <w>alia</w> <w>servavit</w> 
+	<lb n="23" break="yes"/></ab><ab n="52" type="decl"><hi rend="red"><w>vir</w> <w>fortis</w> <w>cla</w></hi> 
+	<lb n="24" break="yes"/><w>infamis</w> <w>non</w> <w>militet</w> <w>vir</w> <w>fortis</w> <w>piratas</w> <w>incidit</w> <w>rescripsit</w> <w>patri<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>de</w> <w>redemptio
+	<lb n="25" break="no"/>ne</w> <w>illa</w> <w>cessante<del>m</del></w> <w>redemit</w> <w>eum</w> <w>lanista</w> <w>et</w> <w>rudem</w> <w>et</w> <w>in</w> <w>arena</w> <w>dedit</w> <w>reverso</w> <w>bel
+	<lb n="26" break="no"/>li</w> <w>tempore</w> <w>denuntiat</w> <w>militiam</w> <w>imp<ex>erator</ex></w> <w>omnia</w> <w>fieri</w> <w>posse</w> <w>credidi</w> <w>cum</w> <w>me</w> <w>for
+	<lb n="27" break="no"/>tuna</w> <w>servum</w> <w>ex</w> <w>libero</w> <w>et</w> <w>gladiatorem</w> <w>de</w> <w>viro</w> <w>forte</w> <w>fecisse</w> <w>imp<ex>erator</ex></w> <w>vobis</w> <w>inge
+	<lb n="28" break="no"/>rit</w> <w>militem</w> <w>cuius</w> <w>operam</w> <w>non</w> <w>esse</w> <w>rei</w> <w>p<ex>ublicae</ex></w> <w>necessariam</w> <w>proxime</w> <w>non</w> <w>redime<ex>n</ex>
+	<lb n="29" break="no"/>do</w> <w>iudicastis</w> <w>veniam</w> <w>a</w> <w>vobis</w> <w>iud<ex>ices</ex></w> <w>postulo</w> <w>q<ex>uod</ex></w> <w>gladiator</w> <w>infamis</w> <w>in</w> <w>iudicio</w> 
+	<lb n="30" break="yes"/><w>loquor</w> <w>erravi</w> <w>iud<ex>ices</ex></w> <w>fateor</w> <w>erravi</w> <w>quis</w> <w>est</w> <w>per</w> <w>credidi</w> <w>immortalitatem</w> <w>esse</w> 
+	<lb n="31" break="yes"/><w>pro</w> <w>re</w> <w>p<ex>ublica</ex></w> <w>mori</w> <w>cum</w> <w>fama</w> <w>etiam</w> <w>viventium</w> <w>consenescat</w> <w>gladiatorem</w> <w>me</w> <w>fec<ex>it</ex></w> 
+	<lb n="32" break="yes"/><w>non</w> <w>pirata</w> <w>sed</w> <w>patria</w> <w>sed</w> <w>o</w> <w>virtus</w> <w>in</w> <w>adversis</w> <w>comes</w> <w>sola</w> <w>tu</w> <w>me</w> <w>secuta</w> <w>in</w> <w>car
+	<lb n="33" break="no"/>cerem</w> <w>tu</w> <w>in</w> <w>ludum</w> <w>virum</w> <w>fortem</w> <w>tu</w> <w>sola</w> <w>non</w> <w>decipis</w> <w>scitis</w> <w>me</w> <w>iud<ex>ices</ex></w> <w>periculu<ex>m</ex></w> 
+	<lb n="34" break="yes"/><w>contemnere</w> <w>sed</w> <w>non</w> <w>contemno</w> <w>flagitium</w> <w>virum</w> <w>ig<ex>itu</ex>r</w> <w>gladiatorem</w> <w>negat</w> 
+	<lb n="35" break="yes"/><w>negat</w> <w>aliquis</w> <w>infamem</w> <w>an</w> <w>negat</w> <w>gladiatorem</w> <w>utru<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>mendacium</w> <w>est</w> <w>neq<ex>ue</ex></w> 
+	<lb n="36" break="yes"/><w>enim</w> <w>conditio</w> <w>gladiatoria</w> <w>quicq<ex>uam</ex></w> <w>est</w> <w>humilius</w> <w>in</w> <w>vulgo</w> <w>nec</w> <w>meo</w> <w>nomine</w> <w>quicq<ex>uam</ex></w> 
+	<lb n="37" break="yes"/><w>nobilius</w> <w>in</w> <w>ludo</w> <w>fortun<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>inquit</w> <w>fuit</w> <w>quousq<ex>ue</ex></w> <w>fortunam</w> <w>facimus</w> <w>humanoru<ex>m</ex></w> 
+	<lb n="38" break="yes"/><w>negotiorum</w> <w>ream</w> <w>esto</w> <w>fortuna</w> <w>fecit</w> <w>ut</w> <w>caperer</w> <w>quis</w> <w>fecit</w> <w>ut</w> <w>nemo</w> <w>redimeret</w> 
+	<lb n="39" break="yes"/><w>et</w> <w>si</w> <w>victoria</w> <w>solita</w> <w>provenerit</w> <w>post</w> <w>rudem</w> <w>triumphabo</w> 
+	<lb n="40" break="yes"/></ab><ab n="53" type="decl"><hi rend="red"><w>invicem</w> <w>adoptati</w></hi> 
+	
+
+	<pb n="90r"/>
+	
+	<lb n="1" break="yes"/><w>pauper</w> <w>et</w> <w>dives</w> <w>inimici</w> <w>visi</w> <w>sunt</w> <w>ingratia</w> <w>residisse</w> <w>dederunt</w> <w>invicem</w> <w>fi
+	<lb n="2" break="no"/>lios</w> <w>adoptandos</w> <w>dives</w> <w>occidit</w> <w>lege</w> <w>indemnatorum</w> <w>quem</w> <w>acceperat</w> <w>qui</w> <w>est</w> 
+	<lb n="3" break="yes"/><w>apud</w> <w>pauperem</w> <w>reddidit</w> <w>in</w> <w>senatu</w> <w>causa</w> <w>mortis</w> <w>voluntari<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>pauper</w> <w>contradicit</w> 
+		<lb n="4" break="yes"/><w>utinam</w> <w>p<ex>atres</ex></w> <w>c<ex>onscripti</ex></w> <w>liberis</w> <w>nostris</w> <w>exire</w> <w>de</w> <w>vita</w> <w>nisi</w> <w><unclear reason="nobis or vobis?">n</unclear>obis</w> <w>arbitris</w> <w>non</w> <w>liceret</w> <w>p<ex>er</ex></w> <w>qua<ex>m</ex></w> 
+	<lb n="5" break="yes"/><w>indignum</w> <w>est</w> <w>si</w> <w>utru<choice><orig>n</orig><reg>m</reg></choice>q<ex>ue</ex></w> <w>pignus</w> <w>amittam</w> <w>et</w> <w>q<ex>uo</ex>d</w> <w>dedit</w> <w>aliquando</w> <w>natura</w> <w>et</w> <w>q<ex>uo</ex>d</w> 
+	<lb n="6" break="yes"/><w>nunc</w> <w>substituit</w> <w>amicitia</w> <w>amo</w> <w>enim</w> <w>iuvenem</w> <w>quem</w> <w>non</w> <w>genui</w> <w>meo</w> <w>sanguine</w> 
+	<lb n="7" break="yes"/><w>sed</w> <w>redemi<del>t</del></w> </ab><ab n="54" type="explicit">
+	<lb n="8" break="no"/><hi rend="red"><w>explicit<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w> <w>ex</w> <w>calpurnio</w> <w>flacco</w> <w>excerpt<choice><orig><g ref="#eogon"/></orig><reg>ae</reg></choice></w></hi></ab>
+	
+
+	
+</div>
+</body>
+ </text>
+</TEI>
