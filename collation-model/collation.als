@@ -75,7 +75,7 @@ pred collation (disj b, e, c: Document) {
 	r2.doc=e
 	
 	//reading 3 is in transcribed in the collation iff r1 (base) and r2 (exemplar)
-	are different
+	//are different
 	not r_similar[r1, r2] implies {r3.doc=c and r_similar[r2, r3] and t_similar[c, e]} 
 	else no r: Reading | r.doc=c and  t_similar[b, e]
 	}
